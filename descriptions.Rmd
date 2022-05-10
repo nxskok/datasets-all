@@ -1,0 +1,12 @@
+MASS::Cars93 cars on sale in 1993, 27 variables of different types. Various
+ca::wg93 attitudes towards science (ordinal) with demographics. ordinal logistic
+HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
+irr::video credibility of 20 subjects rated by 4 raters. Ordinal scale. ?
+carData::Moore conformity vs partner of low or high status. logistic regression?
+shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis?
+carData::Transact transaction times in bank: number of transactions of 2 types, total transaction time. Regression
+psych::Harman.Holzinger correlation matrix of ability tests. factor/PCA
+faraway::infmort infant mortality on income and oil export. regression, 2-sample t, anova
+aplore3::glow11m fracture from other risk factors. logistic regression
+survey::apipop student performance in California schools. sampling
+

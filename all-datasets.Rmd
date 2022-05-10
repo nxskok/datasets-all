@@ -1,0 +1,17 @@
+```{r}
+library(tidyverse)
+```
+
+
+get all datasets
+
+```{r}
+d <- datasets.load::datasets()
+```
+
+select a random row of d
+
+```{r}
+d %>% slice_sample(n = 5)
+```
+
