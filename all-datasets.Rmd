@@ -12,6 +12,7 @@ d <- datasets.load::datasets()
 select a random row of d
 
 ```{r}
-d %>% slice_sample(n = 5)
+d %>% slice_sample(n = 5) %>% 
+  unite(ds, Package, Item, sep = "::")
 ```
 

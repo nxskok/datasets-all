@@ -9,4 +9,32 @@ psych::Harman.Holzinger correlation matrix of ability tests. factor/PCA
 faraway::infmort infant mortality on income and oil export. regression, 2-sample t, anova
 aplore3::glow11m fracture from other risk factors. logistic regression
 survey::apipop student performance in California schools. sampling
+rattle::audit financial audit data. regression etc
+fds::tastotal Tasmania total mortality rates. time series
+KMsurv::drughiv time to CD4 count reaching target level. survival
+MASS::rotifer rotifers falling out of suspension for different fluid densities (?). logistic regression
+datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. regression etc, time series.
+survival::cgd0 trial in CGD time to serious infections
+mitools::pisamaths scores in PISA math test with student and school info. sampling / general
+datasets::Theoph theophylline concentration over time. Repeated measures
+MindOnStats::Fashion from Mind on Stats book. Use package to get datasets from there.
+HistData::EdgeworthDeaths death rates in English counties, by year also. 2-way ANOVA (randomized block).
+maps::unemp unemployment percent and populations for US counties (regression?)
+carData::Greene refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things. Logistic regression
+MASS::road road collision deaths in some US states. regression etc
+lattice::USRegionalMortality US regional mortality rates from different causes, regression etc or dplyr
+carData::Angell Moral integration of American cities, crime rate/welfare from others. regression or dplyr
+carData::Florida votes for presidential candidate by county
+locfit::co2 carbon dioxide at Mauna Loa, HI. Time series. (also can subdivide series)
+MindOnStats::Carpark from Mind on Stats
+faraway::eggs fat content by lab and technician within lab. nested anova
+boot::aircondit7 times between failures of air-conditioning equipment on aircraft. bootstrap
+survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (choose one). survival
+aplore3::glow_mis_comp fracture in 1st year from covariates. logistic regression
+vcd::Punishment attitudes towards corporal punishment of children. log-linear
+vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
+survMisc::gastric time to death with gastric cancer, two treatments. survival
+datasets::quakes locations of earthquakes off Fiji. maps
+sampling::swissmunicipalities info about Swiss municipalities. sampling, regression, dplyr
+janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 
