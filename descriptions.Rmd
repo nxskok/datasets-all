@@ -53,5 +53,24 @@ ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca, etc
 MASS::whiteside temperature and natural gas usage before and after insulation, by week. regression, graphs, ANCOVA
 MindOnStats::SATS98 mind on stats
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
-
+carData::Anscombe US education expenditure by state. regression (or make groups)
+PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs (also see help)
+spatstat.data::waka spatial point pattern of trees in a national park in Gabon. Appears to be a list.
+bootstrap::spatial two tests of spatial perception. paired
+nlme::MathAchieve scores on math test by ses, sex but clustered by schools. sampling or manova
+GGally::pigs UK pig production by year & quarter. time series, regression
+fds::SAelectdemand Electricity demand in Adelaide. time series
+MASS::Pima.tr diabetes in women as fn of other things. logistic regression
+fields::RMelevation precipitation for stations in Rockies, with long-lat and elevation.
+MASS::waders counts of different types of waders at different sites in South Africa. PCA
+carData::TitanicSurvival survival of passengers on Titanic as dependent on age, sex and passenger class. logistic regression
+faraway::seatpos driver's seated position in car (distance of hips from car fixed point) from body measurements
+HistData::Quarrels stats on deadly quarrels between countries or colonies, with reason for quarrel. multinomial logistic?
+faraway::troutegg number of surviving eggs out of those in box as fn of location in stream and weeks eggs were left there
+cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
+faraway::sat SAT scores from other school info by state
+exactRankTests::lungcancer lung cancer clinical trial. survival
+faraway::babyfood number with respiratory disease from feeding method. logistic regression, grouped
+boot::brambles location and age of bramble canes in a plot. spatial
+survival::jasa (heart) survival of patients on heart transplant waiting list. survival
 
