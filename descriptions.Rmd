@@ -40,6 +40,7 @@ janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 MASS::abbey nickel content. one-sample
 datasets::infert case control study of miscarriages and abortions. ??
 nlme::Relaxin assay concentration and response? regression lme4
+3
 ks::air air quality measurements in a subway station (several different measurements at the same time). MANOVA, PCA
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 nlme::Gun rounds per minute of gun firing. ANOVA
