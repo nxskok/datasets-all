@@ -1,6 +1,7 @@
 ```{r}
 library(tidyverse)
 library(datasets.load)
+library(clipr)
 ```
 
 get the ones I already have
@@ -33,12 +34,14 @@ get help
 ```{r}
 d2 %>% 
   slice(1) %>% 
-  pull(ds) %>% 
-  str_c("?", .) -> d3
-d3
+  pull(ds) -> d3
+write_clip(d3)
+d3 %>% 
+  str_c("?", .) -> d4
+d4
 ```
 
 ```{r}
-eval(parse(text = d3))
+eval(parse(text = d4))
 ```
 
