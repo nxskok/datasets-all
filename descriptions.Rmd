@@ -86,3 +86,29 @@ lmerTest::carrots consumer preference of carrots with demographics
 carData::CanPop Canadian population over time. Time series, regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
 geoR::isaaks toy geostats example for kriging. geostatistics
+fields::RMelevation monthly precipitation from location and elevation
+faraway::troutegg survival of trout eggs from number of eggs in box, location, and length of time left in stream. Grouped logistic regression
+bootstrap::cholost improvement of blood cholesterol from compliance. Regression (simple)
+faraway::twins iq of identical twins raised apart, by bio and foster parents, with social class of bio parents. matched pairs, anova
+HistData::Cholera cholera death rates by district of London in 1849. regression, anova
+carData::Mroz married women's labour force participation from age, children, education. logistic regression
+spatstat.data::gordon coordinates of people in Gordon Square London. spatial
+faraway::esdcomp complaints about ER doctors. poisson regression
+faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
+faraway::stat500 marks from a stats class, total from other scores. regression
+fma::texasgas price and consumption of natural gas. regression (simple)
+MindOnStats::IdealWtMen ideal weight of men. univariate
+nlme::MathAchSchool school level demographics to accompany MathAchieve. regression, sampling
+nlme::MathAchieve math achivement scores by student (clustered within schools). regression, sampling
+boot::beaver beaver body temperatures from time and activity. time series, two-sample
+Stat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate, regression, multinomial logistic regression
+vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
+fpp2::oil oil production in Saudi Arabia by year. time series
+faraway::broccoli weight of broccoli from grower and box within grower. anova
+datasets::islands areas of the world's landmasses. graphs
+AER::BankWages US bank employee wages from job, education, gender, race. regression
+nlme::Orthodont skull measurements over time for different subjects from sex. repeated measures
+faraway::coagulation blood coagulation time by diet. anova
+stevedata::mvprod motor vehicle production over time by country. graphs
+fpp2::marathon Boston marathon winning times since 1897. graphs, time series
+
