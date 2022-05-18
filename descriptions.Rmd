@@ -73,4 +73,16 @@ exactRankTests::lungcancer lung cancer clinical trial. survival
 faraway::babyfood number with respiratory disease from feeding method. logistic regression, grouped
 boot::brambles location and age of bramble canes in a plot. spatial
 survival::jasa (heart) survival of patients on heart transplant waiting list. survival
-
+aplore3::aps mental health placement (use place3 as response). Logistic regression
+carData::Wool strength of wool samples from others. 3-way ANOVA
+datasets::UKgas UK consumption of natural gas. time series
+MASS::crabs body measurements on 2 species of crabs. discrim, PCA, cluster.
+MASS::gilgais soil properties in gilgai territory. PCA, cluster?
+dendextend::khan gene expression profiles. ??
+vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
+faraway::beetle beetles exposed to fumigant. logistic regression, grouped
+robustbase::delivery delivery times from number of products and distance. regression
+lmerTest::carrots consumer preference of carrots with demographics
+carData::CanPop Canadian population over time. Time series, regression
+rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
+geoR::isaaks toy geostats example for kriging. geostatistics

@@ -1,0 +1,13 @@
+```{r}
+library(tidyverse)
+library(datasets.load)
+```
+
+```{r}
+desc0 <- readLines("descriptions.Rmd")
+desc0 %>% as_tibble() %>% 
+  extract(value, into = c("dataset", "description", "technique"), 
+          regex = "^([^ ]*) (.*)\\. (.*)$") -> desc
+desc
+```
+
