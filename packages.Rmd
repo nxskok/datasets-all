@@ -1,0 +1,6 @@
+```{r}
+installed.packages() %>% 
+  as_tibble() %>% 
+  write_csv("packages.csv")
+```
+

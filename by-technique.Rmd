@@ -24,5 +24,12 @@ desc1 %>%
   View("techniques")
 ```
 
+```{r}
+desc1 %>% 
+  nest_by(dataset) %>% 
+  rowwise() %>% 
+  mutate(dss = paste(data, collapse = ", ")) %>% 
+  select(-data)
+```
 
 

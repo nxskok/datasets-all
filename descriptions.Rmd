@@ -94,7 +94,7 @@ faraway::esdcomp complaints about ER doctors. poisson regression
 faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
 faraway::stat500 marks from a stats class, total from other scores. regression
 fma::texasgas price and consumption of natural gas. regression,simple regression
-MindOnStats::IdealWtMen ideal weight of men. univariate
+MindOnStats::IdealWtMen ideal weight of men. one-sample
 nlme::MathAchSchool school level demographics to accompany MathAchieve. regression,sampling
 nlme::MathAchieve math achivement scores by student (clustered within schools). regression,sampling
 boot::beaver beaver body temperatures from time and activity. time series,two-sample
@@ -115,3 +115,14 @@ Stat2Data::MathEnrollment fall and spring semester math enrolments at a liberal 
 carData::Wong IQ after coma of varying duration. regression
 aplore3::burn1000 survival of patients after burns from features plus demographics. logistic regression
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
+faraway::spector grades improved from new teaching method. logistic regression
+ks::worldbank development indicators by country. pca
+vcd::UKSoccer goals scored by home and away teams in England soccer league. regression, graphs
+datasets::chickwts chicken weights by feed type. anova
+faraway::gala number of plant species from geographic variables. regression
+KMsurv::azt time to death from age at entry into study. survival
+openintro::gpa_study_hours gpa from study hours for students. regression,graphs
+MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
+maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
+drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
+PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
