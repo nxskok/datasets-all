@@ -1,6 +1,38 @@
 ```{r}
+library(tidyverse)
+```
+
+save the ones I have installed
+
+```{r}
 installed.packages() %>% 
   as_tibble() %>% 
   write_csv("packages.csv")
+```
+
+get the ones installed on other machine
+
+```{r}
+packages_other <- read_csv("packages.csv")
+packages_other %>% select(Package) -> other
+other
+```
+
+on this one
+
+```{r}
+installed.packages() %>% 
+  as_tibble() %>% 
+  select(Package) -> here
+here
+```
+
+ones on other but not here
+
+```{r}
+other %>% anti_join(here) %>% 
+  filter(Package != "rgdal") %>% 
+  pull(Package) -> to_install
+to_install
 ```
 
