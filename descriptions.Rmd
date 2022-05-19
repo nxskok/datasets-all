@@ -126,3 +126,17 @@ MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
+AER::USMacroB US macroecon data. regression,time series
+stevedata::LTWT price indices of items by date. time series,graphs
+irr::vision categorized distance vision in left eye and right eye
+GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
+openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
+MASS::shrimp percent of shrimp in shrimp cocktail. one-sample
+MASS::fgl type of glass from refractive index and chemical composition. multinomial logistic regression,manova,discrim
+vcdExtra::Hoyt classification of rank in graduating class, status after high school, sex, father's occupational status. log-linear
+TeachingDemos::steps total steps recorded, calories, fat burned. regression,graphs,dplyr
+nlme::Machines productivity score from worker and machine. repeated measures,manova
+DAAG::cerealsugar sugar content in frosted flakes. one-sample
+Stat2Data::SleepingShrews heart rates of shrews at each of three stages of sleep. repeated measures,manova
+mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
+vcdExtra::Abortion support for abortion from sex and ses. log-linear
