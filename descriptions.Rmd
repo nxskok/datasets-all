@@ -126,3 +126,10 @@ MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
+datasets::cars speed and stopping distance of cars (in 1920s). graphs,regression
+MASS::beav1 body temperatures of beavers. time series,graphs
+MASS::Insurance car insurance claims by residence, engine size, age, #policyholders, #claims. graphs,general,anova
+s2::s2_data_tbl_timezones country and timezone boundaries
+tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
+
+
