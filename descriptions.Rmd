@@ -1,142 +1,163 @@
-MASS::Cars93 cars on sale in 1993, 27 variables of different types. regression,anova,graphs
-ca::wg93 attitudes towards science (ordinal) with demographics. ordinal logistic regression
-HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
-irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
-carData::Moore conformity vs partner of low or high status. logistic regression
-shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
-carData::Transact transaction times in bank: number of transactions of 2 types, total transaction time. regression
-psych::Harman.Holzinger correlation matrix of ability tests. pca
-faraway::infmort infant mortality on income and oil export. regression,two-sample,anova
-aplore3::glow11m fracture from other risk factors. logistic regression
-survey::apipop student performance in California schools. sampling,dplyr
-rattle::audit financial audit data. regression
-fds::tastotal Tasmania total mortality rates. time series
-KMsurv::drughiv time to CD4 count reaching target level. survival
-MASS::rotifer rotifers falling out of suspension for different fluid densities (?). logistic regression
-datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. regression,time series
-survival::cgd0 trial in CGD time to serious infections. survival
-mitools::pisamaths scores in PISA math test with student and school info. sampling,dplyr
-datasets::Theoph theophylline concentration over time. repeated measures
-MindOnStats::Fashion fashion choices at different times of day. log-linear
-HistData::EdgeworthDeaths death rates in English counties, by year also. anova,randomized block
-maps::unemp unemployment percent and populations for US counties. regression
-carData::Greene refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things. logistic regression
-MASS::road road collision deaths in some US states. regression
-lattice::USRegionalMortality US regional mortality rates from different causes.     regression,dplyr
-carData::Angell Moral integration of American cities, crime rate/welfare from others. regression,dplyr
-carData::Florida votes for presidential candidate by county. 
-locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
-faraway::eggs fat content by lab and technician within lab. anova,nested anova
-boot::aircondit7 times between failures of air-conditioning equipment on aircraft. bootstrap
-survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (choose one). survival
-aplore3::glow_mis_comp fracture in 1st year from covariates. logistic regression
-vcd::Punishment attitudes towards corporal punishment of children. log-linear
-vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
-survMisc::gastric time to death with gastric cancer, two treatments. survival
-datasets::quakes locations of earthquakes off Fiji. maps
-sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
-janeaustenr::northangerabbey text of Northanger Abbey. text analysis
-MASS::abbey nickel content. one-sample
-datasets::infert case control study of miscarriages and abortions. ?
-nlme::Relaxin assay concentration and response. regression,lme4
-ks::air air quality measurements in a subway station (several different measurements at the same time). manova,pca
-janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
-nlme::Gun rounds per minute of gun firing. anova
-MASS::gehan remission times of leukemia patients. survival
-fda::seabird number of sightings of bird species by year at different sites. dplyr
-faraway::wheat insect damage to wheat by variety. anova
-datasets::occupationalStatus occupational status of fathers and sons. log-linear
-ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
-MASS::whiteside temperature and natural gas usage before and after insulation, by week. regression,graphs,ancova
-MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test. regression,graphs
-kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
-carData::Anscombe US education expenditure by state. regression,anova
-PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
-spatstat.data::waka spatial point pattern of trees in a national park in Gabon. spatial,maps
-bootstrap::spatial two tests of spatial perception. matched pairs
-nlme::MathAchieve scores on math test by ses, sex but clustered by schools. sampling,manova,dplyr
-GGally::pigs UK pig production by year & quarter. time series,regression
-fds::SAelectdemand Electricity demand in Adelaide. time series
-MASS::Pima.tr diabetes in women as fn of other things. logistic regression
-fields::RMelevation precipitation for stations in Rockies, with long-lat and elevation. maps
-MASS::waders counts of different types of waders at different sites in South Africa. pca
-carData::TitanicSurvival survival of passengers on Titanic as dependent on age, sex and passenger class. logistic regression
-faraway::seatpos driver's seated position in car (distance of hips from car fixed point) from body measurements. regression
-HistData::Quarrels stats on deadly quarrels between countries or colonies, with reason for quarrel. multinomial logistic regression
-faraway::troutegg number of surviving eggs out of those in box as fn of location in stream and weeks eggs were left there. grouped logistic regression
-cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
-faraway::sat SAT scores from other school info by state. regression
-exactRankTests::lungcancer lung cancer clinical trial. survival
-faraway::babyfood number with respiratory disease from feeding method. grouped logistic regression
-boot::brambles location and age of bramble canes in a plot. spatial
-survival::jasa (heart) survival of patients on heart transplant waiting list. survival
-aplore3::aps mental health placement (use place3 as response). logistic regression
-carData::Wool strength of wool samples from others. anova,3-way anova
-datasets::UKgas UK consumption of natural gas. time series
-MASS::crabs body measurements on 2 species of crabs. discriminant analysis,pca,cluster
-MASS::gilgais soil properties in gilgai territory. pca,cluster
-dendextend::khan gene expression profiles. ?
-vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
-faraway::beetle beetles exposed to fumigant. grouped logistic regression
-robustbase::delivery delivery times from number of products and distance. regression
-lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log linear
-carData::CanPop Canadian population over time. time series,regression
-rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
-geoR::isaaks toy geostats example for kriging. geostatistics
-fields::RMelevation monthly precipitation from location and elevation. maps,regression
-faraway::troutegg survival of trout eggs from number of eggs in box, location, and length of time left in stream. grouped logistic regression
-bootstrap::cholost improvement of blood cholesterol from compliance. regression,simple regression
-faraway::twins iq of identical twins raised apart, by bio and foster parents, with social class of bio parents. matched pairs,anova
-HistData::Cholera cholera death rates by district of London in 1849. regression,anova
-carData::Mroz married women's labour force participation from age, children, education. logistic regression
-spatstat.data::gordon coordinates of people in Gordon Square London. spatial
-faraway::esdcomp complaints about ER doctors. poisson regression
-faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
-faraway::stat500 marks from a stats class, total from other scores. regression
-fma::texasgas price and consumption of natural gas. regression,simple regression
-MindOnStats::IdealWtMen ideal weight of men. one-sample
-nlme::MathAchSchool school level demographics to accompany MathAchieve. regression,sampling
-nlme::MathAchieve math achivement scores by student (clustered within schools). regression,sampling
-boot::beaver beaver body temperatures from time and activity. time series,two-sample
-Stat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate,regression,multinomial logistic regression
-vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
-fpp2::oil oil production in Saudi Arabia by year. time series
-faraway::broccoli weight of broccoli from grower and box within grower. anova
-datasets::islands areas of the world's landmasses. graphs
 AER::BankWages US bank employee wages from job, education, gender, race. regression
-nlme::Orthodont skull measurements over time for different subjects from sex. repeated measures
-faraway::coagulation blood coagulation time by diet. anova
-stevedata::mvprod motor vehicle production over time by country. graphs
-fpp2::marathon Boston marathon winning times since 1897. graphs,time series
-TeachingDemos::ccc (gps) gps data. maps
-HistData::Galton child height from average of parents' heights. regression,graphs
 AER::CASchools test performance from school and student backgrounds in California. regression
-Stat2Data::MathEnrollment fall and spring semester math enrolments at a liberal arts college for several years. regression,matched pairs
-carData::Wong IQ after coma of varying duration. regression
-aplore3::burn1000 survival of patients after burns from features plus demographics. logistic regression
-boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
-faraway::spector grades improved from new teaching method. logistic regression
-ks::worldbank development indicators by country. pca
-vcd::UKSoccer goals scored by home and away teams in England soccer league. regression, graphs
-datasets::chickwts chicken weights by feed type. anova
-faraway::gala number of plant species from geographic variables. regression
-KMsurv::azt time to death from age at entry into study. survival
-openintro::gpa_study_hours gpa from study hours for students. regression,graphs
-MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
-maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
-drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
-PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
 AER::USMacroB US macroecon data. regression,time series
-stevedata::LTWT price indices of items by date. time series,graphs
-irr::vision categorized distance vision in left eye and right eye
-GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
-openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
-MASS::shrimp percent of shrimp in shrimp cocktail. one-sample
-MASS::fgl type of glass from refractive index and chemical composition. multinomial logistic regression,manova,discrim
-vcdExtra::Hoyt classification of rank in graduating class, status after high school, sex, father's occupational status. log-linear
-TeachingDemos::steps total steps recorded, calories, fat burned. regression,graphs,dplyr
-nlme::Machines productivity score from worker and machine. repeated measures,manova
+aplore3::aps mental health placement (use place3 as response). logistic regression
+aplore3::burn1000 survival of patients after burns from features plus demographics. logistic regression
+aplore3::glow11m fracture from other risk factors. logistic regression
+aplore3::glow500 fracture from other risk factors. logistic regression
+aplore3::glow_mis_comp fracture in 1st year from covariates. logistic regression
+boot::aircondit7 times between failures of air-conditioning equipment on aircraft. bootstrap
+boot::beaver beaver body temperatures from time and activity. time series,two-sample
+boot::brambles location and age of bramble canes in a plot. spatial
+boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
+bootstrap::cholost improvement of blood cholesterol from compliance. regression,simple regression
+bootstrap::law LSAT and gpa for 15 law schools. regression,correlation,bootstrap
+bootstrap::spatial two tests of spatial perception. matched pairs
+bootstrap::stamp thickness of stamps, possibly printed on different types of paper. one-sample,graphs
+ca::wg93 attitudes towards science (ordinal) with demographics. ordinal logistic regression
+carData::Angell Moral integration of American cities, crime rate/welfare from others. regression,dplyr
+carData::Anscombe US education expenditure by state. regression,anova
+carData::CanPop Canadian population over time. time series,regression
+carData::Florida votes for presidential candidate by county. graphs
+carData::Greene refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things. logistic regression
+carData::Moore conformity vs partner of low or high status. logistic regression
+carData::Mroz married women's labour force participation from age, children, education. logistic regression
+carData::TitanicSurvival survival of passengers on Titanic as dependent on age, sex and passenger class. logistic regression
+carData::Transact transaction times in bank: number of transactions of 2 types, total transaction time. regression
+carData::Wong IQ after coma of varying duration. regression
+carData::Wool strength of wool samples from others. anova,3-way anova
+cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
 DAAG::cerealsugar sugar content in frosted flakes. one-sample
-Stat2Data::SleepingShrews heart rates of shrews at each of three stages of sleep. repeated measures,manova
+datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. regression,time series
+datasets::chickwts chicken weights by feed type. anova
+datasets::fdeaths (UKLungDeaths) monthly deaths from bronchitis and others in 1970s. time series
+datasets::infert case control study of miscarriages and abortions. ?
+datasets::islands areas of the world's landmasses. graphs
+datasets::occupationalStatus occupational status of fathers and sons. log-linear
+datasets::quakes locations of earthquakes off Fiji. maps
+datasets::Theoph theophylline concentration over time. repeated measures
+datasets::UKgas UK consumption of natural gas. time series
+dendextend::khan gene expression profiles. ?
+drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
+exactRankTests::lungcancer lung cancer clinical trial. survival
+faraway::aatemp annual mean temperatures in Ann Arbor, MI. time series,graphs
+faraway::africa military coups and politics in sub-Saharan Africa. poisson regression
+faraway::babyfood number with respiratory disease from feeding method. grouped logistic regression
+faraway::beetle beetles exposed to fumigant. grouped logistic regression
+faraway::broccoli weight of broccoli from grower and box within grower. anova
+faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
+faraway::coagulation blood coagulation time by diet. anova
+faraway::eggs fat content by lab and technician within lab. anova,nested anova
+faraway::esdcomp complaints about ER doctors. poisson regression
+faraway::gala number of plant species from geographic variables. regression
+faraway::infmort infant mortality on income and oil export. regression,two-sample,anova
+faraway::ratdrink rat growth weights from water additives. repeated measures
+faraway::sat SAT scores from other school info by state. regression
+faraway::seatpos driver's seated position in car (distance of hips from car fixed point) from body measurements. regression
+faraway::spector grades improved from new teaching method. logistic regression
+faraway::stat500 marks from a stats class, total from other scores. regression
+faraway::troutegg survival of trout eggs from number of eggs in box, location, and length of time left in stream. grouped logistic regression
+faraway::troutegg number of surviving eggs out of those in box as fn of location in stream and weeks eggs were left there. grouped logistic regression
+faraway::twins iq of identical twins raised apart, by bio and foster parents, with social class of bio parents. matched pairs,anova
+faraway::wheat insect damage to wheat by variety. anova
+fda::seabird number of sightings of bird species by year at different sites. dplyr
+fds::SAelectdemand Electricity demand in Adelaide. time series
+fds::tastotal Tasmania total mortality rates. time series
+fields::RMelevation precipitation for stations in Rockies, with long-lat and elevation. maps
+fields::RMelevation monthly precipitation from location and elevation. maps,regression
+fma::texasgas price and consumption of natural gas. regression,simple regression
+fpp2::marathon Boston marathon winning times since 1897. graphs,time series
+fpp2::oil oil production in Saudi Arabia by year. time series
+geoR::isaaks toy geostats example for kriging. geostatistics
+GGally::pigs UK pig production by year & quarter. time series,regression
+ggbiplot::wine chemical constituents of wines of three different cultivars. manova,discrim
+ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
+GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
+HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
+HistData::Cholera cholera death rates by district of London in 1849. regression,anova
+HistData::CushnyPeeblesN sleep from hydrobromides, should be weighted. matched pairs
+HistData::EdgeworthDeaths death rates in English counties, by year also. anova,randomized block
+HistData::Galton child height from average of parents' heights. regression,graphs
+HistData::Jevons error in estimating number of beans. regression,graphs
+HistData::Michelson measurements of speed of light (true value 734.5)
+HistData::Quarrels stats on deadly quarrels between countries or colonies, with reason for quarrel. multinomial logistic regression
+irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
+irr::vision categorized distance vision in left eye and right eye
+janeaustenr::northangerabbey text of Northanger Abbey. text analysis
+janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
+kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
+KMsurv::azt time to death from age at entry into study. survival
+KMsurv::drughiv time to CD4 count reaching target level. survival
+ks::air air quality measurements in a subway station (several different measurements at the same time). manova,pca
+ks::worldbank development indicators by country. pca
+lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
+lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
+locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
+maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
+maps::unemp unemployment percent and populations for US counties. regression
+MASS::abbey nickel content. one-sample
+MASS::beav1 body temperatures of a beaver over time from activity. time series, two-sample
+MASS::birthwt low birth weight from other risk factors. logistic regression
+MASS::Boston median value of owner-occupied homes  from other variables. regression,pca
+MASS::Cars93 cars on sale in 1993, 27 variables of different types. regression,anova,graphs
+MASS::cement heat evolved from portland cement from % of four main chemical ingredients. regression
+MASS::crabs body measurements on 2 species of crabs. discriminant analysis,pca,cluster
+MASS::fgl type of glass from refractive index and chemical composition. multinomial logistic regression,manova,discrim
+MASS::gehan remission times of leukemia patients. survival
+MASS::gilgais soil properties in gilgai territory. pca,cluster
+MASS::housing satisfaction of householders from influence, contact and type of housing. ordered logistic,log-linear
+MASS::mcycle head acceleration from time after impact in simulated motorcycle crash. regression
+MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
+MASS::Pima.tr diabetes in women as fn of other things. logistic regression
+MASS::road road collision deaths in some US states. regression
+MASS::rotifer rotifers falling out of suspension for different fluid densities (?). logistic regression
+MASS::shrimp percent of shrimp in shrimp cocktail. one-sample
+MASS::waders counts of different types of waders at different sites in South Africa. pca
+MASS::whiteside temperature and natural gas usage before and after insulation, by week. regression,graphs,ancova
+MindOnStats::Fashion fashion choices at different times of day. log-linear
+MindOnStats::IdealWtMen ideal weight of men. one-sample
+MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test. regression,graphs
+mitools::pisamaths scores in PI%SA math test with student and school info. sampling,dplyr
 mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
+nlme::Cefamandole concentration of C at different times in different subjects. repeated measures,graphs
+nlme::Gun rounds per minute of gun firing. anova
+nlme::Machines productivity score from worker and machine. repeated measures,manova
+nlme::MathAchieve scores on math test by ses, sex but clustered by schools. sampling,manova,dplyr
+nlme::MathAchieve math achivement scores by student (clustered within schools). regression,sampling
+nlme::MathAchSchool school level demographics to accompany MathAchieve. regression,sampling
+nlme::Orthodont skull measurements over time for different subjects from sex. repeated measures
+nlme::Oxboys heights of boys at different times. repeated measures
+nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer within lot, site. anova,manova,repeated measures
+nlme::Relaxin assay concentration and response. regression,lme4
+openintro::gpa_study_hours gpa from study hours for students. regression,graphs
+openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
+PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
+PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
+psych::Harman.Holzinger correlation matrix of ability tests. pca
+rattle::audit financial audit data. regression
+robustbase::delivery delivery times from number of products and distance. regression
+rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
+sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
+shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
+spatstat.data::gordon coordinates of people in Gordon Square London. spatial
+spatstat.data::waka spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate,regression,multinomial logistic regression
+Stat2Data::MathEnrollment fall and spring semester math enrolments at a liberal arts college for several years. regression,matched pairs
+Stat2Data::SleepingShrews heart rates of shrews at each of three stages of sleep. repeated measures,manova
+stevedata::LTWT price indices of items by date. time series,graphs
+stevedata::mvprod motor vehicle production over time by country. graphs
+survey::apipop student performance in California schools. sampling,dplyr
+survival::cgd0 trial in CGD time to serious infections. survival
+survival::jasa (heart) survival of patients on heart transplant waiting list. survival
+survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (choose one). survival
+survMisc::gastric time to death with gastric cancer, two treatments. survival
+TeachingDemos::ccc (gps) gps data. maps
+TeachingDemos::steps total steps recorded, calories, fat burned. regression,graphs,dplyr
+tseries::tcm3yd (tcmd) three year yields on treasury securities. time series
+vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
+vcd::Punishment attitudes towards corporal punishment of children. log-linear
+vcd::UKSoccer goals scored by home and away teams in England soccer league. regression,graphs
 vcdExtra::Abortion support for abortion from sex and ses. log-linear
+vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
+vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
+vcdExtra::Hoyt classification of rank in graduating class, status after high school, sex, father's occupational status. log-linear
+
