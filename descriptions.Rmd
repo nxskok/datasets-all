@@ -10,7 +10,10 @@ boot::aircondit7 times between failures of air-conditioning equipment on aircraf
 boot::beaver beaver body temperatures from time and activity. time series,two-sample
 boot::brambles location and age of bramble canes in a plot. spatial
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
+boot::capability process in equilibrium (mean 5.64). one-sample
+boot::nodal stage of cancer (several ways) from age and acid (phosphatase). ordinal logistic regression
 bootstrap::cholost improvement of blood cholesterol from compliance. regression,simple regression
+bootstrap::hormone anti-inflammatory hormone remaining from hours of wear (and lot). regression,graphs
 bootstrap::law LSAT and gpa for 15 law schools. regression,correlation,bootstrap
 bootstrap::spatial two tests of spatial perception. matched pairs
 bootstrap::stamp thickness of stamps, possibly printed on different types of paper. one-sample,graphs
@@ -20,13 +23,16 @@ carData::Anscombe US education expenditure by state. regression,anova
 carData::CanPop Canadian population over time. time series,regression
 carData::Florida votes for presidential candidate by county. graphs
 carData::Greene refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things. logistic regression
+carData::MplsDemo Minneapolis demographic data, eg household income median from others. regression
 carData::Moore conformity vs partner of low or high status. logistic regression
 carData::Mroz married women's labour force participation from age, children, education. logistic regression
 carData::TitanicSurvival survival of passengers on Titanic as dependent on age, sex and passenger class. logistic regression
 carData::Transact transaction times in bank: number of transactions of 2 types, total transaction time. regression
+carData::Vocab vocabulary test score from education and sex. graphs,regression,ancova
 carData::Wong IQ after coma of varying duration. regression
 carData::Wool strength of wool samples from others. anova,3-way anova
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
+cluster::animals binary attributes for animals. cluster
 DAAG::cerealsugar sugar content in frosted flakes. one-sample
 datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. regression,time series
 datasets::chickwts chicken weights by feed type. anova
@@ -47,9 +53,11 @@ faraway::beetle beetles exposed to fumigant. grouped logistic regression
 faraway::broccoli weight of broccoli from grower and box within grower. anova
 faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
 faraway::coagulation blood coagulation time by diet. anova
+faraway::debt attitudes to debt from many other things. multiple regression
 faraway::eggs fat content by lab and technician within lab. anova,nested anova
 faraway::esdcomp complaints about ER doctors. poisson regression
 faraway::gala number of plant species from geographic variables. regression
+faraway::gavote vote counts in georgia with demographics. regression
 faraway::infmort infant mortality on income and oil export. regression,two-sample,anova
 faraway::ratdrink rat growth weights from water additives. repeated measures
 faraway::sat SAT scores from other school info by state. regression
@@ -88,6 +96,7 @@ janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
 KMsurv::azt time to death from age at entry into study. survival
 KMsurv::drughiv time to CD4 count reaching target level. survival
+KMsurv::pneumon age child had pneumonia (and was hospitalized) from other risk factors. survival
 ks::air air quality measurements in a subway station (several different measurements at the same time). manova,pca
 ks::worldbank development indicators by country. pca
 lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
@@ -106,6 +115,7 @@ MASS::fgl type of glass from refractive index and chemical composition. multinom
 MASS::gehan remission times of leukemia patients. survival
 MASS::gilgais soil properties in gilgai territory. pca,cluster
 MASS::housing satisfaction of householders from influence, contact and type of housing. ordered logistic,log-linear
+MASS::muscle contraction of heart muscle from calcium chloride. regression
 MASS::mcycle head acceleration from time after impact in simulated motorcycle crash. regression
 MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
 MASS::Pima.tr diabetes in women as fn of other things. logistic regression
@@ -118,6 +128,7 @@ MindOnStats::Fashion fashion choices at different times of day. log-linear
 MindOnStats::IdealWtMen ideal weight of men. one-sample
 MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test. regression,graphs
 mitools::pisamaths scores in PI%SA math test with student and school info. sampling,dplyr
+modelr::heights income from height, weight etc. regression,graphs,dplyr 
 mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
 nlme::Cefamandole concentration of C at different times in different subjects. repeated measures,graphs
 nlme::Gun rounds per minute of gun firing. anova
@@ -133,6 +144,11 @@ openintro::gpa_study_hours gpa from study hours for students. regression,graphs
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
+datasets::cars speed and stopping distance of cars (in 1920s). graphs,regression
+MASS::beav1 body temperatures of beavers. time series,graphs
+MASS::Insurance car insurance claims by residence, engine size, age, #policyholders, #claims. graphs,general,anova
+s2::s2_data_tbl_timezones country and timezone boundaries
+tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
 psych::Harman.Holzinger correlation matrix of ability tests. pca
 rattle::audit financial audit data. regression
 robustbase::delivery delivery times from number of products and distance. regression
@@ -153,6 +169,7 @@ survMisc::gastric time to death with gastric cancer, two treatments. survival
 TeachingDemos::ccc (gps) gps data. maps
 TeachingDemos::steps total steps recorded, calories, fat burned. regression,graphs,dplyr
 tseries::tcm3yd (tcmd) three year yields on treasury securities. time series
+
 vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
 vcd::Punishment attitudes towards corporal punishment of children. log-linear
 vcd::UKSoccer goals scored by home and away teams in England soccer league. regression,graphs
