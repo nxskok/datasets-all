@@ -35,8 +35,10 @@ cluster::agriculture percent per capita GNP and percent in agriculture, by count
 cluster::animals binary attributes for animals. cluster
 DAAG::cerealsugar sugar content in frosted flakes. one-sample
 datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. regression,time series
+datasets::cars speed and stopping distance of cars (in 1920s). graphs,regression
 datasets::chickwts chicken weights by feed type. anova
 datasets::fdeaths (UKLungDeaths) monthly deaths from bronchitis and others in 1970s. time series
+datasets::Harman74.cor correlation matrix of scores on 24 psychological tests.
 datasets::infert case control study of miscarriages and abortions. ?
 datasets::islands areas of the world's landmasses. graphs
 datasets::occupationalStatus occupational status of fathers and sons. log-linear
@@ -71,6 +73,7 @@ faraway::wheat insect damage to wheat by variety. anova
 fda::seabird number of sightings of bird species by year at different sites. dplyr
 fds::SAelectdemand Electricity demand in Adelaide. time series
 fds::tastotal Tasmania total mortality rates. time series
+fields::CO.ppt.MAM.climate (COmonthlyMet) elevation, temperature, precipitation for weather stations in Colorado. regression,anova
 fields::RMelevation precipitation for stations in Rockies, with long-lat and elevation. maps
 fields::RMelevation monthly precipitation from location and elevation. maps,regression
 fma::texasgas price and consumption of natural gas. regression,simple regression
@@ -81,6 +84,7 @@ GGally::pigs UK pig production by year & quarter. time series,regression
 ggbiplot::wine chemical constituents of wines of three different cultivars. manova,discrim
 ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
 GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
+gstat::wind Ireland wind data for 12 stations, average daily wind speed. two-sample, anova 
 HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
 HistData::Cholera cholera death rates by district of London in 1849. regression,anova
 HistData::CushnyPeeblesN sleep from hydrobromides, should be weighted. matched pairs
@@ -105,16 +109,18 @@ locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. regression
 MASS::abbey nickel content. one-sample
-MASS::beav1 body temperatures of a beaver over time from activity. time series, two-sample
+MASS::beav1 body temperatures of a beaver over time from activity. time series,two-sample,graphs
 MASS::birthwt low birth weight from other risk factors. logistic regression
 MASS::Boston median value of owner-occupied homes  from other variables. regression,pca
 MASS::Cars93 cars on sale in 1993, 27 variables of different types. regression,anova,graphs
 MASS::cement heat evolved from portland cement from % of four main chemical ingredients. regression
+MASS::chem copper in whole wheat flour, mean 3.68. one-sample
 MASS::crabs body measurements on 2 species of crabs. discriminant analysis,pca,cluster
 MASS::fgl type of glass from refractive index and chemical composition. multinomial logistic regression,manova,discrim
 MASS::gehan remission times of leukemia patients. survival
 MASS::gilgais soil properties in gilgai territory. pca,cluster
 MASS::housing satisfaction of householders from influence, contact and type of housing. ordered logistic,log-linear
+MASS::Insurance car insurance claims by residence, engine size, age, #policyholders, #claims. graphs,general,anova
 MASS::muscle contraction of heart muscle from calcium chloride. regression
 MASS::mcycle head acceleration from time after impact in simulated motorcycle crash. regression
 MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
@@ -127,7 +133,7 @@ MASS::whiteside temperature and natural gas usage before and after insulation, b
 MindOnStats::Fashion fashion choices at different times of day. log-linear
 MindOnStats::IdealWtMen ideal weight of men. one-sample
 MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test. regression,graphs
-mitools::pisamaths scores in PI%SA math test with student and school info. sampling,dplyr
+mitools::pisamaths scores in PISA math test with student and school info. sampling,dplyr
 modelr::heights income from height, weight etc. regression,graphs,dplyr 
 mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
 nlme::Cefamandole concentration of C at different times in different subjects. repeated measures,graphs
@@ -140,21 +146,19 @@ nlme::Orthodont skull measurements over time for different subjects from sex. re
 nlme::Oxboys heights of boys at different times. repeated measures
 nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer within lot, site. anova,manova,repeated measures
 nlme::Relaxin assay concentration and response. regression,lme4
+openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::gpa_study_hours gpa from study hours for students. regression,graphs
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
-datasets::cars speed and stopping distance of cars (in 1920s). graphs,regression
-MASS::beav1 body temperatures of beavers. time series,graphs
-MASS::Insurance car insurance claims by residence, engine size, age, #policyholders, #claims. graphs,general,anova
-s2::s2_data_tbl_timezones country and timezone boundaries
-tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
 psych::Harman.Holzinger correlation matrix of ability tests. pca
 rattle::audit financial audit data. regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
+s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
 shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
+spatstat.data::clmfires forest fires in Spain, size from cause. anova
 spatstat.data::gordon coordinates of people in Gordon Square London. spatial
 spatstat.data::waka spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate,regression,multinomial logistic regression
 Stat2Data::MathEnrollment fall and spring semester math enrolments at a liberal arts college for several years. regression,matched pairs
@@ -168,8 +172,9 @@ survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (cho
 survMisc::gastric time to death with gastric cancer, two treatments. survival
 TeachingDemos::ccc (gps) gps data. maps
 TeachingDemos::steps total steps recorded, calories, fat burned. regression,graphs,dplyr
+tidyr::table5 tuberculosis cases for country, year, cases, population. tidying
+tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
 tseries::tcm3yd (tcmd) three year yields on treasury securities. time series
-
 vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
 vcd::Punishment attitudes towards corporal punishment of children. log-linear
 vcd::UKSoccer goals scored by home and away teams in England soccer league. regression,graphs
