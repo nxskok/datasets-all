@@ -43,6 +43,7 @@ datasets::infert case control study of miscarriages and abortions. ?
 datasets::islands areas of the world's landmasses. graphs
 datasets::occupationalStatus occupational status of fathers and sons. log-linear
 datasets::quakes locations of earthquakes off Fiji. maps
+datasets::swiss fertility and socioeconomic indicators Switzerland 1888. regression,pca
 datasets::Theoph theophylline concentration over time. repeated measures
 datasets::UKgas UK consumption of natural gas. time series
 dendextend::khan gene expression profiles. ?
@@ -152,6 +153,7 @@ openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
 psych::Harman.Holzinger correlation matrix of ability tests. pca
+quantreg::engel annual household income and food expenditure. regression
 rattle::audit financial audit data. regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
