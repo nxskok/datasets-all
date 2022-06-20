@@ -50,6 +50,9 @@ datasets::swiss fertility and socioeconomic indicators Switzerland 1888. regress
 datasets::Theoph theophylline concentration over time. repeated measures
 datasets::UKgas UK consumption of natural gas. time series
 dendextend::khan gene expression profiles. ?
+Devore7::ex14.23 data on 7-day flexural strength of nonbloated burned clay aggregate concrete samples. one-sample,normal quantile
+Devore7::ex14.38 crude oil on fish parasites -  Three treatments (corresponding to populations in the procedure described) were compared: (1) no contamination, (2) contamination by 1-year-old weathered oil, and (3) contamination by new oil - For each treatment condition, a sample of fish was taken, and then each fish was classified as either parasitized or not parasitized. chi-squared
+Devore7::xmp01.14 copper content of pottery. one-sample
 drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
 exactRankTests::lungcancer lung cancer clinical trial. survival
 faraway::aatemp annual mean temperatures in Ann Arbor, MI. time series,graphs
@@ -168,6 +171,7 @@ rpart.plot::ptitanic titanic data (detailed), survival from other things. logist
 s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
 shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
+Sleuth2::ex1919 number of fatal accidents in suvs by speed, make, cause. log-linear
 spatstat.data::clmfires forest fires in Spain, size from cause. anova
 spatstat.data::gordon coordinates of people in Gordon Square London. spatial
 spatstat.data::waka spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate,regression,multinomial logistic regression
