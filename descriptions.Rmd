@@ -1,6 +1,8 @@
+ACSWR::nerve waiting times for successive pulses along a nerve fibre. graphs,one-sample
 AER::BankWages US bank employee wages from job, education, gender, race. regression
 AER::CASchools test performance from school and student backgrounds in California. regression
 AER::USMacroB US macroecon data. regression,time series
+agridat::goulden.eggs egg weights by day. graphs
 aplore3::aps mental health placement (use place3 as response). logistic regression
 aplore3::burn1000 survival of patients after burns from features plus demographics. logistic regression
 aplore3::glow11m fracture from other risk factors. logistic regression
@@ -11,6 +13,7 @@ boot::beaver beaver body temperatures from time and activity. time series,two-sa
 boot::brambles location and age of bramble canes in a plot. spatial
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
 boot::capability process in equilibrium (mean 5.64). one-sample
+boot::gravity acceleration of gravity from different experiments. two-sample,anova,graphs
 boot::nodal stage of cancer (several ways) from age and acid (phosphatase). ordinal logistic regression
 bootstrap::cholost improvement of blood cholesterol from compliance. regression,simple regression
 bootstrap::hormone anti-inflammatory hormone remaining from hours of wear (and lot). regression,graphs
@@ -96,6 +99,7 @@ HistData::Michelson measurements of speed of light (true value 734.5)
 HistData::Quarrels stats on deadly quarrels between countries or colonies, with reason for quarrel. multinomial logistic regression
 irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
 irr::vision categorized distance vision in left eye and right eye
+isdals::aids number of AIDS cases and deaths over time. graphs,two-sample,time series
 janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
@@ -107,6 +111,9 @@ ks::worldbank development indicators by country. pca
 lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
 lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
+Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,ancova
+Lock5Data::Honeybee honeybee colonies by year. time series,two-sample
+Lock5Data::OttawaSenators2019 Ottawa Senators 2018-19. graphs,one-sample,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. regression
 MASS::abbey nickel content. one-sample
@@ -125,6 +132,7 @@ MASS::Insurance car insurance claims by residence, engine size, age, #policyhold
 MASS::muscle contraction of heart muscle from calcium chloride. regression
 MASS::mcycle head acceleration from time after impact in simulated motorcycle crash. regression
 MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
+MASS::phones annual number of phone calls in Belgium by year. time series,two-sample,anova
 MASS::Pima.tr diabetes in women as fn of other things. logistic regression
 MASS::road road collision deaths in some US states. regression
 MASS::rotifer rotifers falling out of suspension for different fluid densities (?). logistic regression
@@ -184,4 +192,3 @@ vcdExtra::Abortion support for abortion from sex and ses. log-linear
 vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
 vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
 vcdExtra::Hoyt classification of rank in graduating class, status after high school, sex, father's occupational status. log-linear
-
