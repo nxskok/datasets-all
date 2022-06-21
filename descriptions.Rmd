@@ -50,6 +50,7 @@ datasets::swiss fertility and socioeconomic indicators Switzerland 1888. regress
 datasets::Theoph theophylline concentration over time. repeated measures
 datasets::UKgas UK consumption of natural gas. time series
 dendextend::khan gene expression profiles. ?
+Devore7::ex06.15 10 observations from a Rayleigh distribution. one-sample
 Devore7::ex14.23 data on 7-day flexural strength of nonbloated burned clay aggregate concrete samples. one-sample,normal quantile
 Devore7::ex14.38 crude oil on fish parasites -  Three treatments (corresponding to populations in the procedure described) were compared: (1) no contamination, (2) contamination by 1-year-old weathered oil, and (3) contamination by new oil - For each treatment condition, a sample of fish was taken, and then each fish was classified as either parasitized or not parasitized. chi-squared
 Devore7::xmp01.14 copper content of pottery. one-sample
@@ -160,6 +161,7 @@ nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer 
 nlme::Relaxin assay concentration and response. regression,lme4
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::gpa_study_hours gpa from study hours for students. regression,graphs
+openintro::male_heights 100 male heights. one-sample
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
