@@ -35,6 +35,7 @@ carData::Transact transaction times in bank: number of transactions of 2 types, 
 carData::Vocab vocabulary test score from education and sex. graphs,regression,ancova
 carData::Wong IQ after coma of varying duration. regression
 carData::Wool strength of wool samples from others. anova,3-way anova
+CatDataAnalysis::table_10.1 alcohol, cigarette, marijuana use by gender and race. log-linear
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
 cluster::animals binary attributes for animals. cluster
 DAAG::cerealsugar sugar content in frosted flakes. one-sample
@@ -54,6 +55,7 @@ datasets::UKgas UK consumption of natural gas. time series
 dendextend::khan gene expression profiles. ?
 Devore7::ex01.36 offshore oil workers escape times. one-sample
 Devore7::ex06.15 10 observations from a Rayleigh distribution. one-sample
+Devore7::ex09.90 paired study of whether or not ergotamine and control are effective against migraine headaches. mcnemar test
 Devore7::ex12.72 salinity and nitrate level in Arabian Sea.simple regression,graphs
 Devore7::ex14.23 data on 7-day flexural strength of nonbloated burned clay aggregate concrete samples. one-sample,normal quantile
 Devore7::ex14.38 crude oil on fish parasites -  Three treatments (corresponding to populations in the procedure described) were compared: (1) no contamination, (2) contamination by 1-year-old weathered oil, and (3) contamination by new oil - For each treatment condition, a sample of fish was taken, and then each fish was classified as either parasitized or not parasitized. chi-squared
@@ -68,6 +70,7 @@ faraway::beetle beetles exposed to fumigant. grouped logistic regression
 faraway::broccoli weight of broccoli from grower and box within grower. anova
 faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
 faraway::coagulation blood coagulation time by diet. anova
+faraway::death death penalty from race of victim and defendant, y is count. log-linear
 faraway::debt attitudes to debt from many other things. multiple regression
 faraway::eggs fat content by lab and technician within lab. anova,nested anova
 faraway::esdcomp complaints about ER doctors. poisson regression
@@ -97,6 +100,7 @@ GGally::pigs UK pig production by year & quarter. time series,regression
 ggbiplot::wine chemical constituents of wines of three different cultivars. manova,discrim
 ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
 GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
+gpk::BANK bank churn from many other things. logistic regression,log-linear
 gstat::wind Ireland wind data for 12 stations, average daily wind speed. two-sample, anova 
 HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
 HistData::Cholera cholera death rates by district of London in 1849. regression,anova
@@ -109,6 +113,8 @@ HistData::Quarrels stats on deadly quarrels between countries or colonies, with 
 irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
 irr::vision categorized distance vision in left eye and right eye
 isdals::aids number of AIDS cases and deaths over time. graphs,two-sample,time series
+isdals::cornyield corn yield from variety and fertilizer. anova-2-way
+isdals::hazard sorption of solvents by type. anova
 janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
@@ -122,8 +128,10 @@ lmerTest::carrots consumer preference of carrots with demographics. regression,p
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
 Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,ancova
+Lock5Data::ExerciseHours amount of exercise and other variables for students. graphs,dplyr,two-sample,regression
 Lock5Data::Honeybee honeybee colonies by year. time series,two-sample
 Lock5Data::OttawaSenators2019 Ottawa Senators 2018-19. graphs,one-sample,two-sample
+Lock5Data::PizzaGirl tips on pizza deliveries by shift. anova,mood median
 MLGdata::Neonati birth weights from duration of gestation and smoking. ancova,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. regression
@@ -150,6 +158,7 @@ MASS::rotifer rotifers falling out of suspension for different fluid densities (
 MASS::shrimp percent of shrimp in shrimp cocktail. one-sample
 MASS::waders counts of different types of waders at different sites in South Africa. pca
 MASS::whiteside temperature and natural gas usage before and after insulation, by week. regression,graphs,ancova
+mclust::acidity acidity of 155 lakes. graphs,one-sample
 MindOnStats::Fashion fashion choices at different times of day. log-linear
 MindOnStats::IdealWtMen ideal weight of men. one-sample
 MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test. regression,graphs
@@ -166,6 +175,8 @@ nlme::Orthodont skull measurements over time for different subjects from sex. re
 nlme::Oxboys heights of boys at different times. repeated measures
 nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer within lot, site. anova,manova,repeated measures
 nlme::Relaxin assay concentration and response. regression,lme4
+NSM3::motivational.effect output of workers in repetitive industrial task from amount of information given about task. mood median
+NSM3::mucociliary mucociliary efficiency of subjects with normal, obstructive airways, asbestosis. anova,mood median
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::gpa_study_hours gpa from study hours for students. regression,graphs
 openintro::male_heights 100 male heights. one-sample
@@ -173,6 +184,7 @@ openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
 psych::Harman.Holzinger correlation matrix of ability tests. pca
+quantreg::barro variables for countries on growth rates. pca, regression
 quantreg::engel annual household income and food expenditure. regression
 rattle::audit financial audit data. regression
 Rfit::serumLH serum levels of lutenizing hormone from light regime ond lutenizing release factor. anova-2-way
@@ -181,6 +193,7 @@ robustbase::delivery delivery times from number of products and distance. regres
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
 s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
+SenSrivastava::E4.1 number of traffic deaths (per million vehicle miles) from year, with new safety regulations after 1966. two-sample
 shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
 Sleuth2::ex1919 number of fatal accidents in suvs by speed, make, cause. log-linear
 Sleuth3::ex0432 episodes of vomiting from marijuana or placebo treatment. matched pairs
