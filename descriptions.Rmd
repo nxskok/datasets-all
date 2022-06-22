@@ -10,6 +10,7 @@ boot::aircondit7 times between failures of air-conditioning equipment on aircraf
 boot::beaver beaver body temperatures from time and activity. time series,two-sample
 boot::brambles location and age of bramble canes in a plot. spatial
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
+boot::calcium calcium uptake from time. regression,bootstrap
 boot::capability process in equilibrium (mean 5.64). one-sample
 boot::nodal stage of cancer (several ways) from age and acid (phosphatase). ordinal logistic regression
 bootstrap::cholost improvement of blood cholesterol from compliance. regression,simple regression
@@ -28,7 +29,9 @@ carData::Moore conformity vs partner of low or high status. logistic regression
 carData::Mroz married women's labour force participation from age, children, education. logistic regression
 carData::TitanicSurvival survival of passengers on Titanic as dependent on age, sex and passenger class. logistic regression
 carData::Transact transaction times in bank: number of transactions of 2 types, total transaction time. regression
+carData::UN fertility rates, gdp, life expectancy, percent urban, infant mortality by country. pca,graphs,dplyr
 carData::Vocab vocabulary test score from education and sex. graphs,regression,ancova
+carData::WeightLoss weight loss and self esteem at different times from treatment. repeated measures
 carData::Wong IQ after coma of varying duration. regression
 carData::Wool strength of wool samples from others. anova,3-way anova
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
@@ -100,6 +103,7 @@ KMsurv::pneumon age child had pneumonia (and was hospitalized) from other risk f
 ks::air air quality measurements in a subway station (several different measurements at the same time). manova,pca
 ks::worldbank development indicators by country. pca
 lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
+lme4::grouseticks number of ticks observed on grouse chicks from height above sea level etc.poisson regression,graphs
 lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
@@ -151,6 +155,7 @@ s2::s2_data_tbl_timezones country and timezone boundaries
 tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
 psych::Harman.Holzinger correlation matrix of ability tests. pca
 rattle::audit financial audit data. regression
+robustbase::aircraft cost of aircraft from aspect ratio, lift to drag, weight, maximal thrust. regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
