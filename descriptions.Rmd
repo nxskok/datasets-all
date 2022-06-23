@@ -110,14 +110,17 @@ HistData::Cholera cholera death rates by district of London in 1849. regression,
 HistData::CushnyPeeblesN sleep from hydrobromides, should be weighted. matched pairs
 HistData::EdgeworthDeaths death rates in English counties, by year also. anova,randomized block
 HistData::Galton child height from average of parents' heights. regression,graphs
+HistData::Guerry social data on departements of France in 1830. pca
 HistData::Jevons error in estimating number of beans. regression,graphs
 HistData::Michelson measurements of speed of light (true value 734.5)
 HistData::Quarrels stats on deadly quarrels between countries or colonies, with reason for quarrel. multinomial logistic regression
 irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
 irr::vision categorized distance vision in left eye and right eye
 isdals::aids number of AIDS cases and deaths over time. graphs,two-sample,time series
-isdals::cornyield corn yield from variety and fertilizer. anova-2-way
+isdals::cornyield corn yield from variety and fertilizer. anova-2-way, ancova
 isdals::hazard sorption of solvents by type. anova
+ISwR::energy energy expenditure in lean and obese women. two-sample
+ISwR::secretin blood glucose levels  by person and time. repeated measures
 janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
@@ -210,6 +213,7 @@ Stat2Data::SleepingShrews heart rates of shrews at each of three stages of sleep
 stevedata::LTWT price indices of items by date. time series,graphs
 stevedata::mvprod motor vehicle production over time by country. graphs
 survey::apipop student performance in California schools. sampling,dplyr
+survival::aml (cancer) survival times for patients with Acute Myelogenous Leukemia from maintenance chemo. survival
 survival::cgd0 trial in CGD time to serious infections. survival
 survival::jasa (heart) survival of patients on heart transplant waiting list. survival
 survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (choose one). survival
@@ -226,3 +230,4 @@ vcdExtra::Abortion support for abortion from sex and ses. log-linear
 vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
 vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
 vcdExtra::Hoyt classification of rank in graduating class, status after high school, sex, father's occupational status. log-linear
+xtable::tli math scores of students from demographics
