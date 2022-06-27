@@ -63,6 +63,7 @@ Devore7::xmp01.14 copper content of pottery. one-sample
 drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
 exactRankTests::ASAT ASAT values (liver enzyme) for new compound and control (proof of safety). two-sample
 exactRankTests::lungcancer lung cancer clinical trial. survival
+exactRankTests::neuropathy pain score from treatment group. two-sample
 faraway::aatemp annual mean temperatures in Ann Arbor, MI. time series,graphs
 faraway::africa military coups and politics in sub-Saharan Africa. poisson regression
 faraway::babyfood number with respiratory disease from feeding method. grouped logistic regression
@@ -70,6 +71,7 @@ faraway::beetle beetles exposed to fumigant. grouped logistic regression
 faraway::broccoli weight of broccoli from grower and box within grower. anova
 faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
 faraway::coagulation blood coagulation time by diet. anova
+faraway::composite bond strength of thermoplastic composite from power of laser and speed of tape. two way anova
 faraway::death death penalty from race of victim and defendant, y is count. log-linear
 faraway::debt attitudes to debt from many other things. multiple regression
 faraway::eggs fat content by lab and technician within lab. anova,nested anova
@@ -102,6 +104,7 @@ ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
 GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
 gpk::BANK bank churn from many other things. logistic regression,log-linear
 gstat::wind Ireland wind data for 12 stations, average daily wind speed. two-sample, anova 
+heplots::NeuroCog several measures of neurocognition from diagnostic group. manova,discrim
 HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
 HistData::Cholera cholera death rates by district of London in 1849. regression,anova
 HistData::CushnyPeeblesN sleep from hydrobromides, should be weighted. matched pairs
@@ -179,6 +182,7 @@ NSM3::motivational.effect output of workers in repetitive industrial task from a
 NSM3::mucociliary mucociliary efficiency of subjects with normal, obstructive airways, asbestosis. anova,mood median
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::gpa_study_hours gpa from study hours for students. regression,graphs
+openintro::healthcare_law_survey attitudes towards healthcare from order alternatives given. log-linear
 openintro::male_heights 100 male heights. one-sample
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
