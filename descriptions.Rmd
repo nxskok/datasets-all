@@ -13,6 +13,7 @@ boot::aircondit7 times between failures of air-conditioning equipment on aircraf
 boot::beaver beaver body temperatures from time and activity. time series,two-sample
 boot::brambles location and age of bramble canes in a plot. spatial
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
+boot::calcium calcium uptake from time. regression,bootstrap
 boot::capability process in equilibrium (mean 5.64). one-sample
 boot::gravity acceleration of gravity from different experiments. two-sample,anova,graphs
 boot::nodal stage of cancer (several ways) from age and acid (phosphatase). ordinal logistic regression
@@ -32,7 +33,9 @@ carData::Moore conformity vs partner of low or high status. logistic regression
 carData::Mroz married women's labour force participation from age, children, education. logistic regression
 carData::TitanicSurvival survival of passengers on Titanic as dependent on age, sex and passenger class. logistic regression
 carData::Transact transaction times in bank: number of transactions of 2 types, total transaction time. regression
+carData::UN fertility rates, gdp, life expectancy, percent urban, infant mortality by country. pca,graphs,dplyr
 carData::Vocab vocabulary test score from education and sex. graphs,regression,ancova
+carData::WeightLoss weight loss and self esteem at different times from treatment. repeated measures
 carData::Wong IQ after coma of varying duration. regression
 carData::Wool strength of wool samples from others. anova,3-way anova
 CatDataAnalysis::table_10.1 alcohol, cigarette, marijuana use by gender and race. log-linear
@@ -110,14 +113,17 @@ HistData::Cholera cholera death rates by district of London in 1849. regression,
 HistData::CushnyPeeblesN sleep from hydrobromides, should be weighted. matched pairs
 HistData::EdgeworthDeaths death rates in English counties, by year also. anova,randomized block
 HistData::Galton child height from average of parents' heights. regression,graphs
+HistData::Guerry social data on departements of France in 1830. pca
 HistData::Jevons error in estimating number of beans. regression,graphs
 HistData::Michelson measurements of speed of light (true value 734.5)
 HistData::Quarrels stats on deadly quarrels between countries or colonies, with reason for quarrel. multinomial logistic regression
 irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
 irr::vision categorized distance vision in left eye and right eye
 isdals::aids number of AIDS cases and deaths over time. graphs,two-sample,time series
-isdals::cornyield corn yield from variety and fertilizer. anova-2-way
+isdals::cornyield corn yield from variety and fertilizer. anova-2-way, ancova
 isdals::hazard sorption of solvents by type. anova
+ISwR::energy energy expenditure in lean and obese women. two-sample
+ISwR::secretin blood glucose levels  by person and time. repeated measures
 janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
@@ -127,6 +133,7 @@ KMsurv::pneumon age child had pneumonia (and was hospitalized) from other risk f
 ks::air air quality measurements in a subway station (several different measurements at the same time). manova,pca
 ks::worldbank development indicators by country. pca
 lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
+lme4::grouseticks number of ticks observed on grouse chicks from height above sea level etc.poisson regression,graphs
 lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
@@ -193,6 +200,7 @@ quantreg::engel annual household income and food expenditure. regression
 rattle::audit financial audit data. regression
 Rfit::serumLH serum levels of lutenizing hormone from light regime ond lutenizing release factor. anova-2-way
 Rlab::bread bread rising experiment, cupcake height from yeast and temperature. anova-2-way
+robustbase::aircraft cost of aircraft from aspect ratio, lift to drag, weight, maximal thrust. regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
 s2::s2_data_tbl_timezones country and timezone boundaries
@@ -209,6 +217,7 @@ Stat2Data::SleepingShrews heart rates of shrews at each of three stages of sleep
 stevedata::LTWT price indices of items by date. time series,graphs
 stevedata::mvprod motor vehicle production over time by country. graphs
 survey::apipop student performance in California schools. sampling,dplyr
+survival::aml (cancer) survival times for patients with Acute Myelogenous Leukemia from maintenance chemo. survival
 survival::cgd0 trial in CGD time to serious infections. survival
 survival::jasa (heart) survival of patients on heart transplant waiting list. survival
 survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (choose one). survival
@@ -225,3 +234,4 @@ vcdExtra::Abortion support for abortion from sex and ses. log-linear
 vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
 vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
 vcdExtra::Hoyt classification of rank in graduating class, status after high school, sex, father's occupational status. log-linear
+xtable::tli math scores of students from demographics
