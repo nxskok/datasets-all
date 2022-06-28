@@ -22,6 +22,7 @@ bootstrap::hormone anti-inflammatory hormone remaining from hours of wear (and l
 bootstrap::law LSAT and gpa for 15 law schools. regression,correlation,bootstrap
 bootstrap::spatial two tests of spatial perception. matched pairs
 bootstrap::stamp thickness of stamps, possibly printed on different types of paper. one-sample,graphs
+BSDA::Monoxide carbon monoxide emitted by smoke stacks of two manufacturers. two-sample, mood median
 ca::wg93 attitudes towards science (ordinal) with demographics. ordinal logistic regression
 carData::Angell Moral integration of American cities, crime rate/welfare from others. regression,dplyr
 carData::Anscombe US education expenditure by state. regression,anova
@@ -41,6 +42,7 @@ carData::Wool strength of wool samples from others. anova,3-way anova
 CatDataAnalysis::table_10.1 alcohol, cigarette, marijuana use by gender and race. log-linear
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
 cluster::animals binary attributes for animals. cluster
+cluster.datasets::sample.mammals.milk.1956 constituents of milk for different animals. cluster, k-means
 DAAG::cerealsugar sugar content in frosted flakes. one-sample
 datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. regression,time series
 datasets::cars speed and stopping distance of cars (in 1920s). graphs,regression
@@ -105,6 +107,7 @@ GGally::pigs UK pig production by year & quarter. time series,regression
 ggbiplot::wine chemical constituents of wines of three different cultivars. manova,discrim
 ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
 GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
+gpk::Asthma4 paw edema in rats over time on different treatments. repeated measures
 gpk::BANK bank churn from many other things. logistic regression,log-linear
 gstat::wind Ireland wind data for 12 stations, average daily wind speed. two-sample, anova 
 heplots::NeuroCog several measures of neurocognition from diagnostic group. manova,discrim
@@ -176,6 +179,7 @@ mitools::pisamaths scores in PISA math test with student and school info. sampli
 modelr::heights income from height, weight etc. regression,graphs,dplyr 
 mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
 nlme::Cefamandole concentration of C at different times in different subjects. repeated measures,graphs
+nlme::ergoStool effort in rising from stool from stool type. repeated measures, mixed model
 nlme::Gun rounds per minute of gun firing. anova
 nlme::Machines productivity score from worker and machine. repeated measures,manova
 nlme::MathAchieve scores on math test by ses, sex but clustered by schools. sampling,manova,dplyr
@@ -198,6 +202,7 @@ psych::Harman.Holzinger correlation matrix of ability tests. pca
 quantreg::barro variables for countries on growth rates. pca, regression
 quantreg::engel annual household income and food expenditure. regression
 rattle::audit financial audit data. regression
+resampledata::Alelager alcohol and calories for various types of ale or lager. graphs,two-sample,mood median
 Rfit::serumLH serum levels of lutenizing hormone from light regime ond lutenizing release factor. anova-2-way
 Rlab::bread bread rising experiment, cupcake height from yeast and temperature. anova-2-way
 robustbase::aircraft cost of aircraft from aspect ratio, lift to drag, weight, maximal thrust. regression
@@ -207,11 +212,13 @@ s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
 SenSrivastava::E4.1 number of traffic deaths (per million vehicle miles) from year, with new safety regulations after 1966. two-sample
 shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
+Sleuth2::case1401 chimp learning times for words in sign language from chimp and sign. 2-way anova, randomized block
 Sleuth2::ex1919 number of fatal accidents in suvs by speed, make, cause. log-linear
 Sleuth3::ex0432 episodes of vomiting from marijuana or placebo treatment. matched pairs
 spatstat.data::clmfires forest fires in Spain, size from cause. anova
 spatstat.data::gordon coordinates of people in Gordon Square London. spatial
 spatstat.data::waka spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate,regression,multinomial logistic regression
+spuRs::kew monthly rainfall from Kew Gardens, wide format. tidying, graphs
 Stat2Data::MathEnrollment fall and spring semester math enrolments at a liberal arts college for several years. regression,matched pairs
 Stat2Data::SleepingShrews heart rates of shrews at each of three stages of sleep. repeated measures,manova
 stevedata::LTWT price indices of items by date. time series,graphs
@@ -227,6 +234,7 @@ TeachingDemos::steps total steps recorded, calories, fat burned. regression,grap
 tidyr::table5 tuberculosis cases for country, year, cases, population. tidying
 tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
 tseries::tcm3yd (tcmd) three year yields on treasury securities. time series
+UsingR::diamond diamond price and sizes in Singapore. regression, simple regression
 vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
 vcd::Punishment attitudes towards corporal punishment of children. log-linear
 vcd::UKSoccer goals scored by home and away teams in England soccer league. regression,graphs

@@ -2,6 +2,8 @@ datasets by technique
 
 ```{r}
 library(tidyverse)
+library(conflicted)
+conflict_prefer("select", "dplyr")
 ```
 
 
@@ -16,7 +18,7 @@ glimpse(desc)
 
 ```{r}
 desc %>% 
-  select(-description) %>% 
+  dplyr::select(-description) %>% 
   separate_rows(technique, sep = ",") -> desc1
 desc1
 desc1 %>% 
