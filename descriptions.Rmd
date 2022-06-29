@@ -84,6 +84,7 @@ faraway::esdcomp complaints about ER doctors. poisson regression
 faraway::gala number of plant species from geographic variables. regression
 faraway::gavote vote counts in georgia with demographics. regression
 faraway::infmort infant mortality on income and oil export. regression,two-sample,anova
+faraway::odor odor from temperature, gas/liquid ratio, packing height (for household use product). 2-way anova
 faraway::ratdrink rat growth weights from water additives. repeated measures
 faraway::sat SAT scores from other school info by state. regression
 faraway::seatpos driver's seated position in car (distance of hips from car fixed point) from body measurements. regression
@@ -130,6 +131,7 @@ ISwR::secretin blood glucose levels  by person and time. repeated measures
 janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
+KMsurv::allograft time to graft rejection from good HLA skin match. survival
 KMsurv::azt time to death from age at entry into study. survival
 KMsurv::drughiv time to CD4 count reaching target level. survival
 KMsurv::pneumon age child had pneumonia (and was hospitalized) from other risk factors. survival
@@ -166,6 +168,7 @@ MASS::mcycle head acceleration from time after impact in simulated motorcycle cr
 MASS::oats yields of oats from variety, nitrogen, block. anova,3-way anova
 MASS::phones annual number of phone calls in Belgium by year. time series,two-sample,anova
 MASS::Pima.tr diabetes in women as fn of other things. logistic regression
+MASS::Rabbit cardiogenic chemoreflex from dose and time. repeated measures
 MASS::road road collision deaths in some US states. regression
 MASS::rotifer rotifers falling out of suspension for different fluid densities (?). logistic regression
 MASS::shrimp percent of shrimp in shrimp cocktail. one-sample
@@ -208,6 +211,7 @@ Rlab::bread bread rising experiment, cupcake height from yeast and temperature. 
 robustbase::aircraft cost of aircraft from aspect ratio, lift to drag, weight, maximal thrust. regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
+rrcov::rice overall evaluation of rice from subjective evaluations. multiple regression
 s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
 SenSrivastava::E4.1 number of traffic deaths (per million vehicle miles) from year, with new safety regulations after 1966. two-sample
