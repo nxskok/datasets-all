@@ -1,3 +1,4 @@
+ACSWR::hearing intensity of given frequency required to be heard for 39-yo males with no indication of noise disorder or hearing loss. pca
 ACSWR::nerve waiting times for successive pulses along a nerve fibre. graphs,one-sample
 AER::BankWages US bank employee wages from job, education, gender, race. regression
 AER::CASchools test performance from school and student backgrounds in California. regression
@@ -23,10 +24,12 @@ bootstrap::law LSAT and gpa for 15 law schools. regression,correlation,bootstrap
 bootstrap::spatial two tests of spatial perception. matched pairs
 bootstrap::stamp thickness of stamps, possibly printed on different types of paper. one-sample,graphs
 BSDA::Monoxide carbon monoxide emitted by smoke stacks of two manufacturers. two-sample, mood median
+BSDA::Music improvement scores on a music recognition test taught by two methods, one on each of pairs of identical twins. matched pairs
 ca::wg93 attitudes towards science (ordinal) with demographics. ordinal logistic regression
 carData::Angell Moral integration of American cities, crime rate/welfare from others. regression,dplyr
 carData::Anscombe US education expenditure by state. regression,anova
 carData::CanPop Canadian population over time. time series,regression
+carData::Davis measured and reported heights and weights for males and females (engaged in regular exercise). one-sample
 carData::Florida votes for presidential candidate by county. graphs
 carData::Greene refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things. logistic regression
 carData::MplsDemo Minneapolis demographic data, eg household income median from others. regression
@@ -65,6 +68,7 @@ Devore7::ex12.72 salinity and nitrate level in Arabian Sea.simple regression,gra
 Devore7::ex14.23 data on 7-day flexural strength of nonbloated burned clay aggregate concrete samples. one-sample,normal quantile
 Devore7::ex14.38 crude oil on fish parasites -  Three treatments (corresponding to populations in the procedure described) were compared: (1) no contamination, (2) contamination by 1-year-old weathered oil, and (3) contamination by new oil - For each treatment condition, a sample of fish was taken, and then each fish was classified as either parasitized or not parasitized. chi-squared
 Devore7::xmp01.14 copper content of pottery. one-sample
+Devore7::xmp14.10 serum cholesterol of Central American indigenous people. one-sample, normal quantile 
 drc::daphnids number of immobile daphnids by dose of a toxic substance. grouped logistic regression
 exactRankTests::ASAT ASAT values (liver enzyme) for new compound and control (proof of safety). two-sample
 exactRankTests::lungcancer lung cancer clinical trial. survival
@@ -172,6 +176,7 @@ MASS::Rabbit cardiogenic chemoreflex from dose and time. repeated measures
 MASS::road road collision deaths in some US states. regression
 MASS::rotifer rotifers falling out of suspension for different fluid densities (?). logistic regression
 MASS::shrimp percent of shrimp in shrimp cocktail. one-sample
+MASS::survey student survey with variables of different types. graphs
 MASS::waders counts of different types of waders at different sites in South Africa. pca
 MASS::whiteside temperature and natural gas usage before and after insulation, by week. regression,graphs,ancova
 mclust::acidity acidity of 155 lakes. graphs,one-sample
@@ -194,11 +199,13 @@ nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer 
 nlme::Relaxin assay concentration and response. regression,lme4
 NSM3::motivational.effect output of workers in repetitive industrial task from amount of information given about task. mood median
 NSM3::mucociliary mucociliary efficiency of subjects with normal, obstructive airways, asbestosis. anova,mood median
+openintro::duke_forest selling price of houses in Duke Forest, NC from number of bedrooms, bathrooms, total area, year built, heating and cooling systems. multiple regression
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::gpa_study_hours gpa from study hours for students. regression,graphs
 openintro::healthcare_law_survey attitudes towards healthcare from order alternatives given. log-linear
 openintro::male_heights 100 male heights. one-sample
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
+openintro::simpsons_paradox_covid vaccination, age, and death from COVID. log-linear,simpson's paradox
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
 psych::Harman.Holzinger correlation matrix of ability tests. pca
@@ -214,11 +221,15 @@ rpart.plot::ptitanic titanic data (detailed), survival from other things. logist
 rrcov::rice overall evaluation of rice from subjective evaluations. multiple regression
 s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
+SenSrivastava::E2.8 per capita output of workers in China from factory size and investments per worker. multiple regression
 SenSrivastava::E4.1 number of traffic deaths (per million vehicle miles) from year, with new safety regulations after 1966. two-sample
+SenSrivastava::E4.13 hospital charge from sex doctor severity age. regression with categorical
 shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
 Sleuth2::case1401 chimp learning times for words in sign language from chimp and sign. 2-way anova, randomized block
+Sleuth2::case1502 average northern hemisphere annual temperature from years. graphs,time series
 Sleuth2::ex1919 number of fatal accidents in suvs by speed, make, cause. log-linear
 Sleuth3::ex0432 episodes of vomiting from marijuana or placebo treatment. matched pairs
+Sleuth3::ex1420 weight losses from diet, sex, age, and bmi. ancova,regression with categorical
 spatstat.data::clmfires forest fires in Spain, size from cause. anova
 spatstat.data::gordon coordinates of people in Gordon Square London. spatial
 spatstat.data::waka spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall. multivariate,regression,multinomial logistic regression
