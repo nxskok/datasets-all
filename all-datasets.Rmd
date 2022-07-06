@@ -4,6 +4,12 @@ library(datasets.load)
 library(clipr)
 ```
 
+if it fails
+
+```{r}
+Sys.setenv("DISPLAY"=":0")
+```
+
 get the ones I already have
 
 ```{r}
@@ -40,6 +46,7 @@ d3 %>%
   str_c("?", .) -> d4
 d4
 ```
+
 
 ```{r}
 eval(parse(text = d4))

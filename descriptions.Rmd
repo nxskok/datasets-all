@@ -10,7 +10,8 @@ aplore3::burn1000 survival of patients after burns from features plus demographi
 aplore3::glow11m fracture from other risk factors. logistic regression
 aplore3::glow500 fracture from other risk factors. logistic regression
 aplore3::glow_mis_comp fracture in 1st year from covariates. logistic regression
-boot::aircondit7 times between failures of air-conditioning equipment on aircraft. bootstrap
+boot::aircondit times between failures of air-conditioning equipment on aircraft. bootstrap,one-sample
+boot::aircondit7 times between failures of air-conditioning equipment on aircraft. bootstrap,one-sample
 boot::beaver beaver body temperatures from time and activity. time series,two-sample
 boot::brambles location and age of bramble canes in a plot. spatial
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
@@ -88,6 +89,7 @@ faraway::esdcomp complaints about ER doctors. poisson regression
 faraway::gala number of plant species from geographic variables. regression
 faraway::gavote vote counts in georgia with demographics. regression
 faraway::infmort infant mortality on income and oil export. regression,two-sample,anova
+faraway::nepali information about children in Nepal and their families. graphs,dplyr,summaries
 faraway::odor odor from temperature, gas/liquid ratio, packing height (for household use product). 2-way anova
 faraway::ratdrink rat growth weights from water additives. repeated measures
 faraway::sat SAT scores from other school info by state. regression
