@@ -6,18 +6,15 @@ AER::USMacroB US macroecon data. regression,time series
 agridat::fisher.barley yield from variety and location (pool over year). anova-2-way
 agridat::goulden.eggs egg weights by day. graphs
 aplore3::aps mental health placement (use place3 as response). logistic regression
-aplore3::burn1000 survival of patients after burns from features plus demographics. logistic regression
-aplore3::glow11m fracture from other risk factors. logistic regression
-aplore3::glow500 fracture from other risk factors. logistic regression
-aplore3::glow_mis_comp fracture in 1st year from covariates. logistic regression
-boot::aircondit7 times between failures of air-conditioning equipment on aircraft. bootstrap
+aplore3::burn1000 survival of patients after burns from features on aircraft. bootstrap,one-sample
 boot::beaver beaver body temperatures from time and activity. time series,two-sample
 boot::brambles location and age of bramble canes in a plot. spatial
 boot::breslow coronary artery deaths in doctors from smoking and age. logistic regression
 boot::calcium calcium uptake from time. simple regression,bootstrap
 boot::capability process in equilibrium (mean 5.64). one-sample
 boot::gravity acceleration of gravity from different experiments. two-sample,anova,graphs
-boot::nodal stage of cancer (several ways) from age and acid (phosphatase). log-linear
+boot::nitrofen reproductive toxicity of nitrofen over time. repeated measures
+boot::nodal stage of cancer (several ways) from age and acid (phosphatase). log-linear,ordinal logistic regression
 bootstrap::cholost improvement of blood cholesterol from compliance. regression,simple regression
 bootstrap::hormone anti-inflammatory hormone remaining from hours of wear (and lot). regression,graphs
 bootstrap::law LSAT and gpa for 15 law schools. simple regression,correlation,bootstrap
@@ -88,6 +85,7 @@ faraway::esdcomp complaints about ER doctors. poisson regression
 faraway::gala number of plant species from geographic variables. regression
 faraway::gavote vote counts in georgia with demographics. regression
 faraway::infmort infant mortality on income and oil export. regression,two-sample,anova
+faraway::nepali information about children in Nepal and their families. graphs,dplyr,summaries
 faraway::odor odor from temperature, gas/liquid ratio, packing height (for household use product). 2-way anova
 faraway::ratdrink rat growth weights from water additives. repeated measures
 faraway::sat SAT scores from other school info by state. regression
@@ -129,9 +127,11 @@ irr::video credibility of 20 subjects rated by 4 raters. ordinal scale
 irr::vision categorized distance vision in left eye and right eye
 isdals::aids number of AIDS cases and deaths over time. graphs,two-sample,time series
 isdals::cornyield corn yield from variety and fertilizer. anova-2-way, ancova
+isdals::digestcoefs effect of NaOH treatment of straw on  digestibility. matched pairs
 isdals::hazard sorption of solvents by type. anova
 ISwR::energy energy expenditure in lean and obese women. two-sample
 ISwR::secretin blood glucose levels  by person and time. repeated measures
+ISwR::zelazo age at walking for four groups of infants. anova,mood median
 janeaustenr::northangerabbey text of Northanger Abbey. text analysis
 janeaustenr::prideprejudice complete text of Pride and Prejudice. text analysis
 kernlab::ticdata caravan (trailer) insurance policies with other insurance policies and demographics. logistic regression
@@ -149,8 +149,11 @@ Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
 Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,ancova
 Lock5Data::ExerciseHours amount of exercise and other variables for students. graphs,dplyr,two-sample,regression
 Lock5Data::Honeybee honeybee colonies by year. time series,two-sample
+Lock5Data::NFLContracts2015 contracts for NFL players (2015) - salary from player position, team. graphs,anova
+Lock5Data::OlympicMarathon2012 times for all finishers in 2012 olympic marathon. graphs,summaries,dplyr
 Lock5Data::OttawaSenators2019 Ottawa Senators 2018-19. graphs,one-sample,two-sample
 Lock5Data::PizzaGirl tips on pizza deliveries by shift. anova,mood median
+Lock5Data::Smiles effect of smiling on leniency of judgement panel. two-sample
 MLGdata::Neonati birth weights from duration of gestation and smoking. ancova,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. simple regression
@@ -204,8 +207,10 @@ openintro::email50 whether or not an email was spam, from predictors. logistic r
 openintro::gpa_study_hours gpa from study hours for students. simple regression,graphs
 openintro::healthcare_law_survey attitudes towards healthcare from order alternatives given. log-linear
 openintro::male_heights 100 male heights. one-sample
+openintro::pm25_2011_durham air quality measurements for Durham, NC. pca
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 openintro::simpsons_paradox_covid vaccination, age, and death from COVID. log-linear,simpson's paradox
+openintro::ucla_textbooks_f18 textbook prices at UCLA classified different ways. graphs,dplyr,two-sample,anova
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
 psych::Harman.Holzinger correlation matrix of ability tests. pca
@@ -218,6 +223,7 @@ Rlab::bread bread rising experiment, cupcake height from yeast and temperature. 
 robustbase::aircraft cost of aircraft from aspect ratio, lift to drag, weight, maximal thrust. regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
+rrcov::diabetes diabetes measurements plus classification into 3 groups. discriminant,cluster
 rrcov::rice overall evaluation of rice from subjective evaluations. multiple regression
 s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
