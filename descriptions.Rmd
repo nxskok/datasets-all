@@ -53,6 +53,7 @@ datasets::infert case control study of miscarriages and abortions. ?
 datasets::islands areas of the world's landmasses. graphs
 datasets::occupationalStatus occupational status of fathers and sons. log-linear
 datasets::quakes locations of earthquakes off Fiji. maps
+datasets::stackloss stack loss from air flow, temperature, acid conc. regression
 datasets::swiss fertility and socioeconomic indicators Switzerland 1888. regression,pca
 datasets::Theoph theophylline concentration over time. repeated measures
 datasets::UKDriverDeaths driver deaths by month before and after seatbelt law (or seatbelts). two-sample
@@ -148,12 +149,15 @@ locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
 Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,ancova
 Lock5Data::ExerciseHours amount of exercise and other variables for students. graphs,dplyr,two-sample,regression
+Lock5Data::HeightData heights of same 94 children over 18 years, male or female. repeated measures
 Lock5Data::Honeybee honeybee colonies by year. time series,two-sample
 Lock5Data::NFLContracts2015 contracts for NFL players (2015) - salary from player position, team. graphs,anova
 Lock5Data::OlympicMarathon2012 times for all finishers in 2012 olympic marathon. graphs,summaries,dplyr
 Lock5Data::OttawaSenators2019 Ottawa Senators 2018-19. graphs,one-sample,two-sample
 Lock5Data::PizzaGirl tips on pizza deliveries by shift. anova,mood median
+Lock5Data::SampCountries country information. pca,graphs,summaries,dplyr
 Lock5Data::Smiles effect of smiling on leniency of judgement panel. two-sample
+Lock5Data::ToenailArsenic arsenic in toenails of people using private wells in NH. one-sample
 MLGdata::Neonati birth weights from duration of gestation and smoking. ancova,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. simple regression
@@ -166,6 +170,7 @@ MASS::cement heat evolved from portland cement from % of four main chemical ingr
 MASS::chem copper in whole wheat flour, mean 3.68. one-sample
 MASS::crabs body measurements on 2 species of crabs. discriminant analysis,pca,cluster
 MASS::fgl type of glass from refractive index and chemical composition. multinomial logistic regression,manova,discrim
+MASS::GAGurine concentration of GAG in urine of children from age. regression
 MASS::gehan remission times of leukemia patients. survival
 MASS::gilgais soil properties in gilgai territory. pca,cluster
 MASS::housing satisfaction of householders from influence, contact and type of housing. ordered logistic,log-linear
@@ -202,6 +207,7 @@ nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer 
 nlme::Relaxin assay concentration and response. regression,lme4
 NSM3::motivational.effect output of workers in repetitive industrial task from amount of information given about task. mood median
 NSM3::mucociliary mucociliary efficiency of subjects with normal, obstructive airways, asbestosis. anova,mood median
+openintro::classdata students from three different lectures who were given the same midterm. anova
 openintro::duke_forest selling price of houses in Duke Forest, NC from number of bedrooms, bathrooms, total area, year built, heating and cooling systems. multiple regression
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::gpa_study_hours gpa from study hours for students. simple regression,graphs
@@ -221,6 +227,8 @@ resampledata::Alelager alcohol and calories for various types of ale or lager. g
 Rfit::serumLH serum levels of lutenizing hormone from light regime ond lutenizing release factor. anova-2-way
 Rlab::bread bread rising experiment, cupcake height from yeast and temperature. anova-2-way
 robustbase::aircraft cost of aircraft from aspect ratio, lift to drag, weight, maximal thrust. regression
+robustbase::cloud point from I8. regression
+robustbase::CrohnD number of adverse events in Crohn disease from others. poisson regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
 rrcov::diabetes diabetes measurements plus classification into 3 groups. discriminant,cluster
