@@ -40,6 +40,7 @@ carData::WeightLoss weight loss and self esteem at different times from treatmen
 carData::Wong IQ after coma of varying duration. simple regression
 carData::Wool strength of wool samples from others. anova,3-way anova
 CatDataAnalysis::table_10.1 alcohol, cigarette, marijuana use by gender and race. log-linear
+cherryblossom::run12 run time and place from age gender location state. dplyr,graphs,summaries
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
 cluster::animals binary attributes for animals. cluster
 cluster.datasets::sample.mammals.milk.1956 constituents of milk for different animals. cluster, k-means
@@ -77,6 +78,7 @@ faraway::babyfood number with respiratory disease from feeding method. grouped l
 faraway::beetle beetles exposed to fumigant. grouped logistic regression
 faraway::broccoli weight of broccoli from grower and box within grower. anova
 faraway::cheddar taste of Australian cheddar cheese from chemicals. regression
+faraway::choccake breaking angle of chocolate cake from recipe and bake temperature. two-way anova
 faraway::coagulation blood coagulation time by diet. anova
 faraway::composite bond strength of thermoplastic composite from power of laser and speed of tape. two way anova
 faraway::death death penalty from race of victim and defendant, y is count. log-linear
@@ -115,7 +117,7 @@ gpk::Asthma4 paw edema in rats over time on different treatments. repeated measu
 gpk::BANK bank churn from many other things. logistic regression,log-linear
 gstat::wind Ireland wind data for 12 stations, average daily wind speed. two-sample, anova 
 heplots::NeuroCog several measures of neurocognition from diagnostic group. manova,discrim
-HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample
+HistData::ChestStigler chest measurements of Scottish militiamen. one variable with counts. one-sample,normal quantile
 HistData::Cholera cholera death rates by district of London in 1849. regression,anova
 HistData::CushnyPeeblesN sleep from hydrobromides, should be weighted. matched pairs
 HistData::EdgeworthDeaths death rates in English counties, by year also. anova,randomized block
@@ -147,6 +149,8 @@ lme4::grouseticks number of ticks observed on grouse chicks from height above se
 lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
+Lock5Data::ColaCalcium calcium excreted from cola or water. two-sample
+Lock5Data::CommuteAtlanta commute distance and time from age and sex for commuters in Atlanta
 Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,ancova
 Lock5Data::ExerciseHours amount of exercise and other variables for students. graphs,dplyr,two-sample,regression
 Lock5Data::HeightData heights of same 94 children over 18 years, male or female. repeated measures
@@ -232,7 +236,9 @@ robustbase::CrohnD number of adverse events in Crohn disease from others. poisso
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
 rrcov::diabetes diabetes measurements plus classification into 3 groups. discriminant,cluster
+rrcov::hemophilia AHF activity and antigen from normal or carrier. two-sample,discriminant,manova
 rrcov::rice overall evaluation of rice from subjective evaluations. multiple regression
+rrcov::salmon growth rings on salmon in freshwater and marine from gender and origin. manova,discriminant
 s2::s2_data_tbl_timezones country and timezone boundaries
 sampling::swissmunicipalities info about Swiss municipalities. sampling,regression,dplyr
 SenSrivastava::E2.8 per capita output of workers in China from factory size and investments per worker. multiple regression
@@ -267,6 +273,7 @@ UsingR::diamond diamond price and sizes in Singapore. simple regression, simple 
 vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
 vcd::Punishment attitudes towards corporal punishment of children. log-linear
 vcd::UKSoccer goals scored by home and away teams in England soccer league. simple regression,graphs
+vcd::Trucks frequency of collisions involving trucks from before/after 1971-11-01, other things. two-sample
 vcdExtra::Abortion support for abortion from sex and ses. log-linear
 vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
 vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
