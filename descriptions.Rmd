@@ -44,7 +44,9 @@ CatDataAnalysis::table_10.1 alcohol, cigarette, marijuana use by gender and race
 cherryblossom::run12 run time and place from age gender location state. dplyr,graphs,summaries
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
 cluster::animals binary attributes for animals. cluster
+cluster.datasets::ct.president.vote.1920.1964 votes in elections in Connecticut. tidying,cluster
 cluster.datasets::sample.mammals.milk.1956 constituents of milk for different animals. cluster, k-means
+cluster.datasets::us.car.repair.1969 frequency of car repairs. cluster
 DAAG::cerealsugar sugar content in frosted flakes. one-sample
 datasets::beaver2 body temperature of beaver every 10 minutes plus measure of activity. simple regression,time series
 datasets::cars speed and stopping distance of cars (in 1920s). graphs,regression
@@ -143,6 +145,7 @@ KMsurv::allograft time to graft rejection from good HLA skin match. survival
 KMsurv::azt time to death from age at entry into study. survival
 KMsurv::drughiv time to CD4 count reaching target level. survival
 KMsurv::pneumon age child had pneumonia (and was hospitalized) from other risk factors. survival
+KMsurv::psych survival times from something. survival
 ks::air air quality measurements in a subway station (several different measurements at the same time). manova,pca
 ks::worldbank development indicators by country. pca
 lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
@@ -163,6 +166,7 @@ Lock5Data::PizzaGirl tips on pizza deliveries by shift. anova,mood median
 Lock5Data::SampCountries country information. pca,graphs,summaries,dplyr
 Lock5Data::Smiles effect of smiling on leniency of judgement panel. two-sample
 Lock5Data::ToenailArsenic arsenic in toenails of people using private wells in NH. one-sample
+Lock5Data::USStates2e data about US states. dplyr,graphs
 MLGdata::Neonati birth weights from duration of gestation and smoking. ancova,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. simple regression
@@ -219,6 +223,7 @@ openintro::gpa_study_hours gpa from study hours for students. simple regression,
 openintro::healthcare_law_survey attitudes towards healthcare from order alternatives given. log-linear
 openintro::male_heights 100 male heights. one-sample
 openintro::pm25_2011_durham air quality measurements for Durham, NC. pca
+openintro::race_justice survey of equal treatment by race, by race. summaries,graphs
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 openintro::simpsons_paradox_covid vaccination, age, and death from COVID. log-linear,simpson's paradox
 openintro::ucla_textbooks_f18 textbook prices at UCLA classified different ways. graphs,dplyr,two-sample,anova
