@@ -150,6 +150,7 @@ ks::worldbank development indicators by country. pca
 lattice::USRegionalMortality US regional mortality rates from different causes. regression,dplyr
 lme4::grouseticks number of ticks observed on grouse chicks from height above sea level etc.poisson regression,graphs
 lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
+lmtest::wages wages from consumer price index, unemployment, min wage. multiple regression
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
 Lock5Data::ColaCalcium calcium excreted from cola or water. two-sample
@@ -158,6 +159,7 @@ Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,a
 Lock5Data::ExerciseHours amount of exercise and other variables for students. graphs,dplyr,two-sample,regression
 Lock5Data::HeightData heights of same 94 children over 18 years, male or female. repeated measures
 Lock5Data::Honeybee honeybee colonies by year. time series,two-sample
+Lock5Data::Hurricanes2014 number of hurricanes making landfall on US east coast by year. graphs
 Lock5Data::NFLContracts2015 contracts for NFL players (2015) - salary from player position, team. graphs,anova
 Lock5Data::OlympicMarathon2012 times for all finishers in 2012 olympic marathon. graphs,summaries,dplyr
 Lock5Data::OttawaSenators2019 Ottawa Senators 2018-19. graphs,one-sample,two-sample
@@ -218,6 +220,7 @@ NSM3::mucociliary mucociliary efficiency of subjects with normal, obstructive ai
 openintro::classdata students from three different lectures who were given the same midterm. anova
 openintro::duke_forest selling price of houses in Duke Forest, NC from number of bedrooms, bathrooms, total area, year built, heating and cooling systems. multiple regression
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
+openintro::fact_opinion how many factual and opinion statements classified correctly by age group. summary,graphs,anova
 openintro::gpa_study_hours gpa from study hours for students. simple regression,graphs
 openintro::healthcare_law_survey attitudes towards healthcare from order alternatives given. log-linear
 openintro::male_heights 100 male heights. one-sample
@@ -277,6 +280,7 @@ tseries::tcm3yd (tcmd) three year yields on treasury securities. time series
 UsingR::diamond diamond price and sizes in Singapore. simple regression, simple regression
 vcd::JobSatisfaction worker's, employer's job satisfaction and category of management. log-linear
 vcd::Punishment attitudes towards corporal punishment of children. log-linear
+vcd::Suicide suicide rates in Germany by sex, method, age, age group. summary,graphs
 vcd::UKSoccer goals scored by home and away teams in England soccer league. simple regression,graphs
 vcd::Trucks frequency of collisions involving trucks from before/after 1971-11-01, other things. two-sample
 vcdExtra::Abortion support for abortion from sex and ses. log-linear
