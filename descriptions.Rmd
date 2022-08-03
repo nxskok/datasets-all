@@ -22,7 +22,6 @@ bootstrap::spatial two tests of spatial perception. matched pairs
 bootstrap::stamp thickness of stamps, possibly printed on different types of paper. one-sample,graphs
 BSDA::Monoxide carbon monoxide emitted by smoke stacks of two manufacturers. two-sample, mood median
 BSDA::Music improvement scores on a music recognition test taught by two methods, one on each of pairs of identical twins. matched pairs
-BSDA::Repair time to repair a wrecked car (hours). one-sample
 ca::wg93 attitudes towards science (ordinal) with demographics. ordinal logistic regression
 carData::Angell Moral integration of American cities, crime rate/welfare from others. multiple regression,dplyr
 carData::Anscombe US education expenditure by state. simple regression,anova
@@ -103,7 +102,7 @@ faraway::troutegg number of surviving eggs out of those in box as fn of location
 faraway::twins iq of identical twins raised apart, by bio and foster parents, with social class of bio parents. matched pairs,anova
 faraway::wheat insect damage to wheat by variety. anova
 fda::seabird number of sightings of bird species by year at different sites. dplyr
-fds::SAelectdemand Electricity dvcdExtra::Accidentemand in Adelaide. time series
+fds::SAelectdemand Electricity demand in Adelaide. time series
 fds::tastotal Tasmania total mortality rates. time series
 fields::CO.ppt.MAM.climate (COmonthlyMet) elevation, temperature, precipitation for weather stations in Colorado. regression,anova
 fields::RMelevation precipitation for stations in Rockies, with long-lat and elevation. maps
@@ -177,7 +176,7 @@ MASS::Boston median value of owner-occupied homes  from other variables. regress
 MASS::Cars93 cars on sale in 1993, 27 variables of different types. regression,anova,graphs
 MASS::cement heat evolved from portland cement from % of four main chemical ingredients. regression
 MASS::chem copper in whole wheat flour, mean 3.68. one-sample
-MASS::crabs body measurements on 2 species of crabs. discriminant analysis,pca,cluster,manova
+MASS::crabs body measurements on 2 species of crabs. discriminant analysis,pca,cluster
 MASS::fgl type of glass from refractive index and chemical composition. multinomial logistic regression,manova,discrim
 MASS::GAGurine concentration of GAG in urine of children from age. regression
 MASS::gehan remission times of leukemia patients. survival
@@ -207,12 +206,12 @@ nlme::Cefamandole concentration of C at different times in different subjects. r
 nlme::ergoStool effort in rising from stool from stool type. repeated measures, mixed model
 nlme::Gun rounds per minute of gun firing. anova
 nlme::Machines productivity score from worker and machine. repeated measures,manova
-nlme::MathAchieve scores on math test by ses, sex but clustered by schools. sampling,dplyr
+nlme::MathAchieve scores on math test by ses, sex but clustered by schools. sampling,manova,dplyr
 nlme::MathAchieve math achivement scores by student (clustered within schools). regression,sampling
 nlme::MathAchSchool school level demographics to accompany MathAchieve. regression,sampling
 nlme::Orthodont skull measurements over time for different subjects from sex. repeated measures
 nlme::Oxboys heights of boys at different times. repeated measures
-nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer within lot, site. anova
+nlme::Oxide thickness of oxide %layer in semiconductors from source, lot, wafer within lot, site. anova,manova,repeated measures
 nlme::Relaxin assay concentration and response. regression,lme4
 NSM3::motivational.effect output of workers in repetitive industrial task from amount of information given about task. mood median
 NSM3::mucociliary mucociliary efficiency of subjects with normal, obstructive airways, asbestosis. anova,mood median
@@ -241,7 +240,7 @@ robustbase::cloud point from I8. regression
 robustbase::CrohnD number of adverse events in Crohn disease from others. poisson regression
 robustbase::delivery delivery times from number of products and distance. regression
 rpart.plot::ptitanic titanic data (detailed), survival from other things. logistic regression
-rrcov::diabetes diabetes measurements plus classification into 3 groups. discriminant,cluster,manova
+rrcov::diabetes diabetes measurements plus classification into 3 groups. discriminant,cluster
 rrcov::hemophilia AHF activity and antigen from normal or carrier. two-sample,discriminant,manova
 rrcov::rice overall evaluation of rice from subjective evaluations. multiple regression
 rrcov::salmon growth rings on salmon in freshwater and marine from gender and origin. manova,discriminant
@@ -280,7 +279,6 @@ vcd::JobSatisfaction worker's, employer's job satisfaction and category of manag
 vcd::Punishment attitudes towards corporal punishment of children. log-linear
 vcd::UKSoccer goals scored by home and away teams in England soccer league. simple regression,graphs
 vcd::Trucks frequency of collisions involving trucks from before/after 1971-11-01, other things. two-sample
-vcdExtra::Accident traffic accident victimes in France classified by age, "result", mode, gender. log-linear,logistic regression
 vcdExtra::Abortion support for abortion from sex and ses. log-linear
 vcdExtra::Heart classification of individuals by gender, occupation, heart disease. log-linear
 vcdExtra::Heckman labour force participation of married women, longitudinal. log-linear
