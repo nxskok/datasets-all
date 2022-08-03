@@ -153,12 +153,14 @@ lme4::grouseticks number of ticks observed on grouse chicks from height above se
 lmerTest::carrots consumer preference of carrots with demographics. regression,pca,ordinal logistic regression,log-linear
 locfit::co2 carbon dioxide at Mauna Loa, HI. time series,two-sample
 Lock5Data::BikeCommute commute times on bikes of two different types. two-sample
+Lock5Data::CocaineTreatment relapse or not from drug treatment. logistic regression,chi-squared,log-linear
 Lock5Data::ColaCalcium calcium excreted from cola or water. two-sample
 Lock5Data::CommuteAtlanta commute distance and time from age and sex for commuters in Atlanta
 Lock5Data::DrugResistance days infectious (with malaria) from treatment. anova,ancova
 Lock5Data::ExerciseHours amount of exercise and other variables for students. graphs,dplyr,two-sample,regression
 Lock5Data::HeightData heights of same 94 children over 18 years, male or female. repeated measures
 Lock5Data::Honeybee honeybee colonies by year. time series,two-sample
+Lock5Data::LifeExpectancyVehicles2e life expectancy from number of vehicles and year. multiple regression
 Lock5Data::NFLContracts2015 contracts for NFL players (2015) - salary from player position, team. graphs,anova
 Lock5Data::OlympicMarathon2012 times for all finishers in 2012 olympic marathon. graphs,summaries,dplyr
 Lock5Data::OttawaSenators2019 Ottawa Senators 2018-19. graphs,one-sample,two-sample
@@ -203,6 +205,8 @@ MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test.
 mitools::pisamaths scores in PISA math test with student and school info. sampling,dplyr
 modelr::heights income from height, weight etc. regression,graphs,dplyr 
 mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
+multcomp::waste industrial waste from temperature and environment. two-way anova
+msme::rwm5yr number of visits to doctor from health and demographic variables. multiple regression
 nlme::Cefamandole concentration of C at different times in different subjects. repeated measures,graphs
 nlme::ergoStool effort in rising from stool from stool type. repeated measures, mixed model
 nlme::Gun rounds per minute of gun firing. anova
@@ -253,8 +257,10 @@ SenSrivastava::E4.13 hospital charge from sex doctor severity age. regression wi
 shapes::gorm.dat male gorilla skull data, 8 landmarks in 2D. shape analysis
 Sleuth2::case1401 chimp learning times for words in sign language from chimp and sign. 2-way anova, randomized block
 Sleuth2::case1502 average northern hemisphere annual temperature from years. graphs,time series
+Sleuth2::case1602 cholesterol from diet (crossover trial). matched pairs
 Sleuth2::ex1919 number of fatal accidents in suvs by speed, make, cause. log-linear
 Sleuth3::ex0432 episodes of vomiting from marijuana or placebo treatment. matched pairs
+Sleuth3::ex0722 closing strength of crab claw from height and species. regression with categorical, ancova
 Sleuth3::ex1420 weight losses from diet, sex, age, and bmi. ancova,regression with categorical
 spatstat.data::clmfires forest fires in Spain, size from cause. anova
 spatstat.data::gordon coordinates of people in Gordon Square London. spatial
