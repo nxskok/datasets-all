@@ -29,10 +29,9 @@ d <- datasets()
 select random rows of d, not including the ones I already got
 
 ```{r}
-d %>%
-  dplyr::filter(str_detect(Package, "cluster")) %>% 
+d %>% 
   slice_sample(n = 10) %>% 
-unite(ds, Package, Item, sep = "::") %>% 
+  unite(ds, Package, Item, sep = "::") %>%
   anti_join(desc, by = c("ds"="dataset")) -> d2
 ```
 
@@ -42,7 +41,8 @@ get help
 d2 %>% 
   slice(1) %>% 
   pull(ds) -> d3
-write_clip(d3)
+# write_clip(d3)
+d3
 d3 %>% 
   str_c("?", .) -> d4
 d4
