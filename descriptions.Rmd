@@ -29,6 +29,7 @@ carData::CanPop Canadian population over time. time series,regression
 carData::Davis measured and reported heights and weights for males and females (engaged in regular exercise). one-sample
 carData::Florida votes for presidential candidate by county. graphs
 carData::Greene refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things. logistic regression
+carData::Guyer number of cooperative choices in Prisoner's Dilemma out of 120 from experimental condition and sex
 carData::MplsDemo Minneapolis demographic data, eg household income median from others. multiple regression
 carData::Moore conformity vs partner of low or high status. logistic regression
 carData::Mroz married women's labour force participation from age, children, education. logistic regression
@@ -116,6 +117,7 @@ fpp2::oil oil production in Saudi Arabia by year. time series
 geoR::isaaks toy geostats example for kriging. geostatistics
 GGally::pigs UK pig production by year & quarter. time series,regression
 ggbiplot::wine chemical constituents of wines of three different cultivars. manova,discrim
+ggplot2::midwest demographics of counties in US midwest. graphs,dplyr
 ggridges::lincoln_weather weather in Lincoln, NE in 2016. pca
 GLMsData::setting heat evolved from cement from pct by weight of different chemicals. regression
 gpk::Asthma4 paw edema in rats over time on different treatments. repeated measures
@@ -229,9 +231,11 @@ openintro::classdata students from three different lectures who were given the s
 openintro::duke_forest selling price of houses in Duke Forest, NC from number of bedrooms, bathrooms, total area, year built, heating and cooling systems. multiple regression
 openintro::email50 whether or not an email was spam, from predictors. logistic regression
 openintro::fact_opinion how many factual and opinion statements classified correctly by age group. summary,graphs,anova
+openintro::elmhurst gift aid to a college from family income. simple regression,graphs
 openintro::gpa_study_hours gpa from study hours for students. simple regression,graphs
 openintro::healthcare_law_survey attitudes towards healthcare from order alternatives given. log-linear
 openintro::male_heights 100 male heights. one-sample
+openintro::migraine whether or not pain-free after acupuncture for migraine from real or sham acupuncture. chi-squared
 openintro::pm25_2011_durham air quality measurements for Durham, NC. pca
 openintro::race_justice survey of equal treatment by race, by race. summaries,graphs
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
@@ -284,6 +288,7 @@ survival::udca trial of UDCA in patients with cirrhosis; Multiple endpoints (cho
 survMisc::gastric time to death with gastric cancer, two treatments. survival
 TeachingDemos::ccc (gps) gps data. maps
 TeachingDemos::steps total steps recorded, calories, fat burned. multiple regression,graphs,dplyr
+tidyr::table1 tuberculosis cases for country, year, cases, population. tidying
 tidyr::table5 tuberculosis cases for country, year, cases, population. tidying
 tseries::GNP (USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds. time series,graphs
 tseries::tcm3yd (tcmd) three year yields on treasury securities. time series
