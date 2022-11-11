@@ -173,7 +173,6 @@ Lock5Data::SampCountries country information. pca,graphs,summaries,dplyr
 Lock5Data::Smiles effect of smiling on leniency of judgement panel. two-sample
 Lock5Data::ToenailArsenic arsenic in toenails of people using private wells in NH. one-sample
 Lock5Data::USStates2e data about US states. dplyr,graphs
-Lock5Data::WaterStriders mating activity of water striders from presence of aggressive males and % females in hiding. regression with categorical, ancova
 MLGdata::Neonati birth weights from duration of gestation and smoking. ancova,two-sample
 maps::ozone daily maxima ozone conc in 41 us cities by day. time series,graphs
 maps::unemp unemployment percent and populations for US counties. simple regression
@@ -210,6 +209,7 @@ MindOnStats::SATS98 Verbal and math SAT scores by state, from pct who took test.
 mitools::pisamaths scores in PISA math test with student and school info. sampling,dplyr
 modelr::heights income from height, weight etc. regression,graphs,dplyr 
 mosaicData::Marriage marriage records in Alabama. graphs,summaries,dplyr
+msos::crabs measurements on crabs by species and sex
 multcomp::waste industrial waste from temperature and environment. two-way anova
 msme::rwm5yr number of visits to doctor from health and demographic variables. multiple regression
 nlme::Cefamandole concentration of C at different times in different subjects. repeated measures,graphs
@@ -236,7 +236,6 @@ openintro::pm25_2011_durham air quality measurements for Durham, NC. pca
 openintro::race_justice survey of equal treatment by race, by race. summaries,graphs
 openintro::seattlepets names and info about pets in Seattle WA. summaries,graphs,dplyr
 openintro::simpsons_paradox_covid vaccination, age, and death from COVID. log-linear,simpson's paradox
-openintro::student_housing (simulated) housing prices of students at a college. one-sample
 openintro::ucla_textbooks_f18 textbook prices at UCLA classified different ways. graphs,dplyr,two-sample,anova
 PairedData::Iron percent iron found in compounds measured 2 different ways. matched pairs,also see help
 PairedData::PrisonStress stress measurements before and after training, sport vs control. matched pairs,two-sample
