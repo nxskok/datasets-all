@@ -13,12 +13,9 @@ clipr_available()
 get the ones I already have
 
 ```{r}
-desc0 <- readLines("descriptions.Rmd")
-desc0 %>% as_tibble() %>% 
-  extract(value, into = c("dataset", "description", "technique"), 
-          regex = "^([^ ]*) (.*)\\. (.*)$") -> desc
-desc
+desc <- read_csv("descriptions.csv")
 ```
+
 
 
 get all datasets
