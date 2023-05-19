@@ -320,3 +320,28 @@ KMsurv::larynx,larynx cancer survival from age at and year of diagnosis,survival
 HH::display,response times by air traffic controllers to one of three displays and one of four types of (simulated) emergencies,2-way anova
 mice::tbc.target,adult overweight from young adult BMI z-score,logistic regression
 MLGdata::Infant,"whether or not an infant survived from length of gestation, age of mother and mother smoking",log-linear
+Lock5Data::NFLScores2011,NFL game scores 2011,"graphs,summaries,dplyr"
+BSDA::Haptoglo,haptoglobin concentrations (null mean 2?),one-sample
+Devore7::ex11.08,body mass loss after exercising on a bicycle in different temperatures,anova
+Devore7::ex06.01,flexural strength of concrete beams,one-sample
+isdals::stearicacid,digestibility levels of fat for various levels of stearic acid,simple regression
+HSAUR3::agefat,body fat percent from age and gender,ancova
+PairedData::GrapeFruit,percent of solids in shaded and exposed halves of grapefruit,matched pairs
+vcd::BrokenMarriage,whether or not a marriage was broken depending on social rank and gender,log-linear
+Sleuth3::ex0428,heights of plants grown from seed from cross-fertilized or self-fertilized flower,matched pairs
+cluster.datasets::leukemia.youth.mortality.1956.1967,mortality rates from leukemia among children for different countries and years,cluster (k-means)
+faraway::fortune,billionaires’ wealth and age with region of world,ancova
+Rlab::airplane,distances flown by paper airplanes from treatment (weighting on nose),anova
+isdals::interspike,intervals between spontaneous firings from a neuron,sign test
+HH::pox,carbon monoxide transfer in smokers at admission to hospital and a week later,matched pairs
+Devore7::xmp07.11,modulus of elasticity of Scotch Pine specimens,one-sample
+mistat::DOJO1935,Dow Jones index for 1935,time series
+BSDA::Chesapea,"surface salinity off Annapolis, Maryland",one-sample
+Stat2Data::MentalHealth,emergency room admissions at mental health hospital from phase of moon,anova
+BSDA::Apolipop,apolipoprotein B from cups of coffee,simple regression
+HSAUR3::USairpollution,air pollution (SO2) from other environmental variables,multiple regression
+Devore7::ex01.15,taste scores for creamy and crunchy peanut butter,two-sample
+faraway::mammalsleep,sleep time in mammals from other things,multiple regression
+Sleuth3::case1801,heart disease and obesity in American Samoa,log-linear
+HH::filmcoat,film coat thickness from temperature and pressure,2-way anova
+regtools::falldetection,fall detection in elderly from physiologicals,multiple regression
