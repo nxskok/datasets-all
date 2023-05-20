@@ -345,3 +345,10 @@ faraway::mammalsleep,sleep time in mammals from other things,multiple regression
 Sleuth3::case1801,heart disease and obesity in American Samoa,log-linear
 HH::filmcoat,film coat thickness from temperature and pressure,2-way anova
 regtools::falldetection,fall detection in elderly from physiologicals,multiple regression
+Sleuth3::ex2019,missile detection testing success/failure vs time,logistic regression
+datasets::ChickWeight,chicken weights by feed type,"Ancova,repeated measures"
+BSDA::Spouse,convictions in spouse murder cases by gender,log-linear
+AER::HealthInsurance,having health insurance from other things (original: self-employment),logistic regression
+MASS::cats,cat heart weight from body weight and sex,ancova
+nlme::BodyWeight,rat body weight over time on different diets,repeated measures
+Devore7::ex10.06,iron content for four types of iron formation,anova
