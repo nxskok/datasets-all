@@ -352,3 +352,23 @@ AER::HealthInsurance,having health insurance from other things (original: self-e
 MASS::cats,cat heart weight from body weight and sex,ancova
 nlme::BodyWeight,rat body weight over time on different diets,repeated measures
 Devore7::ex10.06,iron content for four types of iron formation,anova
+Devore7::ex09.41,time to insert a probe into 10 needles from low light level (black background) and high light level (white background),matched pairs
+DAAG::hills2000,"record time to run up a hill, from distance and height gained in climb",multiple regression
+MASS::deaths,monthly deaths from lung diseases in UK,time series
+agridat::tai.potato,potato tuber yield from genotype and location,2-way anova
+MASS::geyser,duration of eruption from waiting time for it,simple regression
+MASS::farms,"farms on Dutch island of Terschelling, several categorical and quantitative-ish variables","manova,discrim"
+Devore7::xmp16.01,viscosity of motor oil,"One-sample,time series,quality control"
+BSDA::Orioles,salaries of Baltimore Orioles baseball team,one-sample
+datasets::uspop,US population by census year,"time series,simple regression"
+Devore7::xmp04.31,lifetimes of power apparatus insulation when thermal and electrical stress fixed,"normal quantile,weibull quantile"
+Lock5Data::CollegeScores,US university and college information,"graphs,dplyr,discrim,pca"
+BSDA::Concrete,compressive strength of concrete blocks from method,two-sample
+psych::Thurstone.9,9x9 correlation matrix of ability tests,factor analysis
+Lock5Data::SkateboardPrices,prices of skateboards on ebay in Feb 2012,one-sample
+Stat2Data::Sparrows,weight and wing length for Savannah sparrows from nest treatment,"anova,manova,discrim"
+Devore7::ex14.31,size of car and commuting distance (categorized),"Chi-squared,log-linear"
+Devore7::ex09.12,compressive strength of concrete blocks from method (generate data) from age,Two-sample
+Devore7::ex06.03,coating thickness in low-viscosity paint,one-sample
+Stat2Data::CreditRisk,overdrawn checking account from other variables,logistic regression
+Lock5Data::SleepStudy,study of sleep patterns for college students,"graphs,dplyr,discrim,pca"
