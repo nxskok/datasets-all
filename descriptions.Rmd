@@ -44,7 +44,6 @@ CatDataAnalysis::table_10.1 alcohol, cigarette, marijuana use by gender and race
 cherryblossom::run12 run time and place from age gender location state. dplyr,graphs,summaries
 cluster::agriculture percent per capita GNP and percent in agriculture, by country. regression
 cluster::animals binary attributes for animals. cluster
-cluster::pluton percent of plutonium of different isotopes. k-means
 cluster.datasets::ct.president.vote.1920.1964 votes in elections in Connecticut. tidying,cluster
 cluster.datasets::mutation.distances.1967 mutation distances between species. cluster
 cluster.datasets::sample.mammals.milk.1956 constituents of milk for different animals. cluster, k-means
