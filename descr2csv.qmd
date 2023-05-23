@@ -1,0 +1,28 @@
+---
+title: "descr2csv"
+format: html
+---
+
+Turn package descriptions into csv file
+
+packages
+
+```{r}
+library(tidyverse)
+```
+
+read and process descriptions
+
+```{r}
+desc0 <- readLines("descriptions.Rmd")
+desc0 %>% as_tibble() %>% 
+  extract(value, into = c("dataset", "description", "technique"), 
+          regex = "^([^ ]*) (.*)\\. (.*)$") -> desc
+desc
+```
+
+```{r}
+write_csv(desc, "descriptions.csv")
+
+```
+

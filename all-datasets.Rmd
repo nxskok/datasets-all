@@ -6,18 +6,16 @@ library(clipr)
 
 ```{r}
 Sys.setenv(DISPLAY=":0")
+clipr_available()
 ```
 
 
 get the ones I already have
 
 ```{r}
-desc0 <- readLines("descriptions.Rmd")
-desc0 %>% as_tibble() %>% 
-  extract(value, into = c("dataset", "description", "technique"), 
-          regex = "^([^ ]*) (.*)\\. (.*)$") -> desc
-desc
+desc <- read_csv("descriptions.csv")
 ```
+
 
 
 get all datasets
@@ -29,20 +27,22 @@ d <- datasets()
 select random rows of d, not including the ones I already got
 
 ```{r}
-d %>% 
-  slice_sample(n = 10) %>% 
-  unite(ds, Package, Item, sep = "::") %>%
+d %>%
+  # dplyr::filter(str_detect(Package, "cluster")) %>% 
+  slice_sample(n = 1000) %>% 
+  unite(ds, Package, Item, sep = "::") %>% 
   anti_join(desc, by = c("ds"="dataset")) -> d2
 ```
 
-get help
+
+
+get help file
 
 ```{r}
 d2 %>% 
-  slice(1) %>% 
+  slice_sample(n = 1) %>% 
   pull(ds) -> d3
-# write_clip(d3)
-d3
+write_clip(d3)
 d3 %>% 
   str_c("?", .) -> d4
 d4
