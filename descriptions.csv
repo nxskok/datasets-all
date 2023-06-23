@@ -3,11 +3,13 @@ ACSWR::hearing,intensity of given frequency required to be heard for 39-yo males
 ACSWR::nerve,waiting times for successive pulses along a nerve fibre,"graphs,one-sample"
 AER::BankWages,"US bank employee wages from job, education, gender, race",multiple regression
 AER::CASchools,test performance from school and student backgrounds in California,multiple regression
+AER::ResumeNames,employer callbacks from resume information,"logistic regression, log-linear"
 AER::USMacroB,US macroecon data,"regression,time series"
 agridat::fisher.barley,yield from variety and location (pool over year),anova-2-way
 agridat::goulden.eggs,egg weights by day,graphs
 aplore3::aps,mental health placement (use place3 as response),logistic regression
 aplore3::burn1000,survival of patients after burns from features on aircraft,"bootstrap,one-sample"
+BaM::baldus, study of death sentences in Georgia,logistic regression
 boot::beaver,beaver body temperatures from time and activity,"time series,two-sample"
 boot::brambles,location and age of bramble canes in a plot,spatial
 boot::breslow,coronary artery deaths in doctors from smoking and age,logistic regression
@@ -30,7 +32,6 @@ carData::CanPop,Canadian population over time,"time series,regression"
 carData::Davis,measured and reported heights and weights for males and females (engaged in regular exercise),one-sample
 carData::Florida,votes for presidential candidate by county,graphs
 carData::Greene,refugee appeals (Canada) where claim initially rejected; Judge's decision ~ other things,logistic regression
-NA,NA,NA
 carData::MplsDemo,"Minneapolis demographic data, eg household income median from others",multiple regression
 carData::Moore,conformity vs partner of low or high status,logistic regression
 carData::Mroz,"married women's labour force participation from age, children, education",logistic regression
@@ -69,6 +70,7 @@ datasets::UKgas,UK consumption of natural gas,time series
 dendextend::khan,gene expression profiles,?
 Devore7::ex01.36,offshore oil workers escape times,one-sample
 Devore7::ex06.15,10 observations from a Rayleigh distribution,one-sample
+Devore7::ex09.41,time to thread needle against low light black background or high light white background,matched pairs
 Devore7::ex09.90,paired study of whether or not ergotamine and control are effective against migraine headaches,mcnemar test
 NA,NA,NA
 Devore7::ex14.23,data on 7-day flexural strength of nonbloated burned clay aggregate concrete samples,"one-sample,normal quantile"
@@ -120,9 +122,11 @@ GGally::pigs,UK pig production by year & quarter,"time series,regression"
 ggbiplot::wine,chemical constituents of wines of three different cultivars,"manova,discrim"
 ggplot2::midwest,demographics of counties in US midwest,"graphs,dplyr"
 ggridges::lincoln_weather,"weather in Lincoln, NE in 2016",pca
+GLMsData::serum, number of mice surviving different doses of antipneumococcus serum,logistic regression
 GLMsData::setting,heat evolved from cement from pct by weight of different chemicals,regression
 gpk::Asthma4,paw edema in rats over time on different treatments,repeated measures
 gpk::BANK,bank churn from many other things,"logistic regression,log-linear"
+grdata::hydro,total water stored by date,dates
 gstat::wind,"Ireland wind data for 12 stations, average daily wind speed","two-sample, anova "
 heplots::NeuroCog,several measures of neurocognition from diagnostic group,"manova,discrim"
 HistData::ChestStigler,chest measurements of Scottish militiamen. one variable with counts,"one-sample,normal quantile"
@@ -153,6 +157,7 @@ KMsurv::pneumon,age child had pneumonia (and was hospitalized) from other risk f
 KMsurv::psych,survival times from something,survival
 ks::air,air quality measurements in a subway station (several different measurements at the same time),"manova,pca"
 ks::worldbank,development indicators by country,pca
+lattice::H_environmental,ozone from solar radiation temperateure wind,multiple regression
 lattice::USRegionalMortality,US regional mortality rates from different causes,"regression,dplyr"
 NA,NA,NA
 lmerTest::carrots,consumer preference of carrots with demographics,"regression,pca,ordinal logistic regression,log-linear"
@@ -165,6 +170,7 @@ NA,NA,NA
 Lock5Data::DrugResistance,days infectious (with malaria) from treatment,"anova,ancova"
 Lock5Data::ExerciseHours,amount of exercise and other variables for students,"graphs,dplyr,two-sample,regression"
 Lock5Data::HeightData,"heights of same 94 children over 18 years, male or female",repeated measures
+Lock5Data::HockeyPenalties2011, penalty minutes per game by hockey team,"graphs,anova"
 Lock5Data::Honeybee,honeybee colonies by year,"time series,two-sample"
 Lock5Data::Hurricanes2014,number of hurricanes making landfall on US east coast by year,graphs
 Lock5Data::LifeExpectancyVehicles2e,life expectancy from number of vehicles and year,multiple regression
@@ -209,10 +215,11 @@ mclust::acidity,acidity of 155 lakes,"graphs,one-sample"
 MindOnStats::Fashion,fashion choices at different times of day,log-linear
 MindOnStats::IdealWtMen,ideal weight of men,one-sample
 MindOnStats::SATS98,"Verbal and math SAT scores by state, from pct who took test","simple regression,graphs"
+MLGdata::Abrasion,weight loss due to abrasion from hardness and tensile strength of rubber,multiple regression
 mitools::pisamaths,scores in PISA math test with student and school info,"sampling,dplyr"
 modelr::heights,"income from height, weight etc","regression,graphs,dplyr "
 mosaicData::Marriage,marriage records in Alabama,"graphs,summaries,dplyr"
-NA,NA,NA
+msos::sportsranks,ranking of seven sports by participation,tidying
 multcomp::waste,industrial waste from temperature and environment,two-way anova
 msme::rwm5yr,number of visits to doctor from health and demographic variables,multiple regression
 nlme::Cefamandole,concentration of C at different times in different subjects,"repeated measures,graphs"
