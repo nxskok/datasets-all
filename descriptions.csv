@@ -97,6 +97,7 @@ faraway::esdcomp,complaints about ER doctors,poisson regression
 faraway::gala,number of plant species from geographic variables,regression
 faraway::gavote,vote counts in georgia with demographics,regression
 faraway::infmort,infant mortality on income and oil export,"regression,two-sample,anova"
+faraway::insulgas,natural gas consumption from temperature and before/after insulation,"ancova, multiple regression, regression with categ"
 faraway::nepali,information about children in Nepal and their families,"graphs,dplyr,summaries"
 faraway::odor,"odor from temperature, gas/liquid ratio, packing height (for household use product)",2-way anova
 faraway::ratdrink,rat growth weights from water additives,repeated measures
@@ -155,6 +156,7 @@ KMsurv::azt,time to death from age at entry into study,survival
 KMsurv::drughiv,time to CD4 count reaching target level,survival
 KMsurv::pneumon,age child had pneumonia (and was hospitalized) from other risk factors,survival
 KMsurv::psych,survival times from something,survival
+KMsurv::tongue,time to death (or on study) from tumor dna profile,survival
 ks::air,air quality measurements in a subway station (several different measurements at the same time),"manova,pca"
 ks::worldbank,development indicators by country,pca
 lattice::H_environmental,ozone from solar radiation temperateure wind,multiple regression
@@ -174,6 +176,7 @@ Lock5Data::HockeyPenalties2011, penalty minutes per game by hockey team,"graphs,
 Lock5Data::Honeybee,honeybee colonies by year,"time series,two-sample"
 Lock5Data::Hurricanes2014,number of hurricanes making landfall on US east coast by year,graphs
 Lock5Data::LifeExpectancyVehicles2e,life expectancy from number of vehicles and year,multiple regression
+Lock5Data::MiamiHeat, basketball stats for Miami Heat in 2010-11, "graphs, numerical summaries, choosing"
 Lock5Data::NFLContracts2015,"contracts for NFL players (2015) - salary from player position, team","graphs,anova"
 Lock5Data::OlympicMarathon2012,times for all finishers in 2012 olympic marathon,"graphs,summaries,dplyr"
 Lock5Data::OttawaSenators2019,Ottawa Senators 2018-19,"graphs,one-sample,two-sample"
@@ -283,11 +286,14 @@ Sleuth3::ex1420,"weight losses from diet, sex, age, and bmi","ancova,regression 
 spatstat.data::clmfires,"forest fires in Spain, size from cause",anova
 spatstat.data::gordon,coordinates of people in Gordon Square London,spatial
 spatstat.data::waka,"spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall","multivariate,regression,multinomial logistic regression"
+spData::us_states_df,median income and poverty level by state in 2010 and 2015
 spuRs::kew,"monthly rainfall from Kew Gardens, wide format","tidying, graphs"
+Stat2Data::ICU,survival of patients in ICU from age sex infection etc,"logistic regression, log-linear"
 Stat2Data::MathEnrollment,fall and spring semester math enrolments at a liberal arts college for several years,"simple regression,matched pairs"
 Stat2Data::SleepingShrews,heart rates of shrews at each of three stages of sleep,"repeated measures,manova"
 stevedata::LTWT,price indices of items by date,"time series,graphs"
 stevedata::mvprod,motor vehicle production over time by country,graphs
+survey::apiclus1,school information,"sampling, dplyr"
 survey::apipop,student performance in California schools,"sampling,dplyr"
 survival::aml,(cancer) survival times for patients with Acute Myelogenous Leukemia from maintenance chemo,survival
 survival::cgd0,trial in CGD time to serious infections,survival
