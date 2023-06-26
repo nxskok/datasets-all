@@ -379,8 +379,3 @@ Devore7::ex09.12,compressive strength of concrete blocks from method (generate d
 Devore7::ex06.03,coating thickness in low-viscosity paint,one-sample
 Stat2Data::CreditRisk,overdrawn checking account from other variables,logistic regression
 Lock5Data::SleepStudy,study of sleep patterns for college students,"graphs,dplyr,discrim,pca"
-faraway::penicillin,penicillin yield from process and blend,2-way anova
-BSDA::Birth,live birth rates for us states in 1990 and 1998,matched pairs
-openintro::salinity,salinity of three different water masses in Bahamas,anova
-carData::MplsStops,Minneapolis police dept traffic stops,"graphs,dplyr"
-Stat2Data::Meniscus,"three different methods of meniscus repair on cadaver knees, three responses","manova,discrim"
