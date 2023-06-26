@@ -1,6 +1,7 @@
 dataset,description,technique
 ACSWR::hearing,intensity of given frequency required to be heard for 39-yo males with no indication of noise disorder or hearing loss,pca
 ACSWR::nerve,waiting times for successive pulses along a nerve fibre,"graphs,one-sample"
+AER::Affairs, data on extramarital affairs from other factors, log-linear
 AER::BankWages,"US bank employee wages from job, education, gender, race",multiple regression
 AER::CASchools,test performance from school and student backgrounds in California,multiple regression
 AER::ResumeNames,employer callbacks from resume information,"logistic regression, log-linear"
@@ -15,6 +16,7 @@ boot::brambles,location and age of bramble canes in a plot,spatial
 boot::breslow,coronary artery deaths in doctors from smoking and age,logistic regression
 boot::calcium,calcium uptake from time,"simple regression,bootstrap"
 boot::capability,process in equilibrium (mean 5.64),one-sample
+boot::cd4,CD4 counts on admission and after one year of treatment in aids patients,matched pairs
 boot::gravity,acceleration of gravity from different experiments,"two-sample,anova,graphs"
 boot::nitrofen,reproductive toxicity of nitrofen over time,repeated measures
 boot::nodal,stage of cancer (several ways) from age and acid (phosphatase),"log-linear,ordinal logistic regression"
@@ -48,16 +50,18 @@ cluster::agriculture,"percent per capita GNP and percent in agriculture, by coun
 cluster::animals,binary attributes for animals,cluster
 cluster::pluton,percent of plutonium of different isotopes,k-means
 cluster.datasets::ct.president.vote.1920.1964,votes in elections in Connecticut,"tidying,cluster"
+cluster.datasets::european.foods, percentage of households in different countries with various foods in the house at time of survey, cluster
 cluster.datasets::mutation.distances.1967,mutation distances between species,cluster
 cluster.datasets::sample.mammals.milk.1956,constituents of milk for different animals,"cluster, k-means"
 cluster.datasets::us.car.repair.1969,frequency of car repairs,cluster
 NA,NA,NA
 DAAG::cerealsugar,sugar content in frosted flakes,one-sample
+DAAG::cricketer, lifespan of cricketers by handedness, survival
 datasets::beaver2,body temperature of beaver every 10 minutes plus measure of activity,"simple regression,time series"
 datasets::cars,speed and stopping distance of cars (in 1920s),"graphs,regression"
 datasets::chickwts,chicken weights by feed type,anova
 datasets::fdeaths,(UKLungDeaths) monthly deaths from bronchitis and others in 1970s,time series
-NA,NA,NA
+datasets::HairEyeColor,hair colour eye colour and gender for students,log-linear
 datasets::infert,case control study of miscarriages and abortions,?
 datasets::islands,areas of the world's landmasses,graphs
 datasets::occupationalStatus,occupational status of fathers and sons,log-linear
@@ -77,6 +81,7 @@ Devore7::ex14.23,data on 7-day flexural strength of nonbloated burned clay aggre
 Devore7::ex14.38,"crude oil on fish parasites -  Three treatments (corresponding to populations in the procedure described) were compared: (1) no contamination, (2) contamination by 1-year-old weathered oil, and (3) contamination by new oil - For each treatment condition, a sample of fish was taken, and then each fish was classified as either parasitized or not parasitized",chi-squared
 Devore7::xmp01.14,copper content of pottery,one-sample
 Devore7::xmp14.10,serum cholesterol of Central American indigenous people,"one-sample, normal quantile "
+drc::capricornutum, algal counts from cadmium chloride concentration,"simple regression, poisson regression"
 drc::daphnids,number of immobile daphnids by dose of a toxic substance,grouped logistic regression
 exactRankTests::ASAT,ASAT values (liver enzyme) for new compound and control (proof of safety),two-sample
 exactRankTests::lungcancer,lung cancer clinical trial,survival
@@ -97,8 +102,10 @@ faraway::esdcomp,complaints about ER doctors,poisson regression
 faraway::gala,number of plant species from geographic variables,regression
 faraway::gavote,vote counts in georgia with demographics,regression
 faraway::infmort,infant mortality on income and oil export,"regression,two-sample,anova"
+faraway::insulgas,natural gas consumption from temperature and before/after insulation,"ancova, multiple regression, regression with categ"
 faraway::nepali,information about children in Nepal and their families,"graphs,dplyr,summaries"
 faraway::odor,"odor from temperature, gas/liquid ratio, packing height (for household use product)",2-way anova
+faraway::parstum, student usage of marijuana from parent usage of drugs and alcohol,"chi-square, log-linear"
 faraway::ratdrink,rat growth weights from water additives,repeated measures
 faraway::sat,SAT scores from other school info by state,regression
 faraway::seatpos,driver's seated position in car (distance of hips from car fixed point) from body measurements,regression
@@ -144,6 +151,7 @@ isdals::aids,number of AIDS cases and deaths over time,"graphs,two-sample,time s
 isdals::cornyield,corn yield from variety and fertilizer,"anova-2-way, ancova"
 isdals::digestcoefs,effect of NaOH treatment of straw on  digestibility,matched pairs
 isdals::hazard,sorption of solvents by type,anova
+isdals::ricestraw weight gain for cattle fed rice straw from number of days fed, simple regression
 ISwR::energy,energy expenditure in lean and obese women,two-sample
 ISwR::secretin,blood glucose levels  by person and time,repeated measures
 ISwR::zelazo,age at walking for four groups of infants,"anova,mood median"
@@ -155,25 +163,28 @@ KMsurv::azt,time to death from age at entry into study,survival
 KMsurv::drughiv,time to CD4 count reaching target level,survival
 KMsurv::pneumon,age child had pneumonia (and was hospitalized) from other risk factors,survival
 KMsurv::psych,survival times from something,survival
+KMsurv::tongue,time to death (or on study) from tumor dna profile,survival
 ks::air,air quality measurements in a subway station (several different measurements at the same time),"manova,pca"
 ks::worldbank,development indicators by country,pca
 lattice::H_environmental,ozone from solar radiation temperateure wind,multiple regression
 lattice::USRegionalMortality,US regional mortality rates from different causes,"regression,dplyr"
-NA,NA,NA
 lmerTest::carrots,consumer preference of carrots with demographics,"regression,pca,ordinal logistic regression,log-linear"
 lmtest::wages,"wages from consumer price index, unemployment, min wage",multiple regression
 locfit::co2,"carbon dioxide at Mauna Loa, HI","time series,two-sample"
+Lock5Data::April14Temps1e, temperatures on Apr 14 of each year in Des Moines and San Francisco, "matched pairs, graphs"
 Lock5Data::BikeCommute,commute times on bikes of two different types,two-sample
 Lock5Data::CocaineTreatment,relapse or not from drug treatment,"logistic regression,chi-squared,log-linear"
 Lock5Data::ColaCalcium,calcium excreted from cola or water,two-sample
 NA,NA,NA
 Lock5Data::DrugResistance,days infectious (with malaria) from treatment,"anova,ancova"
 Lock5Data::ExerciseHours,amount of exercise and other variables for students,"graphs,dplyr,two-sample,regression"
+Lock5Data::HeatCognition, effect of air conditioning on scores on two cognitive tests,"two-sample, manova, discrim"
 Lock5Data::HeightData,"heights of same 94 children over 18 years, male or female",repeated measures
 Lock5Data::HockeyPenalties2011, penalty minutes per game by hockey team,"graphs,anova"
 Lock5Data::Honeybee,honeybee colonies by year,"time series,two-sample"
 Lock5Data::Hurricanes2014,number of hurricanes making landfall on US east coast by year,graphs
 Lock5Data::LifeExpectancyVehicles2e,life expectancy from number of vehicles and year,multiple regression
+Lock5Data::MiamiHeat, basketball stats for Miami Heat in 2010-11, "graphs, numerical summaries, choosing"
 Lock5Data::NFLContracts2015,"contracts for NFL players (2015) - salary from player position, team","graphs,anova"
 Lock5Data::OlympicMarathon2012,times for all finishers in 2012 olympic marathon,"graphs,summaries,dplyr"
 Lock5Data::OttawaSenators2019,Ottawa Senators 2018-19,"graphs,one-sample,two-sample"
@@ -244,6 +255,7 @@ openintro::gpa_study_hours,gpa from study hours for students,"simple regression,
 openintro::healthcare_law_survey,attitudes towards healthcare from order alternatives given,log-linear
 openintro::male_heights,100 male heights,one-sample
 openintro::migraine,whether or not pain-free after acupuncture for migraine from real or sham acupuncture,chi-squared
+openintro::piracy, support of US senators ond congressional reps from party and contributions to legislator's campaign from different sources, ordinal logistic regression
 openintro::pm25_2011_durham,"air quality measurements for Durham, NC",pca
 openintro::race_justice,"survey of equal treatment by race, by race","summaries,graphs"
 openintro::seattlepets,names and info about pets in Seattle WA,"summaries,graphs,dplyr"
@@ -283,15 +295,20 @@ Sleuth3::ex1420,"weight losses from diet, sex, age, and bmi","ancova,regression 
 spatstat.data::clmfires,"forest fires in Spain, size from cause",anova
 spatstat.data::gordon,coordinates of people in Gordon Square London,spatial
 spatstat.data::waka,"spatial point pattern of trees in a national park in Gabon. spatial,mapsStat2Data::Goldenrod goldenrod gall measurements, including fate of gall","multivariate,regression,multinomial logistic regression"
+spData::us_states_df,median income and poverty level by state in 2010 and 2015
 spuRs::kew,"monthly rainfall from Kew Gardens, wide format","tidying, graphs"
+Stat2Data::ICU,survival of patients in ICU from age sex infection etc,"logistic regression, log-linear"
 Stat2Data::MathEnrollment,fall and spring semester math enrolments at a liberal arts college for several years,"simple regression,matched pairs"
+Stat2Data::Olives, amount of fenthion present in olive oil measured at 3 different times, "anova, manova"
 Stat2Data::SleepingShrews,heart rates of shrews at each of three stages of sleep,"repeated measures,manova"
 stevedata::LTWT,price indices of items by date,"time series,graphs"
 stevedata::mvprod,motor vehicle production over time by country,graphs
+survey::apiclus1,school information,"sampling, dplyr"
 survey::apipop,student performance in California schools,"sampling,dplyr"
 survival::aml,(cancer) survival times for patients with Acute Myelogenous Leukemia from maintenance chemo,survival
 survival::cgd0,trial in CGD time to serious infections,survival
-survival::jasa,(heart) survival of patients on heart transplant waiting list,survival
+survival::heart,survival of patients on heart transplant waiting list,survival
+survival::jasa, survival of patients on heart transplant waiting list,survival
 survival::udca,trial of UDCA in patients with cirrhosis; Multiple endpoints (choose one),survival
 survMisc::gastric,"time to death with gastric cancer, two treatments",survival
 TeachingDemos::ccc,(gps) gps data,maps
@@ -303,6 +320,7 @@ tseries::tcm3yd,(tcmd) three year yields on treasury securities,time series
 UsingR::diamond,diamond price and sizes in Singapore,"simple regression, simple regression"
 vcd::JobSatisfaction,"worker's, employer's job satisfaction and category of management",log-linear
 vcd::Punishment,attitudes towards corporal punishment of children,log-linear
+vcd::Saxony,number of boys in families of size 12 in Saxony in 19th century,"graphs, summary, choosing, tidying"
 vcd::Suicide,"suicide rates in Germany by sex, method, age, age group","summary,graphs"
 vcd::UKSoccer,goals scored by home and away teams in England soccer league,"simple regression,graphs"
 vcd::Trucks,"frequency of collisions involving trucks from before/after 1971-11-01, other things",two-sample
