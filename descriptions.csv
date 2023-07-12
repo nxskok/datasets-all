@@ -25,6 +25,7 @@ bootstrap::hormone,anti-inflammatory hormone remaining from hours of wear (and l
 bootstrap::law,LSAT and gpa for 15 law schools,"simple regression,correlation,bootstrap"
 bootstrap::spatial,two tests of spatial perception,matched pairs
 bootstrap::stamp,"thickness of stamps, possibly printed on different types of paper","one-sample,graphs"
+BSDA::Asprin,dissolving time of aspirin from level of impurity of an ingredient,ANOVA
 BSDA::Monoxide,carbon monoxide emitted by smoke stacks of two manufacturers,"two-sample, mood median"
 BSDA::Music,"improvement scores on a music recognition test taught by two methods, one on each of pairs of identical twins",matched pairs
 ca::wg93,attitudes towards science (ordinal) with demographics,ordinal logistic regression
@@ -54,9 +55,10 @@ cluster.datasets::european.foods, percentage of households in different countrie
 cluster.datasets::mutation.distances.1967,mutation distances between species,cluster
 cluster.datasets::sample.mammals.milk.1956,constituents of milk for different animals,"cluster, k-means"
 cluster.datasets::us.car.repair.1969,frequency of car repairs,cluster
-NA,NA,NA
+DAAG::carprice, US car prices from features,multiple regression
 DAAG::cerealsugar,sugar content in frosted flakes,one-sample
 DAAG::cricketer, lifespan of cricketers by handedness, survival
+DAAG::tinting, visual recognition from tinting of windows, "multiple regresson, MANOVA, discrimin"
 datasets::beaver2,body temperature of beaver every 10 minutes plus measure of activity,"simple regression,time series"
 datasets::cars,speed and stopping distance of cars (in 1920s),"graphs,regression"
 datasets::chickwts,chicken weights by feed type,anova
@@ -143,16 +145,15 @@ HistData::EdgeworthDeaths,"death rates in English counties, by year also","anova
 HistData::Galton,child height from average of parents' heights,"simple regression,graphs"
 HistData::Guerry,social data on departements of France in 1830,pca
 HistData::Jevons,error in estimating number of beans,"simple regression,graphs"
-NA,NA,NA
 HistData::Quarrels,"stats on deadly quarrels between countries or colonies, with reason for quarrel",multinomial logistic regression
 irr::video,credibility of 20 subjects rated by 4 raters,ordinal scale
-NA,NA,NA
 isdals::aids,number of AIDS cases and deaths over time,"graphs,two-sample,time series"
 isdals::cornyield,corn yield from variety and fertilizer,"anova-2-way, ancova"
 isdals::digestcoefs,effect of NaOH treatment of straw on  digestibility,matched pairs
 isdals::hazard,sorption of solvents by type,anova
 isdals::ricestraw weight gain for cattle fed rice straw from number of days fed, simple regression
 ISwR::energy,energy expenditure in lean and obese women,two-sample
+ISwR::lung,human lung volume from method,ANOVA
 ISwR::secretin,blood glucose levels  by person and time,repeated measures
 ISwR::zelazo,age at walking for four groups of infants,"anova,mood median"
 janeaustenr::northangerabbey,text of Northanger Abbey,text analysis
@@ -218,6 +219,7 @@ MASS::Pima.tr,diabetes in women as fn of other things,logistic regression
 MASS::Rabbit,cardiogenic chemoreflex from dose and time,repeated measures
 MASS::road,road collision deaths in some US states,regression
 MASS::rotifer,rotifers falling out of suspension for different fluid densities (?),logistic regression
+MASS::ships, number of ship damage incidents from months of service, year of construction and period of operation,multiple regression
 MASS::shrimp,percent of shrimp in shrimp cocktail,one-sample
 MASS::survey,student survey with variables of different types,graphs
 MASS::waders,counts of different types of waders at different sites in South Africa,pca
@@ -313,6 +315,7 @@ survival::udca,trial of UDCA in patients with cirrhosis; Multiple endpoints (cho
 survMisc::gastric,"time to death with gastric cancer, two treatments",survival
 TeachingDemos::ccc,(gps) gps data,maps
 TeachingDemos::steps,"total steps recorded, calories, fat burned","multiple regression,graphs,dplyr"
+TeachingDemos::stork, babies born from stork sightingn and number of women, "multiple regression, graphs"
 tidyr::table1,"tuberculosis cases for country, year, cases, population",tidying
 tidyr::table5,"tuberculosis cases for country, year, cases, population",tidying
 tseries::GNP,(USeconomic) US money M1 and GNP in 1982 dollars also discount rate on treasury bills and yield on long-term treasury bonds,"time series,graphs"
