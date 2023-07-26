@@ -10,11 +10,7 @@ clipr_available()
 ```
 
 
-get the ones I already have
 
-```{r}
-desc <- read_csv("descriptions.csv")
-```
 
 
 
@@ -22,6 +18,12 @@ get all datasets
 
 ```{r}
 d <- datasets()
+```
+
+get the ones I already have
+
+```{r}
+desc <- read_csv("descriptions.csv")
 ```
 
 select random rows of d, not including the ones I already got

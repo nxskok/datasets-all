@@ -410,4 +410,30 @@ MASS::wtloss,,simple regression
 cluster::flower,,cluster
 Lock5Data::April14Temps2e,,matched pairs
 PMCMRplus::trout,,anova
+boot::aml,,survival
+loo::Kline,,multiple regression
+MASS::mammals,,simple regression
+MASS::Sitka,,repeated measures
+survey::fpc,,sampling
+fda::growth,,graphs
+drc::lepidium,,anova
+BSDA::Books,,simple regression
+DAAG::monica,,logistic regression
+rethinking::Laffer,,simple regression
+locfit::border,,survival
+ks::grevillea,,"spatial, maps"
+rethinking::Boxes,,logistic multinomial
+SenSrivastava::E3.4,Sen,x
+isdals::alligator,,logistic multinomial
+maxstat::treepipit,,simple regression
+urca::npext,,time series
+DAAG::Lottario,,chi-squared
+robustbase::possum.mat (possumDiv),,multiple regression
+carData::Leinhardt,,regression with categorical
+AER::Grunfeld,,multiple regression
+boot::urine,,"logistic regression,discriminant"
+isdals::vitamina,,"principal components,regression"
+survey::apipop (api),,"sampling,dplyr"
+robustbase::coleman,,"sampling,multiple regression,dplyr"
+openintro::speed_gender_height,,regression with categorical
 
