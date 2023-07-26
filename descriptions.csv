@@ -400,3 +400,14 @@ Devore7::ex09.12,compressive strength of concrete blocks from method (generate d
 Devore7::ex06.03,coating thickness in low-viscosity paint,one-sample
 Stat2Data::CreditRisk,overdrawn checking account from other variables,logistic regression
 Lock5Data::SleepStudy,study of sleep patterns for college students,"graphs,dplyr,discrim,pca"
+survival::diabetic,,survival
+ISwR::fake.trypsin,,"simple regression,anova"
+Lock5Data::WaterStriders,,regression with categorical
+tseries::tcmd,,time series
+AER::ProgramEffectiveness,,regression with categorical
+multcomp::detergent,,two-way anova
+MASS::wtloss,,simple regression
+cluster::flower,,cluster
+Lock5Data::April14Temps2e,,matched pairs
+PMCMRplus::trout,,anova
+
