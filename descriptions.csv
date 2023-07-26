@@ -147,7 +147,7 @@ HistData::Guerry,social data on departements of France in 1830,pca
 HistData::Jevons,error in estimating number of beans,"simple regression,graphs"
 HistData::Quarrels,"stats on deadly quarrels between countries or colonies, with reason for quarrel",multinomial logistic regression
 irr::video,credibility of 20 subjects rated by 4 raters,ordinal scale
-isdals::aids,number of AIDS cases and deaths over time,"graphs,two-sample,time series"
+isdals::aids,number of AIDS cases and deaths over time,"graphs,time series"
 isdals::cornyield,corn yield from variety and fertilizer,"anova-2-way, ancova"
 isdals::digestcoefs,effect of NaOH treatment of straw on  digestibility,matched pairs
 isdals::hazard,sorption of solvents by type,anova
