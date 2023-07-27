@@ -45,10 +45,11 @@ d2 %>%
 # write_clip(d3)
 d3 %>% 
   str_c("?", .) -> d4
+eval(parse(text = d4))
 d3
 ```
 
 ```{r}
-eval(parse(text = d4))
+
 ```
 

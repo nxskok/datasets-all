@@ -30,7 +30,7 @@ techniques
 ```{r}
 techniques %>% 
   left_join(desc1) %>% 
-select(-n) %>% 
+  select(-n) %>% 
   arrange(technique) -> tech_data
 write_rds(tech_data, "tech_data.rds")
 tech_data %>% 
