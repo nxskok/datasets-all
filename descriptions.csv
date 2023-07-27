@@ -56,7 +56,7 @@ cluster.datasets::sample.mammals.milk.1956,constituents of milk for different an
 cluster.datasets::us.car.repair.1969,frequency of car repairs,cluster,,
 DAAG::cerealsugar,sugar content in frosted flakes,one-sample,,
 DAAG::cricketer, lifespan of cricketers by handedness, survival,,
-DAAG::cuckoos, length and breadth of cuckoo eggs by host species," ""regression with categorical", MANOVA," discriminant"""
+DAAG::cuckoos, length and breadth of cuckoo eggs by host species," ""regression with categorical, MANOVA,  discriminant""",,
 datasets::beaver2,body temperature of beaver every 10 minutes plus measure of activity,"simple regression,time series",,
 datasets::cars,speed and stopping distance of cars (in 1920s),"graphs,regression",,
 datasets::chickwts,chicken weights by feed type,anova,,
@@ -173,7 +173,7 @@ lattice::USRegionalMortality,US regional mortality rates from different causes,"
 lmerTest::carrots,consumer preference of carrots with demographics,"regression,pca,ordinal logistic regression,log-linear",,
 lmtest::wages,"wages from consumer price index, unemployment, min wage",multiple regression,,
 locfit::co2,"carbon dioxide at Mauna Loa, HI","time series,two-sample",,
-Lock5Data::April14Temps1e, temperatures on Apr 14 of each year in Des Moines and San Francisco," ""matched pairs"," graphs""",
+Lock5Data::April14Temps1e, temperatures on Apr 14 of each year in Des Moines and San Francisco," ""matched pairs, graphs""",,
 Lock5Data::BikeCommute,commute times on bikes of two different types,two-sample,,
 Lock5Data::CocaineTreatment,relapse or not from drug treatment,"logistic regression,chi-squared,log-linear",,
 Lock5Data::ColaCalcium,calcium excreted from cola or water,two-sample,,
@@ -185,7 +185,7 @@ Lock5Data::HockeyPenalties2011, penalty minutes per game by hockey team,"graphs,
 Lock5Data::Honeybee,honeybee colonies by year,"time series,two-sample",,
 Lock5Data::Hurricanes2014,number of hurricanes making landfall on US east coast by year,graphs,,
 Lock5Data::LifeExpectancyVehicles2e,life expectancy from number of vehicles and year,multiple regression,,
-Lock5Data::MiamiHeat, basketball stats for Miami Heat in 2010-11," ""graphs", numerical summaries," choosing"""
+Lock5Data::MiamiHeat, basketball stats for Miami Heat in 2010-11," ""graphs, numerical summaries, choosing""",,
 Lock5Data::NFLContracts2015,"contracts for NFL players (2015) - salary from player position, team","graphs,anova",,
 Lock5Data::OlympicMarathon2012,times for all finishers in 2012 olympic marathon,"graphs,summaries,dplyr",,
 Lock5Data::OttawaSenators2019,Ottawa Senators 2018-19,"graphs,one-sample,two-sample",,
@@ -301,7 +301,7 @@ spData::us_states_df,median income and poverty level by state in 2010 and 2015,,
 spuRs::kew,"monthly rainfall from Kew Gardens, wide format","tidying, graphs",,
 Stat2Data::ICU,survival of patients in ICU from age sex infection etc,"logistic regression, log-linear",,
 Stat2Data::MathEnrollment,fall and spring semester math enrolments at a liberal arts college for several years,"simple regression,matched pairs",,
-Stat2Data::Olives, amount of fenthion present in olive oil measured at 3 different times," ""anova"," manova""",
+Stat2Data::Olives, amount of fenthion present in olive oil measured at 3 different times," ""anova, manova""",,
 Stat2Data::SleepingShrews,heart rates of shrews at each of three stages of sleep,"repeated measures,manova",,
 stevedata::LTWT,price indices of items by date,"time series,graphs",,
 stevedata::mvprod,motor vehicle production over time by country,graphs,,
@@ -436,7 +436,7 @@ lgrdata::pulse,pulse rate after treatment (possible running) from before plus ot
 Devore7::ex12.46,"silver content from crystallisation temperature: determination of silver content of galena crystals grown in a closed hydrothermal system over a range of temperature. With x  crystallization temperature in °C and y  Ag2S in mol%,",simple regression,,
 stevedata::min_wage,US federal minimum wage over time,graphs,,
 ACSWR::depression,depression scale measurements before and after,matched pairs,,
-MindOnStats::IdealWt,utts and heckard,x,,
+MindOnStats::IdealWt,utts and heckard,simple regression,,
 Devore7::xmp16.06,Defects on cups from a dinnerware pattern (out of 100) over 25 days,"graphs,proportions,control chart",,
 SMPracticals::cat.heart,"dose to kill cats from day, time, observer, drug",latin square,,
 SMPracticals::sticky,,anova,,
@@ -452,7 +452,7 @@ BSDA::Mathpro,,simple regression,,
 Stat2Data::Eyes,,two-sample,,
 ISwR::nickel.expand,,survival,,
 Sleuth3::ex0724,,"graphs,repeated measures",,
-insight::fish,check source of insight package; probably made up,x,,
+insight::fish,check source of insight package; probably made up,,,
 AER::OECDGrowth,,multiple regression,,
 cluster.datasets::portable.typewriters,,cluster,,
 regtools::english,,multiple regression,,
@@ -462,9 +462,9 @@ isdals::pork,,repeated measures,,
 MASS::epil,,"two-sample,regression with categorical",,
 vcd::NonResponse,,logistic regression,,
 gpk::Filariasistype,,logistic regression,,
-HH::energy,heiberger and holland,x,,
+,,,,
 Sleuth2::ex1713,,principal components,,
-MindOnStats::Maintenance,utts,x,,
+,,,,
 carData::AMSsurvey,,log-linear,,
 fma::econsumption,,simple regression,,
 BSDA::Clean,,anova,,
@@ -473,16 +473,16 @@ BSDA::Skin,,matched pairs,,
 MASS::UScereal,,"principal components, discriminant",,
 KMsurv::btrial,,survival,,
 openintro::exclusive_relationship,,one-sample,,
-Devore7::xmp01.17,devore,x,,
-Devore7::ex01.37,devore,x,,
+Devore7::xmp01.17,p 36,one-sample,,
+Devore7::ex01.37,p 30,one-sample,,
 Stat2Data::PKU,,two-way anova,,
 Lock5Data::OttawaSenators2010,,simple regression,,
-Devore7::ex09.76,devore,x,,
+Devore7::ex09.76,p 366,two-sample,,
 ACSWR::Mucociliary,,anova,,
 mclust::banknote,,cluster,,
-CatDataAnalysis::exercise_5.3,agresti,x,,
+CatDataAnalysis::exercise_5.3,agresti p 198,logistic regression,,
 openintro::salinity,,anova,,
-resampledata::Phillies2009,chihara,x,,
+resampledata::Phillies2009,chihara p 364 or so,logistic regression,,
 survival::lung,used in pasias,survival,,
 Stat2Data::IQGuessing,,multiple regression,,
 DAAG::tinting,,"MANOVA, principal components",,
@@ -492,108 +492,121 @@ Stat2Data::Pedometer,,"graphs,dplyr,regression,two-sample",,
 DAAG::milk,,"matched pairs, simple regression",,
 BSDA::Schizoph,,one-sample,,
 agridat::nass.soybean,,"regression with categorical, simple regression, graphs",,
-Devore7::xmp12.13,devore,x,,
-agridat::aastveit.barley.height,heights of barley plants of different genotypes grown in different years,2-way anova
-fma::strikes,number of strikes in US by year,time series
-agridat::bliss.borers,number of corn borers (infestation) by treatment (aggregated across blocks),anova
-datasets::eurodist,road distances between 20 cities in Europe,"cluster,scaling"
-Stat2Data::PeaceBridge2012,vehicle traffic across Peace Bridge (Canada-US) 2012-2015 by month,time series
-gpk::birdextinct,species at risk and extinct at a national park in Finland,regression
-MLGdata::Bioassay,events and number exposed from dose,logistic regression
-psych::Thurstone.33,nine cognitive factors measured on (male) students,factor analysis
-Devore7::ex09.30,ultimate load for two types of concrete beams (generate actual data),Two-sample t
-Devore7::ex09.65,compression strength of containers with fixed and floating test platens (generate actual data),Two-sample t
-AER::CPSSW04,average hourly earnings from number of years of education,simple regression
-cluster.datasets::student.questionnaire,responses to a student questionnaire,cluster
-KMsurv::larynx,larynx cancer survival from age at and year of diagnosis,survival
-HH::display,response times by air traffic controllers to one of three displays and one of four types of (simulated) emergencies,2-way anova
-mice::tbc.target,adult overweight from young adult BMI z-score,logistic regression
-MLGdata::Infant,"whether or not an infant survived from length of gestation, age of mother and mother smoking",log-linear
-Lock5Data::NFLScores2011,NFL game scores 2011,"graphs,summaries,dplyr"
-BSDA::Haptoglo,haptoglobin concentrations (null mean 2?),one-sample
-Devore7::ex11.08,body mass loss after exercising on a bicycle in different temperatures,anova
-Devore7::ex06.01,flexural strength of concrete beams,one-sample
-isdals::stearicacid,digestibility levels of fat for various levels of stearic acid,simple regression
-HSAUR3::agefat,body fat percent from age and gender,ancova
-PairedData::GrapeFruit,percent of solids in shaded and exposed halves of grapefruit,matched pairs
-vcd::BrokenMarriage,whether or not a marriage was broken depending on social rank and gender,log-linear
-Sleuth3::ex0428,heights of plants grown from seed from cross-fertilized or self-fertilized flower,matched pairs
-cluster.datasets::leukemia.youth.mortality.1956.1967,mortality rates from leukemia among children for different countries and years,cluster (k-means)
-faraway::fortune,billionaires’ wealth and age with region of world,ancova
-Rlab::airplane,distances flown by paper airplanes from treatment (weighting on nose),anova
-isdals::interspike,intervals between spontaneous firings from a neuron,sign test
-HH::pox,carbon monoxide transfer in smokers at admission to hospital and a week later,matched pairs
-Devore7::xmp07.11,modulus of elasticity of Scotch Pine specimens,one-sample
-mistat::DOJO1935,Dow Jones index for 1935,time series
-BSDA::Chesapea,"surface salinity off Annapolis, Maryland",one-sample
-Stat2Data::MentalHealth,emergency room admissions at mental health hospital from phase of moon,anova
-BSDA::Apolipop,apolipoprotein B from cups of coffee,simple regression
-HSAUR3::USairpollution,air pollution (SO2) from other environmental variables,multiple regression
-Devore7::ex01.15,taste scores for creamy and crunchy peanut butter,two-sample
-faraway::mammalsleep,sleep time in mammals from other things,multiple regression
-Sleuth3::case1801,heart disease and obesity in American Samoa,log-linear
-HH::filmcoat,film coat thickness from temperature and pressure,2-way anova
-regtools::falldetection,fall detection in elderly from physiologicals,multiple regression
-Sleuth3::ex2019,missile detection testing success/failure vs time,logistic regression
-datasets::ChickWeight,chicken weights by feed type,"Ancova,repeated measures"
-BSDA::Spouse,convictions in spouse murder cases by gender,log-linear
-AER::HealthInsurance,having health insurance from other things (original: self-employment),logistic regression
-MASS::cats,cat heart weight from body weight and sex,ancova
-nlme::BodyWeight,rat body weight over time on different diets,repeated measures
-Devore7::ex10.06,iron content for four types of iron formation,anova
-Devore7::ex09.41,time to insert a probe into 10 needles from low light level (black background) and high light level (white background),matched pairs
-DAAG::hills2000,"record time to run up a hill, from distance and height gained in climb",multiple regression
-MASS::deaths,monthly deaths from lung diseases in UK,time series
-agridat::tai.potato,potato tuber yield from genotype and location,2-way anova
-MASS::geyser,duration of eruption from waiting time for it,simple regression
-MASS::farms,"farms on Dutch island of Terschelling, several categorical and quantitative-ish variables","manova,discrim"
-Devore7::xmp16.01,viscosity of motor oil,"One-sample,time series,quality control"
-BSDA::Orioles,salaries of Baltimore Orioles baseball team,one-sample
-datasets::uspop,US population by census year,"time series,simple regression"
-Devore7::xmp04.31,lifetimes of power apparatus insulation when thermal and electrical stress fixed,"normal quantile,weibull quantile"
-Lock5Data::CollegeScores,US university and college information,"graphs,dplyr,discrim,pca"
-BSDA::Concrete,compressive strength of concrete blocks from method,two-sample
-psych::Thurstone.9,9x9 correlation matrix of ability tests,factor analysis
-Lock5Data::SkateboardPrices,prices of skateboards on ebay in Feb 2012,one-sample
-Stat2Data::Sparrows,weight and wing length for Savannah sparrows from nest treatment,"anova,manova,discrim"
-Devore7::ex14.31,size of car and commuting distance (categorized),"Chi-squared,log-linear"
-Devore7::ex09.12,compressive strength of concrete blocks from method (generate data) from age,Two-sample
-Devore7::ex06.03,coating thickness in low-viscosity paint,one-sample
-Stat2Data::CreditRisk,overdrawn checking account from other variables,logistic regression
-Lock5Data::SleepStudy,study of sleep patterns for college students,"graphs,dplyr,discrim,pca"
-survival::diabetic,,survival
-ISwR::fake.trypsin,,"simple regression,anova"
-Lock5Data::WaterStriders,,regression with categorical
-tseries::tcmd,,time series
-AER::ProgramEffectiveness,,regression with categorical
-multcomp::detergent,,two-way anova
-MASS::wtloss,,simple regression
-cluster::flower,,cluster
-Lock5Data::April14Temps2e,,matched pairs
-PMCMRplus::trout,,anova
-boot::aml,,survival
-loo::Kline,,multiple regression
-MASS::mammals,,simple regression
-MASS::Sitka,,repeated measures
-survey::fpc,,sampling
-fda::growth,,graphs
-drc::lepidium,,anova
-BSDA::Books,,simple regression
-DAAG::monica,,logistic regression
-rethinking::Laffer,,simple regression
-locfit::border,,survival
-ks::grevillea,,"spatial, maps"
-rethinking::Boxes,,logistic multinomial
-SenSrivastava::E3.4,Sen,x
-isdals::alligator,,logistic multinomial
-maxstat::treepipit,,simple regression
-urca::npext,,time series
-DAAG::Lottario,,chi-squared
-robustbase::possum.mat (possumDiv),,multiple regression
-carData::Leinhardt,,regression with categorical
-AER::Grunfeld,,multiple regression
-boot::urine,,"logistic regression,discriminant"
-isdals::vitamina,,"principal components,regression"
-survey::apipop (api),,"sampling,dplyr"
-robustbase::coleman,,"sampling,multiple regression,dplyr"
-openintro::speed_gender_height,,regression with categorical
+Devore7::xmp12.13,p 479,simple regression,,
+agridat::aastveit.barley.height,heights of barley plants of different genotypes grown in different years,2-way anova,,
+fma::strikes,number of strikes in US by year,time series,,
+agridat::bliss.borers,number of corn borers (infestation) by treatment (aggregated across blocks),anova,,
+datasets::eurodist,road distances between 20 cities in Europe,"cluster,scaling",,
+Stat2Data::PeaceBridge2012,vehicle traffic across Peace Bridge (Canada-US) 2012-2015 by month,time series,,
+gpk::birdextinct,species at risk and extinct at a national park in Finland,regression,,
+MLGdata::Bioassay,events and number exposed from dose,logistic regression,,
+psych::Thurstone.33,nine cognitive factors measured on (male) students,factor analysis,,
+Devore7::ex09.30,ultimate load for two types of concrete beams (generate actual data),Two-sample t,,
+Devore7::ex09.65,compression strength of containers with fixed and floating test platens (generate actual data),Two-sample t,,
+AER::CPSSW04,average hourly earnings from number of years of education,simple regression,,
+cluster.datasets::student.questionnaire,responses to a student questionnaire,cluster,,
+KMsurv::larynx,larynx cancer survival from age at and year of diagnosis,survival,,
+HH::display,response times by air traffic controllers to one of three displays and one of four types of (simulated) emergencies,2-way anova,,
+mice::tbc.target,adult overweight from young adult BMI z-score,logistic regression,,
+MLGdata::Infant,"whether or not an infant survived from length of gestation, age of mother and mother smoking",log-linear,,
+Lock5Data::NFLScores2011,NFL game scores 2011,"graphs,summaries,dplyr",,
+BSDA::Haptoglo,haptoglobin concentrations (null mean 2?),one-sample,,
+Devore7::ex11.08,body mass loss after exercising on a bicycle in different temperatures,anova,,
+Devore7::ex06.01,flexural strength of concrete beams,one-sample,,
+isdals::stearicacid,digestibility levels of fat for various levels of stearic acid,simple regression,,
+HSAUR3::agefat,body fat percent from age and gender,ancova,,
+PairedData::GrapeFruit,percent of solids in shaded and exposed halves of grapefruit,matched pairs,,
+vcd::BrokenMarriage,whether or not a marriage was broken depending on social rank and gender,log-linear,,
+Sleuth3::ex0428,heights of plants grown from seed from cross-fertilized or self-fertilized flower,matched pairs,,
+cluster.datasets::leukemia.youth.mortality.1956.1967,mortality rates from leukemia among children for different countries and years,cluster (k-means),,
+faraway::fortune,billionaires’ wealth and age with region of world,ancova,,
+Rlab::airplane,distances flown by paper airplanes from treatment (weighting on nose),anova,,
+isdals::interspike,intervals between spontaneous firings from a neuron,sign test,,
+HH::pox,carbon monoxide transfer in smokers at admission to hospital and a week later,matched pairs,,
+Devore7::xmp07.11,modulus of elasticity of Scotch Pine specimens,one-sample,,
+mistat::DOJO1935,Dow Jones index for 1935,time series,,
+BSDA::Chesapea,"surface salinity off Annapolis, Maryland",one-sample,,
+Stat2Data::MentalHealth,emergency room admissions at mental health hospital from phase of moon,anova,,
+BSDA::Apolipop,apolipoprotein B from cups of coffee,simple regression,,
+HSAUR3::USairpollution,air pollution (SO2) from other environmental variables,multiple regression,,
+Devore7::ex01.15,taste scores for creamy and crunchy peanut butter,two-sample,,
+faraway::mammalsleep,sleep time in mammals from other things,multiple regression,,
+Sleuth3::case1801,heart disease and obesity in American Samoa,log-linear,,
+HH::filmcoat,film coat thickness from temperature and pressure,2-way anova,,
+regtools::falldetection,fall detection in elderly from physiologicals,multiple regression,,
+Sleuth3::ex2019,missile detection testing success/failure vs time,logistic regression,,
+datasets::ChickWeight,chicken weights by feed type,"Ancova,repeated measures",,
+BSDA::Spouse,convictions in spouse murder cases by gender,log-linear,,
+AER::HealthInsurance,having health insurance from other things (original: self-employment),logistic regression,,
+MASS::cats,cat heart weight from body weight and sex,ancova,,
+nlme::BodyWeight,rat body weight over time on different diets,repeated measures,,
+Devore7::ex10.06,iron content for four types of iron formation,anova,,
+Devore7::ex09.41,time to insert a probe into 10 needles from low light level (black background) and high light level (white background),matched pairs,,
+DAAG::hills2000,"record time to run up a hill, from distance and height gained in climb",multiple regression,,
+MASS::deaths,monthly deaths from lung diseases in UK,time series,,
+agridat::tai.potato,potato tuber yield from genotype and location,2-way anova,,
+MASS::geyser,duration of eruption from waiting time for it,simple regression,,
+MASS::farms,"farms on Dutch island of Terschelling, several categorical and quantitative-ish variables","manova,discrim",,
+Devore7::xmp16.01,viscosity of motor oil,"One-sample,time series,quality control",,
+BSDA::Orioles,salaries of Baltimore Orioles baseball team,one-sample,,
+datasets::uspop,US population by census year,"time series,simple regression",,
+Devore7::xmp04.31,lifetimes of power apparatus insulation when thermal and electrical stress fixed,"normal quantile,weibull quantile",,
+Lock5Data::CollegeScores,US university and college information,"graphs,dplyr,discrim,pca",,
+BSDA::Concrete,compressive strength of concrete blocks from method,two-sample,,
+psych::Thurstone.9,9x9 correlation matrix of ability tests,factor analysis,,
+Lock5Data::SkateboardPrices,prices of skateboards on ebay in Feb 2012,one-sample,,
+Stat2Data::Sparrows,weight and wing length for Savannah sparrows from nest treatment,"anova,manova,discrim",,
+Devore7::ex14.31,size of car and commuting distance (categorized),"Chi-squared,log-linear",,
+Devore7::ex09.12,compressive strength of concrete blocks from method (generate data) from age,Two-sample,,
+Devore7::ex06.03,coating thickness in low-viscosity paint,one-sample,,
+Stat2Data::CreditRisk,overdrawn checking account from other variables,logistic regression,,
+Lock5Data::SleepStudy,study of sleep patterns for college students,"graphs,dplyr,discrim,pca",,
+survival::diabetic,,survival,,
+ISwR::fake.trypsin,,"simple regression,anova",,
+Lock5Data::WaterStriders,,regression with categorical,,
+tseries::tcmd,,time series,,
+AER::ProgramEffectiveness,,regression with categorical,,
+multcomp::detergent,,two-way anova,,
+MASS::wtloss,,simple regression,,
+cluster::flower,,cluster,,
+Lock5Data::April14Temps2e,,matched pairs,,
+PMCMRplus::trout,,anova,,
+boot::aml,,survival,,
+loo::Kline,,multiple regression,,
+MASS::mammals,,simple regression,,
+MASS::Sitka,,repeated measures,,
+survey::fpc,,sampling,,
+fda::growth,,graphs,,
+drc::lepidium,,anova,,
+BSDA::Books,,simple regression,,
+DAAG::monica,,logistic regression,,
+rethinking::Laffer,,simple regression,,
+locfit::border,,survival,,
+ks::grevillea,,"spatial, maps",,
+rethinking::Boxes,,logistic multinomial,,
+SenSrivastava::E3.4,"Sen p 69 (exhibit 3.4, compare exhibit 3.5)",simple regression,,
+isdals::alligator,,logistic multinomial,,
+maxstat::treepipit,,simple regression,,
+urca::npext,,time series,,
+DAAG::Lottario,,chi-squared,,
+robustbase::possum.mat (possumDiv),,multiple regression,,
+carData::Leinhardt,,regression with categorical,,
+AER::Grunfeld,,multiple regression,,
+boot::urine,,"logistic regression,discriminant",,
+isdals::vitamina,,"principal components,regression",,
+survey::apipop (api),,"sampling,dplyr",,
+robustbase::coleman,,"sampling,multiple regression,dplyr",,
+openintro::speed_gender_height,,regression with categorical,,
+faraway::chmiss,faraway p 147,"multiple regression, missing values",,
+resampledata::ILBoys,chihara & hesterberg before example 12.2,anova,,
+fma::copper2,,time series,,
+openintro::credits,,one-sample,,
+openintro::student_housing,,one-sample,,
+BSDA::Shuttle,,simple regression,,
+Stat2Data::WalkingBabies,,anova,,
+ks::tempb,,"graphs, time series",,
+HistData::Snow.streets,,spatial,,
+TeachingDemos::ldsgrowth,,"graphs,dplyr",,
+Sleuth3::ex2011,,logistic regression,,
+geoR::hoef,,spatial,,
+BSDA::Homes,,matched pairs,,
