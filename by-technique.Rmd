@@ -44,3 +44,18 @@ pick some at random
 tech_data %>% slice_sample(n = 10)
 ```
 
+or 
+
+```{r}
+descriptions <- read_csv("descriptions.csv")
+descriptions
+```
+
+```{r}
+descriptions %>% 
+  group_by(dataset) %>% 
+  summarize(n = n()) %>% 
+  filter(n>1) %>% 
+  slice_sample(n = 10)
+```
+

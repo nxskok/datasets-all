@@ -1,0 +1,76 @@
+---
+title: "datasets-all"
+format: gfm
+editor: visual
+---
+
+This repo contains suggested statistical techniques for selected datasets found in R packages.
+The `notes` column contains occasional notes about where in the source text it is used.
+(This is especially the case when the R help file is not informative.)
+
+Download the `.csv` file to sort by other things (such as technique).
+Note that datasets that suggest more than one technique are separated by commas in the technique column; use `separate_rows` to put them one per row.
+(The source code for this readme, in `README.qmd` , shows how it works.)
+
+Datasets and techniques are listed below.
+I don't guarantee I have been consistent in naming techniques!
+Raise an issue if you see an inconsistency that bothers you, or a duplicate dataset name and technique (I know I have some).
+
+Techniques are usually one of the below, to represent a "section" of work in my classes:
+
+-   graphs
+
+-   (numerical) summaries
+
+-   dplyr: choosing rows and columns etc
+
+-   one-sample (t etc)
+
+-   two-sample (t etc)
+
+-   matched pairs
+
+-   normal quantile plots
+
+-   chi-squared test (association or eg uniformity)
+
+-   anova (F test etc)
+
+-   tidying (tidyr)
+
+-   simple regression
+
+-   multiple regression
+
+-   logistic regression (maybe with ordinal/multinomial categories)
+
+-   survival analysis
+
+-   two-way and randomized blocks anova
+
+-   MANOVA
+
+-   repeated measures
+
+-   discriminant analysis
+
+-   cluster analysis (hierarchical / K-means)
+
+-   principal components (or factor analysis)
+
+-   log-linear models
+
+This is definitely a work in progress: there are about 6,000 datasets in the packages on my computer!
+
+```{r}
+#| message: false
+#| echo: false
+library(tidyverse)
+descriptions <- read_csv("descriptions.csv")
+descriptions %>% 
+  select(1:3) %>% 
+  replace_na(list(note = "")) %>% 
+  separate_rows(technique, sep = ",") %>% 
+  arrange(dataset) %>% 
+  knitr::kable()
+```
