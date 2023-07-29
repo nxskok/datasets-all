@@ -9,9 +9,6 @@ Sys.setenv(DISPLAY=":6")
 clipr_available()
 ```
 
-
-
-
 get all datasets
 
 ```{r}
@@ -34,8 +31,6 @@ d %>%
   anti_join(desc, by = c("ds"="dataset")) -> d2
 ```
 
-
-
 get help file
 
 ```{r}
@@ -48,6 +43,3 @@ d3 %>%
 eval(parse(text = d4))
 d3
 ```
-
-
-

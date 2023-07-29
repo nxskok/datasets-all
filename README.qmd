@@ -60,7 +60,11 @@ Techniques are usually one of the below, to represent a "section" of work in my 
 
 -   log-linear models
 
+Datasets are denoted by `package::dataset`; for example, `AER::Affairs` is dataset `Affairs` in package `AER.`
+
 This is definitely a work in progress: there are about 6,000 datasets in the packages on my computer!
+
+Last update: `r Sys.Date()`.
 
 ```{r}
 #| message: false

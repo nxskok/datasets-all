@@ -61,8 +61,13 @@ work in my classes:
 
 - log-linear models
 
+Datasets are denoted by `package::dataset`; for example `AER::Affairs`
+is dataset `Affairs` in package `AER.`
+
 This is definitely a work in progress: there are about 6,000 datasets in
 the packages on my computer!
+
+Last update: 2023-07-28.
 
 | dataset                                                                         | note                                              | technique                       |
 |:--------------------------------------------------------------------------------|:--------------------------------------------------|:--------------------------------|
@@ -92,6 +97,8 @@ the packages on my computer!
 | BSDA::Books                                                                     |                                                   | simple regression               |
 | BSDA::Chesapea                                                                  |                                                   | one-sample                      |
 | BSDA::Clean                                                                     |                                                   | anova                           |
+| BSDA::Coins                                                                     |                                                   | one-sample                      |
+| BSDA::Coins                                                                     |                                                   | normal quantile                 |
 | BSDA::Concrete                                                                  |                                                   | two-sample                      |
 | BSDA::Haptoglo                                                                  |                                                   | one-sample                      |
 | BSDA::Homes                                                                     |                                                   | matched pairs                   |
@@ -159,6 +166,7 @@ the packages on my computer!
 | Devore7::xmp04.31                                                               |                                                   | normal quantile                 |
 | Devore7::xmp04.31                                                               |                                                   | weibull quantile                |
 | Devore7::xmp07.11                                                               |                                                   | one-sample                      |
+| Devore7::xmp10.05                                                               |                                                   | x                               |
 | Devore7::xmp11.06                                                               | devore p 406                                      | randomized block                |
 | Devore7::xmp12.06                                                               | devore p 459                                      | simple regression               |
 | Devore7::xmp12.13                                                               | p 479                                             | simple regression               |
@@ -174,6 +182,7 @@ the packages on my computer!
 | GGally::pigs                                                                    |                                                   | regression                      |
 | GLMsData::flowers                                                               |                                                   | ancova                          |
 | GLMsData::flowers                                                               |                                                   | glm                             |
+| GLMsData::mandible                                                              |                                                   | simple regression               |
 | GLMsData::serum                                                                 |                                                   | logistic regression             |
 | GLMsData::setting                                                               |                                                   | regression                      |
 | GLMsData::toothbrush                                                            |                                                   | matched pairs                   |
@@ -186,8 +195,9 @@ the packages on my computer!
 | HH::htwt                                                                        |                                                   | simple regression               |
 | HH::htwt                                                                        |                                                   | multiple regression             |
 | HH::pox                                                                         |                                                   | matched pairs                   |
-| HH::selfexam                                                                    | heiberger & holland p 573                         | x                               |
-| HH::spindle                                                                     | heiberger & holland p 476                         | x                               |
+| HH::selfexam                                                                    | heiberger & holland p 573                         | chi-square                      |
+| HH::sickle                                                                      | p 190                                             | anova                           |
+| HH::spindle                                                                     | heiberger & holland p 476                         | two-way anova                   |
 | HH::stopdist                                                                    |                                                   | simple regression               |
 | HH::tongue                                                                      |                                                   | logistic regression             |
 | HSAUR3::USairpollution                                                          |                                                   | multiple regression             |
@@ -224,6 +234,9 @@ the packages on my computer!
 | KMsurv::pneumon                                                                 |                                                   | survival                        |
 | KMsurv::psych                                                                   |                                                   | survival                        |
 | KMsurv::tongue                                                                  |                                                   | survival                        |
+| Lock5Data::AllCountries1e                                                       |                                                   | principal components            |
+| Lock5Data::AllCountries1e                                                       |                                                   | graphs                          |
+| Lock5Data::AllCountries1e                                                       |                                                   | dplyr                           |
 | Lock5Data::April14Temps1e                                                       |                                                   | “matched pairs                  |
 | Lock5Data::April14Temps1e                                                       |                                                   | graphs”                         |
 | Lock5Data::April14Temps2e                                                       |                                                   | matched pairs                   |
@@ -356,6 +369,7 @@ the packages on my computer!
 | NSM3::motivational.effect                                                       |                                                   | mood median                     |
 | NSM3::mucociliary                                                               |                                                   | anova                           |
 | NSM3::mucociliary                                                               |                                                   | mood median                     |
+| PASWR2::COWS                                                                    |                                                   | two-way anova                   |
 | PASWR2::URLADDRESS                                                              |                                                   | simple regression               |
 | PMCMRplus::trout                                                                |                                                   | anova                           |
 | PairedData::Datalcoholic                                                        | dataframe of datasets                             | matched pairs                   |
@@ -414,6 +428,7 @@ the packages on my computer!
 | Stat2Data::IQGuessing                                                           |                                                   | multiple regression             |
 | Stat2Data::Kershaw                                                              |                                                   | graphs                          |
 | Stat2Data::Kershaw                                                              |                                                   | dplyr                           |
+| Stat2Data::Leafhoppers                                                          |                                                   | anova                           |
 | Stat2Data::MathEnrollment                                                       |                                                   | simple regression               |
 | Stat2Data::MathEnrollment                                                       |                                                   | matched pairs                   |
 | Stat2Data::MentalHealth                                                         |                                                   | anova                           |
@@ -435,6 +450,7 @@ the packages on my computer!
 | Stat2Data::Sparrows                                                             |                                                   | discrim                         |
 | Stat2Data::WalkingBabies                                                        |                                                   | anova                           |
 | Stat2Data::Wrinkle                                                              |                                                   | two-way anova                   |
+| TH.data::bodyfat                                                                |                                                   | multiple regression             |
 | TeachingDemos::ccc                                                              |                                                   | maps                            |
 | TeachingDemos::ldsgrowth                                                        |                                                   | graphs                          |
 | TeachingDemos::ldsgrowth                                                        |                                                   | dplyr                           |
@@ -443,6 +459,7 @@ the packages on my computer!
 | TeachingDemos::steps                                                            |                                                   | dplyr                           |
 | UsingR::diamond                                                                 |                                                   | simple regression               |
 | UsingR::diamond                                                                 |                                                   | simple regression               |
+| UsingR::midsize                                                                 |                                                   | graphs                          |
 | agridat::aastveit.barley.height                                                 |                                                   | 2-way anova                     |
 | agridat::bliss.borers                                                           |                                                   | anova                           |
 | agridat::crowder.seeds                                                          |                                                   | logistic regression             |
@@ -454,6 +471,7 @@ the packages on my computer!
 | agridat::nass.soybean                                                           |                                                   | regression with categorical     |
 | agridat::nass.soybean                                                           |                                                   | simple regression               |
 | agridat::nass.soybean                                                           |                                                   | graphs                          |
+| agridat::pacheco.soybean                                                        |                                                   | two-way anova                   |
 | agridat::tai.potato                                                             |                                                   | 2-way anova                     |
 | agridat::turner.herbicide                                                       |                                                   | logistic regression             |
 | aplore3::aps                                                                    |                                                   | logistic regression             |
@@ -527,6 +545,7 @@ the packages on my computer!
 | cluster.datasets::sample.mammals.milk.1956                                      |                                                   | k-means                         |
 | cluster.datasets::student.questionnaire                                         |                                                   | cluster                         |
 | cluster.datasets::us.car.repair.1969                                            |                                                   | cluster                         |
+| cluster.datasets::us.south.demographics.1965                                    |                                                   | cluster                         |
 | cluster::agriculture                                                            |                                                   | regression                      |
 | cluster::animals                                                                |                                                   | cluster                         |
 | cluster::flower                                                                 |                                                   | cluster                         |
@@ -617,6 +636,7 @@ the packages on my computer!
 | fds::Pigweight                                                                  |                                                   | repeated measures               |
 | fds::SAelectdemand                                                              |                                                   | time series                     |
 | fds::tastotal                                                                   |                                                   | time series                     |
+| fds::tempairport                                                                |                                                   | time series                     |
 | fds::tuesdaytempairport                                                         |                                                   | graphs                          |
 | fds::tuesdaytempairport                                                         |                                                   | time series                     |
 | fields::CO.loc (COmonthlyMet)                                                   |                                                   | maps                            |
@@ -627,6 +647,7 @@ the packages on my computer!
 | fma::advert                                                                     |                                                   | simple regression               |
 | fma::copper2                                                                    |                                                   | time series                     |
 | fma::econsumption                                                               |                                                   | simple regression               |
+| fma::ozone                                                                      |                                                   | simple regression               |
 | fma::strikes                                                                    |                                                   | time series                     |
 | fma::texasgas                                                                   |                                                   | simple regression               |
 | fpp2::marathon                                                                  |                                                   | graphs                          |
@@ -677,6 +698,9 @@ the packages on my computer!
 | isdals::vitamina                                                                |                                                   | regression                      |
 | janeaustenr::northangerabbey                                                    |                                                   | text analysis                   |
 | janeaustenr::prideprejudice                                                     |                                                   | text analysis                   |
+| kernlab::income                                                                 |                                                   | sampling                        |
+| kernlab::income                                                                 |                                                   | dplyr                           |
+| kernlab::income                                                                 |                                                   | log-linear                      |
 | kernlab::ticdata                                                                |                                                   | logistic regression             |
 | ks::air                                                                         |                                                   | manova                          |
 | ks::air                                                                         |                                                   | pca                             |
@@ -697,6 +721,7 @@ the packages on my computer!
 | locfit::border                                                                  |                                                   | survival                        |
 | locfit::co2                                                                     |                                                   | time series                     |
 | locfit::co2                                                                     |                                                   | two-sample                      |
+| locfit::insect                                                                  |                                                   | logistic regression             |
 | locfit::morths                                                                  |                                                   | mortality                       |
 | loo::Kline                                                                      |                                                   | multiple regression             |
 | maps::ozone                                                                     |                                                   | time series                     |
@@ -707,6 +732,7 @@ the packages on my computer!
 | mclust::acidity                                                                 |                                                   | graphs                          |
 | mclust::acidity                                                                 |                                                   | one-sample                      |
 | mclust::banknote                                                                |                                                   | cluster                         |
+| metadat::dat.hasselblad1998                                                     |                                                   | meta-analysis                   |
 | metadat::dat.linde2015                                                          |                                                   | meta-analysis                   |
 | metadat::dat.woods2010                                                          |                                                   | meta-analysis                   |
 | mice::tbc.target                                                                |                                                   | logistic regression             |
@@ -716,6 +742,7 @@ the packages on my computer!
 | modelr::heights                                                                 |                                                   | regression                      |
 | modelr::heights                                                                 |                                                   | graphs                          |
 | modelr::heights                                                                 |                                                   | dplyr                           |
+| mosaicData::Births78                                                            |                                                   | anova                           |
 | mosaicData::HELPfull                                                            |                                                   | log-linear                      |
 | mosaicData::HELPfull                                                            |                                                   | dplyr                           |
 | mosaicData::Marriage                                                            |                                                   | graphs                          |
@@ -884,6 +911,7 @@ the packages on my computer!
 | urca::npext                                                                     |                                                   | time series                     |
 | vcd::BrokenMarriage                                                             |                                                   | log-linear                      |
 | vcd::JobSatisfaction                                                            |                                                   | log-linear                      |
+| vcd::JointSports                                                                |                                                   | log-linear                      |
 | vcd::NonResponse                                                                |                                                   | logistic regression             |
 | vcd::Punishment                                                                 |                                                   | log-linear                      |
 | vcd::Saxony                                                                     |                                                   | graphs                          |
