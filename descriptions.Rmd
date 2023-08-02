@@ -1,3 +1,4 @@
+Dataset,Note,Technique
 ACSWR::hearing intensity of given frequency required to be heard for 39-yo males with no indication of noise disorder or hearing loss. pca
 ACSWR::nerve waiting times for successive pulses along a nerve fibre. graphs,one-sample
 AER::BankWages US bank employee wages from job, education, gender, race. multiple regression

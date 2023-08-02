@@ -30,7 +30,7 @@ techniques
 ```{r}
 techniques %>% 
   left_join(desc1) %>% 
-select(-n) %>% 
+  select(-n) %>% 
   arrange(technique) -> tech_data
 write_rds(tech_data, "tech_data.rds")
 tech_data %>% 
@@ -42,5 +42,20 @@ pick some at random
 
 ```{r}
 tech_data %>% slice_sample(n = 10)
+```
+
+or 
+
+```{r}
+descriptions <- read_csv("descriptions.csv")
+descriptions
+```
+
+```{r}
+descriptions %>% 
+  group_by(dataset) %>% 
+  summarize(n = n()) %>% 
+  filter(n>1) %>% 
+  slice_sample(n = 10)
 ```
 
