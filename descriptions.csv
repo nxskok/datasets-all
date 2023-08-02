@@ -423,8 +423,7 @@ rethinking::Laffer,,simple regression
 locfit::border,,survival
 ks::grevillea,,"spatial, maps"
 rethinking::Boxes,,logistic multinomial
-SenSrivastava::E3.4,Sen,x
-isdals::alligator,,logistic multinomial
+misdals::alligator,,logistic multinomial
 maxstat::treepipit,,simple regression
 urca::npext,,time series
 DAAG::Lottario,,chi-squared
