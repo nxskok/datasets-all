@@ -1,0 +1,13 @@
+---
+title: "themes"
+format: html
+---
+
+## quick code to change r studio theme:
+
+```{r}
+rstudioapi::applyTheme("Solarized Light") # daytime
+rstudioapi::applyTheme("Tomorrow Night Blue") # nighttime
+rstudioapi::applyTheme("Textmate (default)") # teaching
+```
+
