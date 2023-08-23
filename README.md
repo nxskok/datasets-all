@@ -67,7 +67,7 @@ is dataset `Affairs` in package `AER.`
 This is definitely a work in progress: there are about 6,000 datasets in
 the packages on my computer!
 
-Last update: 2023-08-15.
+Last update: 2023-08-23.
 
 | dataset                                                                         | note                                              | technique                               |
 |:--------------------------------------------------------------------------------|:--------------------------------------------------|:----------------------------------------|
@@ -106,13 +106,16 @@ Last update: 2023-08-15.
 | BSDA::Coins                                                                     |                                                   | one-sample                              |
 | BSDA::Coins                                                                     |                                                   | normal quantile                         |
 | BSDA::Concrete                                                                  |                                                   | two-sample                              |
+| BSDA::Depend                                                                    |                                                   | one-sample                              |
 | BSDA::Ferraro1                                                                  |                                                   | chi-squared                             |
+| BSDA::Freshman                                                                  |                                                   | one-sample                              |
 | BSDA::Haptoglo                                                                  |                                                   | one-sample                              |
 | BSDA::Homes                                                                     |                                                   | matched pairs                           |
 | BSDA::Income                                                                    |                                                   | one-sample                              |
 | BSDA::Kilowatt                                                                  |                                                   | one-sample                              |
 | BSDA::Leader                                                                    |                                                   | simple regression                       |
 | BSDA::Mathpro                                                                   |                                                   | simple regression                       |
+| BSDA::Median                                                                    |                                                   | mood median test                        |
 | BSDA::Monoxide                                                                  |                                                   | two-sample                              |
 | BSDA::Monoxide                                                                  |                                                   | mood median                             |
 | BSDA::Music                                                                     |                                                   | matched pairs                           |
@@ -122,6 +125,7 @@ Last update: 2023-08-15.
 | BSDA::Schizoph                                                                  |                                                   | one-sample                              |
 | BSDA::Shuttle                                                                   |                                                   | simple regression                       |
 | BSDA::Skin                                                                      |                                                   | matched pairs                           |
+| BSDA::Spelling                                                                  |                                                   | matched pairs                           |
 | BSDA::Spouse                                                                    |                                                   | log-linear                              |
 | BSDA::Teacher                                                                   |                                                   | one-sample                              |
 | BSDA::Tv                                                                        |                                                   | simple regression                       |
@@ -255,6 +259,7 @@ Last update: 2023-08-15.
 | HistData::Guerry                                                                |                                                   | pca                                     |
 | HistData::Jevons                                                                |                                                   | simple regression                       |
 | HistData::Jevons                                                                |                                                   | graphs                                  |
+| HistData::Langren1644                                                           |                                                   | one-sample                              |
 | HistData::Minard.temp                                                           |                                                   | mapping                                 |
 | HistData::Minard.troops                                                         |                                                   | maps                                    |
 | HistData::Quarrels                                                              |                                                   | multinomial logistic regression         |
@@ -314,6 +319,7 @@ Last update: 2023-08-15.
 | Lock5Data::HollywoodMovies                                                      |                                                   | multiple regression                     |
 | Lock5Data::HollywoodMovies                                                      |                                                   | dplyr                                   |
 | Lock5Data::HollywoodMovies                                                      |                                                   | graphs                                  |
+| Lock5Data::HomesForSaleCA                                                       |                                                   | multiple regression                     |
 | Lock5Data::HomesForSaleCanton2e                                                 |                                                   | one-sample                              |
 | Lock5Data::Honeybee                                                             |                                                   | time series                             |
 | Lock5Data::Honeybee                                                             |                                                   | two-sample                              |
@@ -355,6 +361,7 @@ Last update: 2023-08-15.
 | Lock5Data::SleepStudy                                                           |                                                   | pca                                     |
 | Lock5Data::Smiles                                                               |                                                   | two-sample                              |
 | Lock5Data::SplitBill                                                            |                                                   | multiple regression                     |
+| Lock5Data::SynchronizedMovement                                                 |                                                   | multiple regression                     |
 | Lock5Data::ToenailArsenic                                                       |                                                   | one-sample                              |
 | Lock5Data::USStates2e                                                           |                                                   | dplyr                                   |
 | Lock5Data::USStates2e                                                           |                                                   | graphs                                  |
@@ -445,6 +452,8 @@ Last update: 2023-08-15.
 | PairedData::Iron                                                                |                                                   | also see help                           |
 | PairedData::PrisonStress                                                        |                                                   | matched pairs                           |
 | PairedData::PrisonStress                                                        |                                                   | two-sample                              |
+| Rfit::bbsalaries                                                                |                                                   | multiple regression                     |
+| Rfit::logGFscores                                                               |                                                   | ?                                       |
 | Rfit::serumLH                                                                   |                                                   | anova-2-way                             |
 | Rlab::airplane                                                                  |                                                   | anova                                   |
 | Rlab::bread                                                                     |                                                   | anova-2-way                             |
@@ -466,6 +475,7 @@ Last update: 2023-08-15.
 | SenSrivastava::E1.1                                                             |                                                   | simple regression                       |
 | SenSrivastava::E2.8                                                             |                                                   | multiple regression                     |
 | SenSrivastava::E3.4                                                             | Sen p 69 (exhibit 3.4, compare exhibit 3.5)       | simple regression                       |
+| SenSrivastava::E3.5                                                             |                                                   | ?                                       |
 | SenSrivastava::E4.1                                                             |                                                   | two-sample                              |
 | SenSrivastava::E4.13                                                            |                                                   | regression with categorical             |
 | SenSrivastava::E6.8                                                             |                                                   | multiple regression                     |
@@ -539,6 +549,7 @@ Last update: 2023-08-15.
 | TeachingDemos::steps                                                            |                                                   | multiple regression                     |
 | TeachingDemos::steps                                                            |                                                   | graphs                                  |
 | TeachingDemos::steps                                                            |                                                   | dplyr                                   |
+| UsingR::carbon                                                                  |                                                   | anova                                   |
 | UsingR::coldvermont                                                             |                                                   | time series                             |
 | UsingR::crime                                                                   |                                                   | matched pairs                           |
 | UsingR::diamond                                                                 |                                                   | simple regression                       |
@@ -732,6 +743,7 @@ Last update: 2023-08-15.
 | faraway::seatpos                                                                |                                                   | regression                              |
 | faraway::spector                                                                |                                                   | logistic regression                     |
 | faraway::stat500                                                                |                                                   | regression                              |
+| faraway::toenail                                                                |                                                   | repeated measures categorical           |
 | faraway::troutegg                                                               |                                                   | grouped logistic regression             |
 | faraway::turtle                                                                 |                                                   | logistic regression                     |
 | faraway::twins                                                                  |                                                   | matched pairs                           |
@@ -749,6 +761,8 @@ Last update: 2023-08-15.
 | fds::tempairport                                                                |                                                   | time series                             |
 | fds::tuesdaytempairport                                                         |                                                   | graphs                                  |
 | fds::tuesdaytempairport                                                         |                                                   | time series                             |
+| fds::victotal                                                                   |                                                   | time series                             |
+| fds::wednesdaytempairport                                                       |                                                   | time series                             |
 | fields::CO.loc (COmonthlyMet)                                                   |                                                   | maps                                    |
 | fields::CO.ppt.MAM.climate                                                      |                                                   | regression                              |
 | fields::CO.ppt.MAM.climate                                                      |                                                   | anova                                   |
@@ -775,6 +789,7 @@ Last update: 2023-08-15.
 | ggplot2::midwest                                                                |                                                   | graphs                                  |
 | ggplot2::midwest                                                                |                                                   | dplyr                                   |
 | ggridges::lincoln_weather                                                       |                                                   | pca                                     |
+| gmp::Oakley1                                                                    |                                                   | internal                                |
 | gnm::yaish                                                                      |                                                   | log-linear                              |
 | gpk::Asthma4                                                                    |                                                   | repeated measures                       |
 | gpk::BANK                                                                       |                                                   | logistic regression                     |
@@ -800,6 +815,7 @@ Last update: 2023-08-15.
 | heplots::Rohwer                                                                 |                                                   | multiple regression                     |
 | heplots::SocGrades                                                              |                                                   | manova                                  |
 | insight::fish                                                                   | check source of insight package; probably made up | NA                                      |
+| interp::circtest                                                                |                                                   | ?                                       |
 | irr::video                                                                      |                                                   | ordinal scale                           |
 | isdals::aids                                                                    |                                                   | graphs                                  |
 | isdals::aids                                                                    |                                                   | two-sample                              |
@@ -842,6 +858,8 @@ Last update: 2023-08-15.
 | lmerTest::carrots                                                               |                                                   | pca                                     |
 | lmerTest::carrots                                                               |                                                   | ordinal logistic regression             |
 | lmerTest::carrots                                                               |                                                   | log-linear                              |
+| lmtest::gmdc                                                                    |                                                   | time series                             |
+| lmtest::gmdc                                                                    |                                                   | economics                               |
 | lmtest::wages                                                                   |                                                   | multiple regression                     |
 | locfit::border                                                                  |                                                   | survival                                |
 | locfit::co2                                                                     |                                                   | time series                             |
@@ -920,6 +938,7 @@ Last update: 2023-08-15.
 | nlme::ergoStool                                                                 |                                                   | mixed model                             |
 | np::wage1                                                                       |                                                   | multiple regression                     |
 | nutshell::top.bacon.searching.cities                                            |                                                   | maps                                    |
+| openintro::ball_bearing                                                         |                                                   | one-sample                              |
 | openintro::classdata                                                            |                                                   | anova                                   |
 | openintro::climber_drugs                                                        |                                                   | dplyr                                   |
 | openintro::cpr                                                                  |                                                   | chi-squared                             |
@@ -960,6 +979,7 @@ Last update: 2023-08-15.
 | openintro::ucla_textbooks_f18                                                   |                                                   | dplyr                                   |
 | openintro::ucla_textbooks_f18                                                   |                                                   | two-sample                              |
 | openintro::ucla_textbooks_f18                                                   |                                                   | anova                                   |
+| pbkrtest::beets                                                                 |                                                   | random effects                          |
 | psych::Harman.Burt (Harman)                                                     |                                                   | factor analysis with correlation matrix |
 | psych::Harman.Holzinger                                                         |                                                   | pca                                     |
 | psych::Schmid                                                                   |                                                   | factor analysis with correlation matrix |
@@ -1022,6 +1042,8 @@ Last update: 2023-08-15.
 | rrcov::rice                                                                     |                                                   | multiple regression                     |
 | rrcov::salmon                                                                   |                                                   | manova                                  |
 | rrcov::salmon                                                                   |                                                   | discriminant                            |
+| s2::s2_data_tbl_countries                                                       |                                                   | spatial                                 |
+| s2::s2_data_tbl_countries                                                       |                                                   | maps                                    |
 | sampling::rec99                                                                 |                                                   | sampling                                |
 | sampling::rec99                                                                 |                                                   | dplyr                                   |
 | sampling::swissmunicipalities                                                   |                                                   | sampling                                |
@@ -1066,6 +1088,7 @@ Last update: 2023-08-15.
 | survival::heart                                                                 |                                                   | survival                                |
 | survival::jasa                                                                  |                                                   | survival                                |
 | survival::lung                                                                  | used in pasias                                    | survival                                |
+| survival::mgus2 (cancer)                                                        |                                                   | survival                                |
 | survival::pbc                                                                   |                                                   | survival                                |
 | survival::udca                                                                  |                                                   | survival                                |
 | tidyr::relig_income                                                             |                                                   | chi-squared                             |
@@ -1077,6 +1100,8 @@ Last update: 2023-08-15.
 | tidytext::sentiments                                                            |                                                   | text analysis                           |
 | tseries::GNP                                                                    |                                                   | time series                             |
 | tseries::GNP                                                                    |                                                   | graphs                                  |
+| tseries::gnp.nom (NelPlo)                                                       |                                                   | time series                             |
+| tseries::gnp.nom (NelPlo)                                                       |                                                   | economics                               |
 | tseries::rs (USeconomic)                                                        |                                                   | time series                             |
 | tseries::tcm3yd                                                                 |                                                   | time series                             |
 | tseries::tcmd                                                                   |                                                   | time series                             |
