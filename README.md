@@ -156,6 +156,8 @@ Last update: 2023-08-23.
 | DAAG::milk                                                                      |                                                   | simple regression                       |
 | DAAG::monica                                                                    |                                                   | logistic regression                     |
 | DAAG::ozone                                                                     |                                                   | time series                             |
+| DAAG::rockArt                                                                   |                                                   | clustering                              |
+| DAAG::rockArt                                                                   |                                                   | scaling                                 |
 | DAAG::tinting                                                                   |                                                   | MANOVA                                  |
 | DAAG::tinting                                                                   |                                                   | principal components                    |
 | DAAG::tomato                                                                    |                                                   | anova                                   |
@@ -279,6 +281,7 @@ Last update: 2023-08-23.
 | ISwR::intake                                                                    |                                                   | matched pairs                           |
 | ISwR::nickel.expand                                                             |                                                   | survival                                |
 | ISwR::secretin                                                                  |                                                   | repeated measures                       |
+| ISwR::tb.dilute                                                                 |                                                   | repeated measures                       |
 | ISwR::zelazo                                                                    |                                                   | anova                                   |
 | ISwR::zelazo                                                                    |                                                   | mood median                             |
 | KMsurv::allograft                                                               |                                                   | survival                                |
@@ -459,6 +462,7 @@ Last update: 2023-08-23.
 | PairedData::PrisonStress                                                        |                                                   | two-sample                              |
 | Rfit::bbsalaries                                                                |                                                   | multiple regression                     |
 | Rfit::logGFscores                                                               |                                                   | ?                                       |
+| Rfit::quail                                                                     |                                                   | mood median test                        |
 | Rfit::serumLH                                                                   |                                                   | anova-2-way                             |
 | Rlab::airplane                                                                  |                                                   | anova                                   |
 | Rlab::bread                                                                     |                                                   | anova-2-way                             |
@@ -472,6 +476,8 @@ Last update: 2023-08-23.
 | SMPracticals::cat.heart                                                         |                                                   | latin square                            |
 | SMPracticals::nematode                                                          | davison p 294                                     | see paper referenced in help file       |
 | SMPracticals::nematode                                                          | davison p 294                                     | stochastic processes                    |
+| SMPracticals::rat.growth                                                        |                                                   | graphs                                  |
+| SMPracticals::rat.growth                                                        |                                                   | repeated measures                       |
 | SMPracticals::salinity                                                          |                                                   | multiple regression                     |
 | SMPracticals::sticky                                                            |                                                   | anova                                   |
 | SMPracticals::ulcer                                                             |                                                   | logistic regression                     |
@@ -571,6 +577,7 @@ Last update: 2023-08-23.
 | agridat::crowder.seeds                                                          |                                                   | log-linear                              |
 | agridat::fisher.barley                                                          |                                                   | anova-2-way                             |
 | agridat::gauch.soy                                                              |                                                   | factorial anova                         |
+| agridat::gomez.stripsplitplot                                                   |                                                   | factorial anova                         |
 | agridat::goulden.eggs                                                           |                                                   | graphs                                  |
 | agridat::harville.lamb                                                          |                                                   | two-way anova                           |
 | agridat::igue.sugarcane.uniformity                                              |                                                   | two-way anova                           |
@@ -582,6 +589,8 @@ Last update: 2023-08-23.
 | agridat::nass.soybean                                                           |                                                   | simple regression                       |
 | agridat::nass.soybean                                                           |                                                   | graphs                                  |
 | agridat::pacheco.soybean                                                        |                                                   | two-way anova                           |
+| agridat::piepho.cocksfoot                                                       |                                                   | two-way anova                           |
+| agridat::piepho.cocksfoot                                                       |                                                   | mixed model                             |
 | agridat::snijders.fusarium                                                      |                                                   | factorial anova                         |
 | agridat::tai.potato                                                             |                                                   | 2-way anova                             |
 | agridat::turner.herbicide                                                       |                                                   | logistic regression                     |
@@ -924,6 +933,8 @@ Last update: 2023-08-23.
 | msme::rwm5yr                                                                    |                                                   | multiple regression                     |
 | msos::cars                                                                      |                                                   | principal components                    |
 | msos::sportsranks                                                               |                                                   | tidying                                 |
+| msos::states                                                                    |                                                   | principal components                    |
+| msos::states                                                                    |                                                   | clustering                              |
 | multcomp::detergent                                                             |                                                   | two-way anova                           |
 | multcomp::waste                                                                 |                                                   | two-way anova                           |
 | nlme::Alfalfa                                                                   |                                                   | split-plot design                       |
@@ -949,7 +960,9 @@ Last update: 2023-08-23.
 | nlme::ergoStool                                                                 |                                                   | repeated measures                       |
 | nlme::ergoStool                                                                 |                                                   | mixed model                             |
 | np::wage1                                                                       |                                                   | multiple regression                     |
+| nutshell::shiller.other.data (shiller)                                          |                                                   | time series                             |
 | nutshell::top.bacon.searching.cities                                            |                                                   | maps                                    |
+| openintro::ames                                                                 |                                                   | multiple regression                     |
 | openintro::ball_bearing                                                         |                                                   | one-sample                              |
 | openintro::classdata                                                            |                                                   | anova                                   |
 | openintro::climber_drugs                                                        |                                                   | dplyr                                   |
@@ -964,6 +977,7 @@ Last update: 2023-08-23.
 | openintro::fact_opinion                                                         |                                                   | summary                                 |
 | openintro::fact_opinion                                                         |                                                   | graphs                                  |
 | openintro::fact_opinion                                                         |                                                   | anova                                   |
+| openintro::fastfood                                                             |                                                   | principal components                    |
 | openintro::gpa_study_hours                                                      |                                                   | simple regression                       |
 | openintro::gpa_study_hours                                                      |                                                   | graphs                                  |
 | openintro::gradestv                                                             |                                                   | simple regression                       |
@@ -972,6 +986,7 @@ Last update: 2023-08-23.
 | openintro::lizard_habitat                                                       |                                                   | multinomial logistic                    |
 | openintro::lizard_habitat                                                       |                                                   | chi-squared                             |
 | openintro::male_heights                                                         |                                                   | one-sample                              |
+| openintro::mammals                                                              |                                                   | multiple regression                     |
 | openintro::migraine                                                             |                                                   | chi-squared                             |
 | openintro::orings                                                               |                                                   | logistic regression                     |
 | openintro::piracy                                                               |                                                   | ordinal logistic regression             |

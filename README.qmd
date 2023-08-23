@@ -4,11 +4,17 @@ format: gfm
 editor: visual
 ---
 
-This repo contains suggested statistical techniques for selected datasets found in R packages. The `notes` column contains occasional notes about where in the source text it is used. (This is especially the case when the R help file is not informative.)
+This repo contains suggested statistical techniques for selected datasets found in R packages.
+The `notes` column contains occasional notes about where in the source text it is used.
+(This is especially the case when the R help file is not informative.)
 
-Download the `.csv` file to sort by other things (such as technique). Note that datasets that suggest more than one technique are separated by commas in the technique column; use `separate_rows` or the new `separate_longer` to put them one per row. (The source code for this readme, in `README.qmd` , shows how it works.)
+Download the `.csv` file to sort by other things (such as technique).
+Note that datasets that suggest more than one technique are separated by commas in the technique column; use `separate_rows` or the new `separate_longer` to put them one per row.
+(The source code for this readme, in `README.qmd` , shows how it works.)
 
-Datasets and techniques are listed below. I don't guarantee I have been consistent in naming techniques! Raise an issue if you see an inconsistency that bothers you, or a duplicate dataset name and technique (I know I have some).
+Datasets and techniques are listed below.
+I don't guarantee I have been consistent in naming techniques!
+Raise an issue if you see an inconsistency that bothers you, or a duplicate dataset name and technique (I know I have some).
 
 Techniques are usually one of the below, to represent a "section" of work in my classes:
 
