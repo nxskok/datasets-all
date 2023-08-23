@@ -87,6 +87,7 @@ Last update: 2023-08-23.
 | AER::HealthInsurance                                                            |                                                   | logistic regression                     |
 | AER::Municipalities                                                             |                                                   | multiple regression                     |
 | AER::OECDGrowth                                                                 |                                                   | multiple regression                     |
+| AER::PSID1976                                                                   |                                                   | multiple regression                     |
 | AER::ProgramEffectiveness                                                       |                                                   | regression with categorical             |
 | AER::ResumeNames                                                                |                                                   | logistic regression                     |
 | AER::ResumeNames                                                                |                                                   | log-linear                              |
@@ -112,6 +113,8 @@ Last update: 2023-08-23.
 | BSDA::Haptoglo                                                                  |                                                   | one-sample                              |
 | BSDA::Homes                                                                     |                                                   | matched pairs                           |
 | BSDA::Income                                                                    |                                                   | one-sample                              |
+| BSDA::Indy500                                                                   |                                                   | simple regression                       |
+| BSDA::Indy500                                                                   |                                                   | two-sample                              |
 | BSDA::Kilowatt                                                                  |                                                   | one-sample                              |
 | BSDA::Leader                                                                    |                                                   | simple regression                       |
 | BSDA::Mathpro                                                                   |                                                   | simple regression                       |
@@ -152,6 +155,7 @@ Last update: 2023-08-23.
 | DAAG::milk                                                                      |                                                   | matched pairs                           |
 | DAAG::milk                                                                      |                                                   | simple regression                       |
 | DAAG::monica                                                                    |                                                   | logistic regression                     |
+| DAAG::ozone                                                                     |                                                   | time series                             |
 | DAAG::tinting                                                                   |                                                   | MANOVA                                  |
 | DAAG::tinting                                                                   |                                                   | principal components                    |
 | DAAG::tomato                                                                    |                                                   | anova                                   |
@@ -192,6 +196,7 @@ Last update: 2023-08-23.
 | Devore7::ex15.25                                                                | devore p 621                                      | mood median                             |
 | Devore7::xmp01.01                                                               | devore p 4                                        | one-sample                              |
 | Devore7::xmp01.14                                                               |                                                   | one-sample                              |
+| Devore7::xmp01.15                                                               | devore p 33                                       | one-sample                              |
 | Devore7::xmp01.17                                                               | p 36                                              | one-sample                              |
 | Devore7::xmp04.31                                                               |                                                   | normal quantile                         |
 | Devore7::xmp04.31                                                               |                                                   | weibull quantile                        |
@@ -555,6 +560,8 @@ Last update: 2023-08-23.
 | UsingR::diamond                                                                 |                                                   | simple regression                       |
 | UsingR::diamond                                                                 |                                                   | simple regression                       |
 | UsingR::midsize                                                                 |                                                   | graphs                                  |
+| UsingR::nba.draft                                                               |                                                   | simple regression                       |
+| UsingR::nba.draft                                                               |                                                   | graphs                                  |
 | UsingR::student.expenses                                                        |                                                   | chi-squared                             |
 | UsingR::student.expenses                                                        |                                                   | graphs                                  |
 | agridat::aastveit.barley.height                                                 |                                                   | 2-way anova                             |
@@ -647,6 +654,8 @@ Last update: 2023-08-23.
 | cherryblossom::run12                                                            |                                                   | dplyr                                   |
 | cherryblossom::run12                                                            |                                                   | graphs                                  |
 | cherryblossom::run12                                                            |                                                   | summaries                               |
+| cluster.datasets::cake.ingredients.1961                                         |                                                   | clustering                              |
+| cluster.datasets::cake.ingredients.1961                                         |                                                   | principal components                    |
 | cluster.datasets::ct.president.vote.1920.1964                                   |                                                   | tidying                                 |
 | cluster.datasets::ct.president.vote.1920.1964                                   |                                                   | cluster                                 |
 | cluster.datasets::european.foods                                                |                                                   | cluster                                 |
@@ -832,6 +841,7 @@ Last update: 2023-08-23.
 | isdals::paperstr                                                                |                                                   | simple regression                       |
 | isdals::pork                                                                    |                                                   | repeated measures                       |
 | isdals::ricestraw weight gain for cattle fed rice straw from number of days fed |                                                   | NA                                      |
+| isdals::soybean                                                                 |                                                   | matched pairs                           |
 | isdals::stearicacid                                                             |                                                   | simple regression                       |
 | isdals::vitamina                                                                |                                                   | principal components                    |
 | isdals::vitamina                                                                |                                                   | regression                              |
@@ -853,6 +863,8 @@ Last update: 2023-08-23.
 | lattice::USRegionalMortality                                                    |                                                   | dplyr                                   |
 | latticeExtra::biocAccess                                                        |                                                   | graphs                                  |
 | latticeExtra::biocAccess                                                        |                                                   | poisson regression                      |
+| lavaan::HolzingerSwineford1939                                                  |                                                   | principal components                    |
+| lavaan::HolzingerSwineford1939                                                  |                                                   | factor analysis                         |
 | lgrdata::pulse                                                                  |                                                   | multiple regression                     |
 | lmerTest::carrots                                                               |                                                   | regression                              |
 | lmerTest::carrots                                                               |                                                   | pca                                     |
@@ -1015,6 +1027,7 @@ Last update: 2023-08-23.
 | rethinking::Primates301                                                         |                                                   | principal components                    |
 | rethinking::Primates301                                                         |                                                   | cluster                                 |
 | rethinking::Primates301                                                         |                                                   | multiple regression                     |
+| rethinking::WaffleDivorce                                                       |                                                   | multiple regression                     |
 | robustbase::CrohnD                                                              |                                                   | poisson regression                      |
 | robustbase::aircraft                                                            |                                                   | regression                              |
 | robustbase::cloud                                                               |                                                   | regression                              |
@@ -1022,6 +1035,7 @@ Last update: 2023-08-23.
 | robustbase::coleman                                                             |                                                   | multiple regression                     |
 | robustbase::coleman                                                             |                                                   | dplyr                                   |
 | robustbase::delivery                                                            |                                                   | regression                              |
+| robustbase::heart                                                               |                                                   | multiple regression                     |
 | robustbase::possum.mat (possumDiv)                                              |                                                   | multiple regression                     |
 | robustbase::possumDiv                                                           |                                                   | multiple regression                     |
 | robustbase::possumDiv                                                           |                                                   | poisson regression                      |
