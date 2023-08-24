@@ -67,7 +67,7 @@ is dataset `Affairs` in package `AER.`
 This is definitely a work in progress: there are about 6,000 datasets in
 the packages on my computer!
 
-Last update: 2023-08-23.
+Last update: 2023-08-24.
 
 | dataset                                                                         | note                                              | technique                               |
 |:--------------------------------------------------------------------------------|:--------------------------------------------------|:----------------------------------------|
@@ -146,9 +146,9 @@ Last update: 2023-08-23.
 | DAAG::Lottario                                                                  |                                                   | chi-squared                             |
 | DAAG::cerealsugar                                                               |                                                   | one-sample                              |
 | DAAG::cricketer                                                                 |                                                   | survival                                |
-| DAAG::cuckoos                                                                   |                                                   | “regression with categorical            |
+| DAAG::cuckoos                                                                   |                                                   | regression with categorical             |
 | DAAG::cuckoos                                                                   |                                                   | MANOVA                                  |
-| DAAG::cuckoos                                                                   |                                                   | discriminant”                           |
+| DAAG::cuckoos                                                                   |                                                   | discriminant                            |
 | DAAG::elastic2                                                                  |                                                   | simple regression                       |
 | DAAG::hills2000                                                                 |                                                   | multiple regression                     |
 | DAAG::mifem                                                                     |                                                   | logistic regression                     |
@@ -619,8 +619,6 @@ Last update: 2023-08-23.
 | boot::nitrofen                                                                  |                                                   | repeated measures                       |
 | boot::nodal                                                                     |                                                   | log-linear                              |
 | boot::nodal                                                                     |                                                   | ordinal logistic regression             |
-| boot::urine                                                                     |                                                   | logistic regression                     |
-| boot::urine                                                                     |                                                   | discriminant                            |
 | bootstrap::cholost                                                              |                                                   | regression                              |
 | bootstrap::cholost                                                              |                                                   | simple regression                       |
 | bootstrap::hormone                                                              |                                                   | regression                              |
@@ -1060,6 +1058,9 @@ Last update: 2023-08-23.
 | rpart::car90                                                                    |                                                   | dplyr                                   |
 | rpart::car90                                                                    |                                                   | principal components                    |
 | rpart::solder                                                                   |                                                   | factorial anova                         |
+| rrcov::diabetes                                                                 |                                                   | discriminant                            |
+| rrcov::diabetes                                                                 |                                                   | cluster                                 |
+| rrcov::diabetes                                                                 |                                                   | logistic regression                     |
 | rrcov::diabetes                                                                 |                                                   | discriminant                            |
 | rrcov::diabetes                                                                 |                                                   | cluster                                 |
 | rrcov::fruit                                                                    |                                                   | principal components                    |
