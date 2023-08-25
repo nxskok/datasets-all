@@ -137,6 +137,7 @@ Last update: 2023-08-24.
 | BaM::SITE (adam.jags)                                                           |                                                   | chi-squared                             |
 | BaM::SITE (adam.jags)                                                           |                                                   | log-linear                              |
 | BaM::baldus                                                                     |                                                   | logistic regression                     |
+| BaM::num.chld (baldus.jags)                                                     |                                                   | logistic regression                     |
 | BaM::texas                                                                      |                                                   | logistic regression                     |
 | BayesDA::light                                                                  |                                                   | one-sample                              |
 | CatDataAnalysis::exercise_5.3                                                   | agresti p 198                                     | logistic regression                     |
@@ -150,6 +151,7 @@ Last update: 2023-08-24.
 | DAAG::cuckoos                                                                   |                                                   | MANOVA                                  |
 | DAAG::cuckoos                                                                   |                                                   | discriminant                            |
 | DAAG::elastic2                                                                  |                                                   | simple regression                       |
+| DAAG::fruitohms                                                                 |                                                   | simple regression                       |
 | DAAG::hills2000                                                                 |                                                   | multiple regression                     |
 | DAAG::mifem                                                                     |                                                   | logistic regression                     |
 | DAAG::milk                                                                      |                                                   | matched pairs                           |
@@ -171,6 +173,8 @@ Last update: 2023-08-24.
 | Devore7::ex06.03                                                                |                                                   | one-sample                              |
 | Devore7::ex06.15                                                                |                                                   | one-sample                              |
 | Devore7::ex09.12                                                                |                                                   | Two-sample                              |
+| Devore7::ex09.23                                                                | devore                                            | two-sample                              |
+| Devore7::ex09.23                                                                | devore                                            | normal quantile                         |
 | Devore7::ex09.29                                                                | devore p 343                                      | two-sample                              |
 | Devore7::ex09.30                                                                |                                                   | two-sample                              |
 | Devore7::ex09.37                                                                | devore p 351                                      | matched pairs                           |
@@ -184,9 +188,11 @@ Last update: 2023-08-24.
 | Devore7::ex11.57                                                                | devore p 444                                      | factorial anova                         |
 | Devore7::ex12.01                                                                | devore p 453                                      | simple regression                       |
 | Devore7::ex12.46                                                                |                                                   | simple regression                       |
+| Devore7::ex12.73                                                                | devore                                            | simple regression                       |
 | Devore7::ex13.06                                                                | devore p 506                                      | simple regression                       |
 | Devore7::ex13.09c                                                               | devore p 507                                      | simple regression                       |
 | Devore7::ex13.15                                                                |                                                   | simple regression                       |
+| Devore7::ex13.68                                                                | devore p 563                                      | simple regression                       |
 | Devore7::ex13.69                                                                | Devore p 564                                      | simple regression                       |
 | Devore7::ex14.21                                                                |                                                   | normal quantile plot                    |
 | Devore7::ex14.23                                                                |                                                   | one-sample                              |
@@ -218,6 +224,9 @@ Last update: 2023-08-24.
 | Devore7::xmp16.06                                                               |                                                   | control chart                           |
 | Ecdat::Grunfeld                                                                 |                                                   | economics                               |
 | Ecdat::Grunfeld                                                                 |                                                   | time series                             |
+| Ecdat::RetSchool                                                                |                                                   | economics                               |
+| Ecdat::RetSchool                                                                |                                                   | time series                             |
+| Ecdat::RetSchool                                                                |                                                   | panel data                              |
 | Ecdat::SP500                                                                    |                                                   | time series                             |
 | Ecdat::Tbrate                                                                   |                                                   | time series                             |
 | Ecdat::Tbrate                                                                   |                                                   | economics                               |
@@ -252,6 +261,7 @@ Last update: 2023-08-24.
 | HH::stopdist                                                                    |                                                   | simple regression                       |
 | HH::tongue                                                                      |                                                   | logistic regression                     |
 | HH::wheat                                                                       | heiberger p 536                                   | split-plot design                       |
+| HSAUR2::respiratory                                                             |                                                   | logistic regression                     |
 | HSAUR3::USairpollution                                                          |                                                   | multiple regression                     |
 | HSAUR3::agefat                                                                  |                                                   | ancova                                  |
 | HistData::ChestStigler                                                          |                                                   | one-sample                              |
@@ -479,6 +489,7 @@ Last update: 2023-08-24.
 | SMPracticals::rat.growth                                                        |                                                   | graphs                                  |
 | SMPracticals::rat.growth                                                        |                                                   | repeated measures                       |
 | SMPracticals::salinity                                                          |                                                   | multiple regression                     |
+| SMPracticals::shuttle                                                           |                                                   | logistic regression                     |
 | SMPracticals::sticky                                                            |                                                   | anova                                   |
 | SMPracticals::ulcer                                                             |                                                   | logistic regression                     |
 | SMPracticals::yahoo                                                             |                                                   | time series                             |
@@ -501,6 +512,7 @@ Last update: 2023-08-24.
 | Sleuth2::ex1713                                                                 |                                                   | principal components                    |
 | Sleuth2::ex1919                                                                 |                                                   | log-linear                              |
 | Sleuth3::case1801                                                               |                                                   | log-linear                              |
+| Sleuth3::ex0331                                                                 |                                                   | two-sample                              |
 | Sleuth3::ex0428                                                                 |                                                   | matched pairs                           |
 | Sleuth3::ex0432                                                                 |                                                   | matched pairs                           |
 | Sleuth3::ex0722                                                                 |                                                   | regression with categorical             |
@@ -560,6 +572,8 @@ Last update: 2023-08-24.
 | TeachingDemos::steps                                                            |                                                   | multiple regression                     |
 | TeachingDemos::steps                                                            |                                                   | graphs                                  |
 | TeachingDemos::steps                                                            |                                                   | dplyr                                   |
+| UsingR::Medicare                                                                |                                                   | dplyr                                   |
+| UsingR::Medicare                                                                |                                                   | graphs                                  |
 | UsingR::carbon                                                                  |                                                   | anova                                   |
 | UsingR::coldvermont                                                             |                                                   | time series                             |
 | UsingR::crime                                                                   |                                                   | matched pairs                           |
@@ -804,6 +818,7 @@ Last update: 2023-08-24.
 | ggbiplot::wine                                                                  |                                                   | discrim                                 |
 | ggplot2::midwest                                                                |                                                   | graphs                                  |
 | ggplot2::midwest                                                                |                                                   | dplyr                                   |
+| ggplot2::txhousing                                                              |                                                   | multiple regression                     |
 | ggridges::lincoln_weather                                                       |                                                   | pca                                     |
 | gmp::Oakley1                                                                    |                                                   | internal                                |
 | gnm::yaish                                                                      |                                                   | log-linear                              |
@@ -877,6 +892,8 @@ Last update: 2023-08-24.
 | lmerTest::carrots                                                               |                                                   | pca                                     |
 | lmerTest::carrots                                                               |                                                   | ordinal logistic regression             |
 | lmerTest::carrots                                                               |                                                   | log-linear                              |
+| lmtest::ftemp                                                                   |                                                   | time series                             |
+| lmtest::ftemp                                                                   |                                                   | graphs                                  |
 | lmtest::gmdc                                                                    |                                                   | time series                             |
 | lmtest::gmdc                                                                    |                                                   | economics                               |
 | lmtest::wages                                                                   |                                                   | multiple regression                     |
@@ -897,6 +914,7 @@ Last update: 2023-08-24.
 | mclust::acidity                                                                 |                                                   | one-sample                              |
 | mclust::banknote                                                                |                                                   | cluster                                 |
 | mclust::ex4.4.2 (Baudry_etal_2010_JCGS_examples)                                |                                                   | cluster                                 |
+| metadat::dat.crede2010                                                          |                                                   | meta-analysis                           |
 | metadat::dat.hasselblad1998                                                     |                                                   | meta-analysis                           |
 | metadat::dat.ishak2007                                                          |                                                   | meta-analysis                           |
 | metadat::dat.linde2015                                                          |                                                   | meta-analysis                           |
@@ -1000,6 +1018,7 @@ Last update: 2023-08-24.
 | openintro::speed_gender_height                                                  |                                                   | regression with categorical             |
 | openintro::stent365                                                             |                                                   | chi-squared                             |
 | openintro::student_housing                                                      |                                                   | one-sample                              |
+| openintro::supreme_court                                                        |                                                   | inference for proportions               |
 | openintro::ucla_textbooks_f18                                                   |                                                   | graphs                                  |
 | openintro::ucla_textbooks_f18                                                   |                                                   | dplyr                                   |
 | openintro::ucla_textbooks_f18                                                   |                                                   | two-sample                              |
@@ -1054,6 +1073,7 @@ Last update: 2023-08-24.
 | robustbase::possumDiv                                                           |                                                   | poisson regression                      |
 | robustbase::starsCYG                                                            |                                                   | simple regression                       |
 | rpart.plot::ptitanic                                                            |                                                   | logistic regression                     |
+| rpart::car.test.frame                                                           |                                                   | multiple regression                     |
 | rpart::car90                                                                    |                                                   | graphs                                  |
 | rpart::car90                                                                    |                                                   | dplyr                                   |
 | rpart::car90                                                                    |                                                   | principal components                    |
@@ -1079,6 +1099,7 @@ Last update: 2023-08-24.
 | sampling::swissmunicipalities                                                   |                                                   | sampling                                |
 | sampling::swissmunicipalities                                                   |                                                   | regression                              |
 | sampling::swissmunicipalities                                                   |                                                   | dplyr                                   |
+| sandwich::InstInnovation                                                        |                                                   | economics                               |
 | sets::fuzzy_docs                                                                |                                                   | text analysis                           |
 | shapes::gorm.dat                                                                |                                                   | shape analysis                          |
 | sp::meuse.area                                                                  |                                                   | spatial                                 |
@@ -1096,6 +1117,7 @@ Last update: 2023-08-24.
 | spuRs::ufc                                                                      |                                                   | simple regression                       |
 | spuRs::ufc                                                                      |                                                   | regression with categorical             |
 | spuRs::ufc                                                                      |                                                   | ancova                                  |
+| stevedata::Arca                                                                 |                                                   | time series                             |
 | stevedata::LTPT                                                                 |                                                   | time series                             |
 | stevedata::LTPT                                                                 |                                                   | graphs                                  |
 | stevedata::LTWT                                                                 |                                                   | time series                             |
@@ -1130,6 +1152,8 @@ Last update: 2023-08-24.
 | tidytext::sentiments                                                            |                                                   | text analysis                           |
 | tseries::GNP                                                                    |                                                   | time series                             |
 | tseries::GNP                                                                    |                                                   | graphs                                  |
+| tseries::gnp.def (NelPlo)                                                       |                                                   | economics                               |
+| tseries::gnp.def (NelPlo)                                                       |                                                   | time series                             |
 | tseries::gnp.nom (NelPlo)                                                       |                                                   | time series                             |
 | tseries::gnp.nom (NelPlo)                                                       |                                                   | economics                               |
 | tseries::rs (USeconomic)                                                        |                                                   | time series                             |
@@ -1158,3 +1182,6 @@ Last update: 2023-08-24.
 | vcdExtra::Hoyt                                                                  |                                                   | log-linear                              |
 | vcdExtra::Toxaemia                                                              |                                                   | log-linear                              |
 | waveslim::doppler                                                               |                                                   | wavelets                                |
+| waveslim::xbox                                                                  |                                                   | wavelets                                |
+
+Total datasets: 800.

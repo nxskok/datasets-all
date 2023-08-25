@@ -78,3 +78,5 @@ descriptions %>%
   arrange(dataset) %>% 
   knitr::kable()
 ```
+
+Total datasets: `r nrow(descriptions)`.
