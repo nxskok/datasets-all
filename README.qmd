@@ -4,7 +4,14 @@ format: gfm
 editor: visual
 ---
 
-Last update: `r Sys.Date()`.
+```{r}
+#| echo: false
+#| message: false
+library(readr)
+descriptions <- read_csv("descriptions.csv")
+```
+
+Last update: `r Sys.Date()` with `r nrow(descriptions)` datasets.
 
 This repo contains suggested statistical techniques for selected datasets found in R packages. The `notes` column contains occasional notes about where in the source text it is used. (This is especially the case when the R help file is not informative.)
 
@@ -72,5 +79,3 @@ descriptions %>%
   arrange(dataset) %>% 
   knitr::kable()
 ```
-
-Total datasets: `r nrow(descriptions)`.
