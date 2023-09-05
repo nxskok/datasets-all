@@ -1,6 +1,6 @@
 # datasets-all
 
-Last update: 2023-08-30 with 868 datasets.
+Last update: 2023-09-04 with 871 datasets.
 
 This repo contains suggested statistical techniques for selected
 datasets found in R packages. The `notes` column contains occasional
@@ -103,6 +103,7 @@ the packages on my computer!
 | BSDA::Attorney                                                                  |                                                   | simple regression                       |
 | BSDA::Board                                                                     |                                                   | anova                                   |
 | BSDA::Books                                                                     |                                                   | simple regression                       |
+| BSDA::Bumpers                                                                   |                                                   | one-sample                              |
 | BSDA::Bus                                                                       |                                                   | chi-squared                             |
 | BSDA::Chesapea                                                                  |                                                   | one-sample                              |
 | BSDA::Clean                                                                     |                                                   | anova                                   |
@@ -206,6 +207,7 @@ the packages on my computer!
 | Devore7::ex11.02                                                                | devore p 408                                      | randomized block                        |
 | Devore7::ex11.08                                                                |                                                   | anova                                   |
 | Devore7::ex11.31                                                                | devore p 427                                      | factorial anova                         |
+| Devore7::ex11.39                                                                | devore                                            | NA                                      |
 | Devore7::ex11.57                                                                | devore p 444                                      | factorial anova                         |
 | Devore7::ex12.01                                                                | devore p 453                                      | simple regression                       |
 | Devore7::ex12.46                                                                |                                                   | simple regression                       |
@@ -955,6 +957,7 @@ the packages on my computer!
 | lavaan::HolzingerSwineford1939                                                  |                                                   | principal components                    |
 | lavaan::HolzingerSwineford1939                                                  |                                                   | factor analysis                         |
 | lgrdata::pulse                                                                  |                                                   | multiple regression                     |
+| lme4::VerbAgg                                                                   |                                                   | repeated measures                       |
 | lmerTest::carrots                                                               |                                                   | regression                              |
 | lmerTest::carrots                                                               |                                                   | pca                                     |
 | lmerTest::carrots                                                               |                                                   | ordinal logistic regression             |
