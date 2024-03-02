@@ -3,6 +3,6 @@ desc <- read_csv("descriptions.csv")
 desc
 
 desc %>%
-  filter(str_detect(technique, "survival")) %>%
+  filter(str_detect(technique, "manova")) %>%
   select(dataset, technique) %>%
-  slice_sample(n = 10)
+  slice_sample(n = 20)
