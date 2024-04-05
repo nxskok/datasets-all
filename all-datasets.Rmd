@@ -6,7 +6,7 @@ library(clipr)
 
 ```{r}
 Sys.setenv(DISPLAY=":4")
-clipr_available()
+# clipr_available()
 ```
 
 get all datasets

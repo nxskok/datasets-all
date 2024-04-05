@@ -15,8 +15,8 @@ desc
 sample a few
 
 ```{r}
-desc %>% slice_sample(n = 3) %>% 
-  select(-description) %>% 
+desc %>% slice_sample(n = 10) %>% 
+  select(dataset:technique) %>% 
   separate_rows(technique, sep = ",")
 ```
 

@@ -1,0 +1,17 @@
+---
+title: "find-by-theme"
+format: html
+---
+
+```{r}
+library(tidyverse)
+desc <- read_csv("descriptions.csv")
+desc %>% separate_longer_delim(technique, ",") -> desc
+```
+
+```{r}
+desc %>% filter(str_detect(technique, "prin")) %>% 
+  select(-note) %>% 
+  slice_sample(prop = 1)
+```
+
