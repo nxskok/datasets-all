@@ -1,4 +1,4 @@
-Package,LibPath,Version,Priority,Depends,Imports,LinkingTo,Suggests,Enhances,License,License_is_FOSS,License_restricts_use,OS_type,MD5sum,NeedsCompilation,Built
+essi,LibPath,Version,Priority,Depends,Imports,LinkingTo,Suggests,Enhances,License,License_is_FOSS,License_restricts_use,OS_type,MD5sum,NeedsCompilation,Built
 abind,/home/ken/R/x86_64-pc-linux-gnu-library/4.2,1.4-5,NA,R (>= 1.5.0),"methods, utils",NA,NA,NA,LGPL (>= 2),NA,NA,NA,NA,no,4.2.0
 assertthat,/home/ken/R/x86_64-pc-linux-gnu-library/4.2,0.2.1,NA,NA,tools,NA,"testthat, covr",NA,GPL-3,NA,NA,NA,NA,no,4.2.0
 base64enc,/home/ken/R/x86_64-pc-linux-gnu-library/4.2,0.1-3,NA,R (>= 2.9.0),NA,NA,NA,png,GPL-2 | GPL-3,NA,NA,NA,NA,yes,4.2.0

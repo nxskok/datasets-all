@@ -1,6 +1,6 @@
 # datasets-all
 
-Last update: 2024-04-12 with 982 datasets.
+Last update: 2024-04-15 with 1030 datasets.
 
 This repo contains suggested statistical techniques for selected
 datasets found in R packages. The `notes` column contains occasional
@@ -98,11 +98,17 @@ the packages on my computer!
 | AER::ResumeNames                                                                |                                                   | logistic regression                     |
 | AER::ResumeNames                                                                |                                                   | log-linear                              |
 | AER::SIC33                                                                      |                                                   | multiple regression                     |
+| AER::STAR                                                                       |                                                   | multiple regression                     |
+| AER::STAR                                                                       |                                                   | principal components                    |
+| AER::STAR                                                                       |                                                   | summary                                 |
+| AER::STAR                                                                       |                                                   | graphs                                  |
 | AER::USMacroB                                                                   |                                                   | regression                              |
 | AER::USMacroB                                                                   |                                                   | time series                             |
+| AER::USMacroSW                                                                  |                                                   | time series                             |
 | AER::USProdIndex                                                                |                                                   | time series                             |
 | BHH2::tomato.data                                                               |                                                   | anova                                   |
 | BHH2::tomato.data                                                               |                                                   | two-way anova                           |
+| BSDA::Absent                                                                    |                                                   | one sample                              |
 | BSDA::Airline                                                                   |                                                   | simple regression                       |
 | BSDA::Allergy                                                                   | kitchens ex 8.2                                   | chi-square                              |
 | BSDA::Allergy                                                                   | kitchens ex 8.2                                   | log-linear                              |
@@ -123,9 +129,12 @@ the packages on my computer!
 | BSDA::Degree                                                                    |                                                   | graphs                                  |
 | BSDA::Degree                                                                    |                                                   | chi-square                              |
 | BSDA::Depend                                                                    |                                                   | one-sample                              |
+| BSDA::Diplomat                                                                  |                                                   | graphs                                  |
 | BSDA::Entrance                                                                  | ?                                                 | one-sample                              |
+| BSDA::Epaminicompact                                                            |                                                   | multiple regression                     |
 | BSDA::Ferraro1                                                                  |                                                   | chi-squared                             |
 | BSDA::Freshman                                                                  |                                                   | one-sample                              |
+| BSDA::Gym                                                                       | kitchens ex 2.21, 9.14                            | simple regression                       |
 | BSDA::Haptoglo                                                                  |                                                   | one-sample                              |
 | BSDA::Homes                                                                     |                                                   | matched pairs                           |
 | BSDA::Income                                                                    |                                                   | one-sample                              |
@@ -146,6 +155,7 @@ the packages on my computer!
 | BSDA::Orioles                                                                   |                                                   | one-sample                              |
 | BSDA::Pearson                                                                   |                                                   | simple regression                       |
 | BSDA::Randd                                                                     |                                                   | simple regression                       |
+| BSDA::Ronbrown1                                                                 | kitchens 2.9                                      | simple regression                       |
 | BSDA::Schizoph                                                                  |                                                   | one-sample                              |
 | BSDA::Senior                                                                    | 1.83 and 3.67                                     | one sample                              |
 | BSDA::Shkdrug                                                                   |                                                   | anova                                   |
@@ -199,8 +209,10 @@ the packages on my computer!
 | DAAG::vince111b                                                                 | andrews herzberg                                  | ?                                       |
 | DAAG::worldRecords                                                              |                                                   | ancova                                  |
 | Devore7::ex01.15                                                                | p. 21                                             | two-sample                              |
-| Devore7::ex01.2                                                                 | devore                                            | NA                                      |
+| Devore7::ex01.20                                                                | devore p 22                                       | one sample                              |
 | Devore7::ex01.24                                                                | devore p 23                                       | one-sample                              |
+| Devore7::ex01.29                                                                | devore                                            | categorial                              |
+| Devore7::ex01.29                                                                | devore                                            | graphs                                  |
 | Devore7::ex01.36                                                                | p. 30                                             | one-sample                              |
 | Devore7::ex01.37                                                                | p 30                                              | one-sample                              |
 | Devore7::ex01.65                                                                | devore p 42                                       | graphs (by hand)                        |
@@ -223,11 +235,11 @@ the packages on my computer!
 | Devore7::ex09.65                                                                | p. 364                                            | two-sample                              |
 | Devore7::ex09.76                                                                | p 366                                             | two-sample                              |
 | Devore7::ex09.86                                                                | devore p 367                                      | matched pairs                           |
-| Devore7::ex09.88                                                                | devore                                            | NA                                      |
+| Devore7::ex09.88                                                                | devore p 368                                      | two sample                              |
 | Devore7::ex09.90                                                                | p. 368                                            | mcnemar test                            |
 | Devore7::ex10.06                                                                | p. 378                                            | anova                                   |
 | Devore7::ex10.27                                                                | p 394                                             | anova                                   |
-| Devore7::ex10.42                                                                | devore                                            | NA                                      |
+| Devore7::ex10.42                                                                | devore p 396                                      | anova                                   |
 | Devore7::ex11.02                                                                | devore p 408                                      | randomized block                        |
 | Devore7::ex11.08                                                                | p. 409                                            | anova                                   |
 | Devore7::ex11.31                                                                | devore p 427                                      | factorial anova                         |
@@ -238,19 +250,24 @@ the packages on my computer!
 | Devore7::ex12.73                                                                | p. 495                                            | simple regression                       |
 | Devore7::ex13.06                                                                | devore p 506                                      | simple regression                       |
 | Devore7::ex13.09a                                                               | devore p 507                                      | simple regression                       |
+| Devore7::ex13.09b                                                               | devore p 507                                      | simple regression                       |
 | Devore7::ex13.09c                                                               | devore p 507                                      | simple regression                       |
-| Devore7::ex13.14                                                                | devore                                            | NA                                      |
+| Devore7::ex13.14                                                                | devore p 508                                      | simple regression lack of fit           |
 | Devore7::ex13.15                                                                | p. 517                                            | simple regression                       |
 | Devore7::ex13.25                                                                | devore p 518                                      | logistic regression                     |
 | Devore7::ex13.33                                                                | p 527                                             | simple regression                       |
 | Devore7::ex13.68                                                                | devore p 563                                      | simple regression                       |
 | Devore7::ex13.69                                                                | Devore p 564                                      | simple regression                       |
+| Devore7::ex14.13                                                                | devore p 585                                      | binomial test of fit                    |
 | Devore7::ex14.21                                                                | p. 587                                            | normal quantile plot                    |
 | Devore7::ex14.23                                                                | p. 587                                            | one-sample                              |
 | Devore7::ex14.23                                                                | p. 587                                            | normal quantile                         |
 | Devore7::ex14.31                                                                | p. 594                                            | Chi-squared                             |
 | Devore7::ex14.31                                                                | p. 594                                            | log-linear                              |
 | Devore7::ex14.38                                                                | p. 595                                            | chi-squared                             |
+| Devore7::ex15.01                                                                | devore p 306                                      | one sample                              |
+| Devore7::ex15.01                                                                | devore p 306                                      | sign test                               |
+| Devore7::ex15.04                                                                | devore p 607                                      | sign test                               |
 | Devore7::ex15.25                                                                | devore p 621                                      | anova                                   |
 | Devore7::ex15.25                                                                | devore p 621                                      | mood median                             |
 | Devore7::ex15.27                                                                | devore p 622                                      | repeated measures                       |
@@ -295,6 +312,7 @@ the packages on my computer!
 | EngrExpt::whitearea                                                             |                                                   | two-sample                              |
 | GGally::pigs                                                                    |                                                   | time series                             |
 | GGally::pigs                                                                    |                                                   | regression                              |
+| GGally::tips                                                                    |                                                   | multiple regression                     |
 | GLMsData::cyclones                                                              |                                                   | logistic regression                     |
 | GLMsData::flowers                                                               |                                                   | ancova                                  |
 | GLMsData::flowers                                                               |                                                   | glm                                     |
@@ -306,16 +324,21 @@ the packages on my computer!
 | GLMsData::toothbrush                                                            |                                                   | matched pairs                           |
 | GLMsData::toothbrush                                                            |                                                   | two-way anova                           |
 | GLMsData::yieldden                                                              |                                                   | ancova                                  |
-| HH::abrasion                                                                    | heiberger                                         | NA                                      |
+| HH::SFF8121                                                                     | heiberger                                         | NA                                      |
+| HH::abrasion                                                                    | heiberger p 310                                   | multiple regression                     |
 | HH::display                                                                     |                                                   | 2-way anova                             |
+| HH::energy                                                                      | heiberger & holland                               | multiple regression                     |
+| HH::energy                                                                      | heiberger & holland                               | regression with categorical             |
 | HH::fat                                                                         | p 236                                             | multiple regression                     |
 | HH::filmcoat                                                                    |                                                   | 2-way anova                             |
 | HH::filter                                                                      | p 472                                             | 3-way anova                             |
+| HH::glasses                                                                     | heiberger                                         | chi-squared                             |
 | HH::htwt                                                                        |                                                   | graphs                                  |
 | HH::htwt                                                                        |                                                   | two-sample                              |
 | HH::htwt                                                                        |                                                   | dplyr                                   |
 | HH::htwt                                                                        |                                                   | simple regression                       |
 | HH::htwt                                                                        |                                                   | multiple regression                     |
+| HH::notch                                                                       | heiberger p 191                                   | anova                                   |
 | HH::pox                                                                         |                                                   | matched pairs                           |
 | HH::selfexam                                                                    | heiberger & holland p 573                         | chi-square                              |
 | HH::sickle                                                                      | p 190                                             | anova                                   |
@@ -348,6 +371,7 @@ the packages on my computer!
 | HistData::Pyx                                                                   |                                                   | log-linear                              |
 | HistData::Quarrels                                                              |                                                   | multinomial logistic regression         |
 | HistData::Snow.streets                                                          |                                                   | spatial                                 |
+| HistData::Virginis.interp                                                       |                                                   | simple regression                       |
 | ISwR::alkfos                                                                    |                                                   | repeated measures                       |
 | ISwR::bp.obese                                                                  |                                                   | ancova                                  |
 | ISwR::cystfibr                                                                  |                                                   | manova                                  |
@@ -511,6 +535,7 @@ the packages on my computer!
 | MASS::road                                                                      |                                                   | regression                              |
 | MASS::rotifer                                                                   |                                                   | logistic regression                     |
 | MASS::shrimp                                                                    |                                                   | one-sample                              |
+| MASS::shuttle                                                                   |                                                   | log-linear                              |
 | MASS::survey                                                                    |                                                   | graphs                                  |
 | MASS::waders                                                                    |                                                   | pca                                     |
 | MASS::whiteside                                                                 |                                                   | regression                              |
@@ -542,6 +567,7 @@ the packages on my computer!
 | PASWR2::COWS                                                                    |                                                   | two-way anova                           |
 | PASWR2::URLADDRESS                                                              |                                                   | simple regression                       |
 | PMCMRplus::trout                                                                |                                                   | anova                                   |
+| PairedData::Anorexia                                                            |                                                   | matched pairs                           |
 | PairedData::Datalcoholic                                                        | dataframe of datasets                             | matched pairs                           |
 | PairedData::GrapeFruit                                                          |                                                   | matched pairs                           |
 | PairedData::Iron                                                                |                                                   | matched pairs                           |
@@ -598,6 +624,7 @@ the packages on my computer!
 | Sleuth3::case0102                                                               | used                                              | 2-sample                                |
 | Sleuth3::case1101                                                               |                                                   | regression                              |
 | Sleuth3::case1101                                                               |                                                   | logistic regression                     |
+| Sleuth3::case1102                                                               |                                                   | multiple regression                     |
 | Sleuth3::case1701                                                               |                                                   | 3-way anova                             |
 | Sleuth3::case1701                                                               |                                                   | graphs                                  |
 | Sleuth3::case1801                                                               |                                                   | log-linear                              |
@@ -625,6 +652,8 @@ the packages on my computer!
 | Stat2Data::AHCAvote2017                                                         |                                                   | matched pairs                           |
 | Stat2Data::AHCAvote2017                                                         |                                                   | two-sample                              |
 | Stat2Data::Amyloid                                                              |                                                   | ordinal logistic                        |
+| Stat2Data::CO2                                                                  |                                                   | time series                             |
+| Stat2Data::CO2                                                                  |                                                   | graphs                                  |
 | Stat2Data::Caterpillars                                                         |                                                   | ordered logistic                        |
 | Stat2Data::CrackerFiber                                                         |                                                   | repeated measures                       |
 | Stat2Data::CreditRisk                                                           |                                                   | logistic regression                     |
@@ -669,6 +698,7 @@ the packages on my computer!
 | Stat2Data::Sparrows                                                             |                                                   | anova                                   |
 | Stat2Data::Sparrows                                                             |                                                   | manova                                  |
 | Stat2Data::Sparrows                                                             |                                                   | discrim                                 |
+| Stat2Data::SugarEthanol                                                         |                                                   | two-way anova                           |
 | Stat2Data::ThomasConfirmation                                                   |                                                   | chi-squared                             |
 | Stat2Data::ThomasConfirmation                                                   |                                                   | logistic regression                     |
 | Stat2Data::VisualVerbal                                                         |                                                   | two-way anova                           |
@@ -713,6 +743,7 @@ the packages on my computer!
 | UsingR::ozonemonthly                                                            |                                                   | anova                                   |
 | UsingR::skateranks                                                              |                                                   | correlation                             |
 | UsingR::skateranks                                                              |                                                   | pca                                     |
+| UsingR::slc                                                                     | from Kitchens                                     | one sample                              |
 | UsingR::snacks                                                                  | ?                                                 | reading files                           |
 | UsingR::snacks                                                                  | ?                                                 | pca                                     |
 | UsingR::student.expenses                                                        |                                                   | chi-squared                             |
@@ -722,6 +753,9 @@ the packages on my computer!
 | ade4::syndicats                                                                 |                                                   | chi-square                              |
 | agridat::aastveit.barley.height                                                 |                                                   | 2-way anova                             |
 | agridat::bachmaier.nitrogen                                                     |                                                   | two-way anova                           |
+| agridat::belamkar.augmented                                                     |                                                   | factorial experiment                    |
+| agridat::belamkar.augmented                                                     |                                                   | reading                                 |
+| agridat::belamkar.augmented                                                     |                                                   | summaries                               |
 | agridat::bliss.borers                                                           |                                                   | anova                                   |
 | agridat::burgueno.rowcol                                                        |                                                   | factorial anova                         |
 | agridat::crossa.wheat                                                           |                                                   | two-way anova                           |
@@ -742,6 +776,8 @@ the packages on my computer!
 | agridat::nass.soybean                                                           |                                                   | simple regression                       |
 | agridat::nass.soybean                                                           |                                                   | graphs                                  |
 | agridat::pacheco.soybean                                                        |                                                   | two-way anova                           |
+| agridat::pederson.lettuce.repeated                                              |                                                   | anova                                   |
+| agridat::pederson.lettuce.repeated                                              |                                                   | two-way anova                           |
 | agridat::piepho.cocksfoot                                                       |                                                   | two-way anova                           |
 | agridat::piepho.cocksfoot                                                       |                                                   | mixed model                             |
 | agridat::snijders.fusarium                                                      |                                                   | factorial anova                         |
@@ -753,7 +789,9 @@ the packages on my computer!
 | aplore3::chdage                                                                 |                                                   | logistic regression                     |
 | aplore3::glow500                                                                |                                                   | logistic regression                     |
 | aplore3::glow_bonemed                                                           |                                                   | logistic regression                     |
-| aprean3::dst033                                                                 | draper & smith                                    | NA                                      |
+| aprean3::dse03z                                                                 | ex Z ch 3 D&S p 107                               | simple regression                       |
+| aprean3::dse16a                                                                 | ex A ch 16 of Draper & Smith p 385                | multiple regression                     |
+| aprean3::dst033                                                                 | draper & smith table 3.3 p 95                     | simple regression                       |
 | asbio::Glucose2                                                                 |                                                   | repeated measures                       |
 | asbio::prostate                                                                 |                                                   | multiple regression                     |
 | asbio::prostate                                                                 |                                                   | ordered logistic                        |
@@ -793,8 +831,10 @@ the packages on my computer!
 | carData::Angell                                                                 |                                                   | dplyr                                   |
 | carData::Anscombe                                                               |                                                   | simple regression                       |
 | carData::Anscombe                                                               |                                                   | anova                                   |
+| carData::Bfox                                                                   |                                                   | multiple regression                     |
 | carData::CanPop                                                                 |                                                   | time series                             |
 | carData::CanPop                                                                 |                                                   | regression                              |
+| carData::Chirot                                                                 |                                                   | multiple regression                     |
 | carData::Davis                                                                  |                                                   | one-sample                              |
 | carData::Florida                                                                |                                                   | graphs                                  |
 | carData::GSSvocab                                                               |                                                   | factorial anova                         |
@@ -862,6 +902,7 @@ the packages on my computer!
 | datasets::VADeaths                                                              |                                                   | two-way anova                           |
 | datasets::WWWusage                                                              |                                                   | time series                             |
 | datasets::WorldPhones                                                           |                                                   | graphs                                  |
+| datasets::attenu                                                                |                                                   | multiple regression                     |
 | datasets::beaver2                                                               |                                                   | simple regression                       |
 | datasets::beaver2                                                               |                                                   | time series                             |
 | datasets::cars                                                                  |                                                   | graphs                                  |
@@ -872,6 +913,7 @@ the packages on my computer!
 | datasets::eurodist                                                              |                                                   | cluster                                 |
 | datasets::eurodist                                                              |                                                   | scaling                                 |
 | datasets::fdeaths                                                               |                                                   | time series                             |
+| datasets::freeny                                                                |                                                   | time series                             |
 | datasets::infert                                                                |                                                   | ?                                       |
 | datasets::iris                                                                  |                                                   | anova                                   |
 | datasets::iris                                                                  |                                                   | MANOVA                                  |
@@ -880,6 +922,11 @@ the packages on my computer!
 | datasets::occupationalStatus                                                    |                                                   | log-linear                              |
 | datasets::quakes                                                                |                                                   | maps                                    |
 | datasets::stackloss                                                             |                                                   | regression                              |
+| datasets::sunspot.year                                                          |                                                   | time series                             |
+| datasets::sunspot.year                                                          |                                                   | one-sample                              |
+| datasets::sunspot.year                                                          |                                                   | graphs                                  |
+| datasets::sunspot.year                                                          |                                                   | two-sample                              |
+| datasets::sunspot.year                                                          |                                                   | anova                                   |
 | datasets::swiss                                                                 |                                                   | regression                              |
 | datasets::swiss                                                                 |                                                   | pca                                     |
 | datasets::uspop                                                                 |                                                   | time series                             |
@@ -894,7 +941,9 @@ the packages on my computer!
 | drc::lepidium                                                                   |                                                   | anova                                   |
 | drc::metals                                                                     |                                                   | ancova                                  |
 | drc::metals                                                                     |                                                   | regression with categorical             |
+| drc::ryegrass                                                                   |                                                   | simple regression                       |
 | drc::secalonic                                                                  |                                                   | regression                              |
+| drc::selenium                                                                   |                                                   | logistic regression grouped             |
 | emmeans::auto.noise (autonoise)                                                 |                                                   | factorial anova                         |
 | exactRankTests::ASAT                                                            |                                                   | two-sample                              |
 | exactRankTests::glioma                                                          |                                                   | survival                                |
@@ -940,6 +989,7 @@ the packages on my computer!
 | faraway::nepali                                                                 |                                                   | dplyr                                   |
 | faraway::nepali                                                                 |                                                   | summaries                               |
 | faraway::odor                                                                   |                                                   | 2-way anova                             |
+| faraway::orings                                                                 |                                                   | logistic regression                     |
 | faraway::parstum                                                                |                                                   | chi-square                              |
 | faraway::parstum                                                                |                                                   | log-linear                              |
 | faraway::ratdrink                                                               |                                                   | repeated measures                       |
@@ -989,6 +1039,7 @@ the packages on my computer!
 | fma::qelec                                                                      |                                                   | time series                             |
 | fma::strikes                                                                    |                                                   | time series                             |
 | fma::texasgas                                                                   |                                                   | simple regression                       |
+| forecast::gold                                                                  |                                                   | time series                             |
 | fpp2::marathon                                                                  |                                                   | graphs                                  |
 | fpp2::marathon                                                                  |                                                   | time series                             |
 | fpp2::oil                                                                       |                                                   | time series                             |
@@ -1043,6 +1094,7 @@ the packages on my computer!
 | isdals::digestcoefs                                                             |                                                   | matched pairs                           |
 | isdals::elisa                                                                   |                                                   | ancova                                  |
 | isdals::hazard                                                                  |                                                   | anova                                   |
+| isdals::herring                                                                 |                                                   | logistic regression                     |
 | isdals::hormone                                                                 |                                                   | ancova                                  |
 | isdals::interspike                                                              | used                                              | sign test                               |
 | isdals::jellyfish                                                               |                                                   | two-sample                              |
@@ -1129,6 +1181,7 @@ the packages on my computer!
 | modelr::heights                                                                 |                                                   | regression                              |
 | modelr::heights                                                                 |                                                   | graphs                                  |
 | modelr::heights                                                                 |                                                   | dplyr                                   |
+| modelr::sim3                                                                    |                                                   | anova                                   |
 | moderndive::amazon_books                                                        |                                                   | graphs                                  |
 | moderndive::amazon_books                                                        |                                                   | summaries                               |
 | moderndive::amazon_books                                                        |                                                   | dplyr                                   |
@@ -1150,6 +1203,8 @@ the packages on my computer!
 | msos::crabs                                                                     |                                                   | manova                                  |
 | msos::crabs                                                                     |                                                   | multiple regression                     |
 | msos::crabs                                                                     |                                                   | discriminant                            |
+| msos::mouths                                                                    |                                                   | repeated measures                       |
+| msos::mouths                                                                    |                                                   | anova                                   |
 | msos::sportsranks                                                               |                                                   | tidying                                 |
 | msos::sportsranks                                                               |                                                   | cluster                                 |
 | msos::states                                                                    |                                                   | principal components                    |
@@ -1178,6 +1233,7 @@ the packages on my computer!
 | nlme::Relaxin                                                                   |                                                   | lme4                                    |
 | nlme::ergoStool                                                                 |                                                   | repeated measures                       |
 | nlme::ergoStool                                                                 |                                                   | mixed model                             |
+| nomclust::data20                                                                |                                                   | clustering                              |
 | np::wage1                                                                       |                                                   | multiple regression                     |
 | nutshell::shiller.other.data (shiller)                                          |                                                   | time series                             |
 | nutshell::top.bacon.searching.cities                                            |                                                   | maps                                    |
@@ -1185,6 +1241,7 @@ the packages on my computer!
 | openintro::bac                                                                  |                                                   | simple regression                       |
 | openintro::ball_bearing                                                         |                                                   | one-sample                              |
 | openintro::burger                                                               |                                                   | chi-squared                             |
+| openintro::children_gender_stereo                                               |                                                   | regression with categorical             |
 | openintro::classdata                                                            |                                                   | anova                                   |
 | openintro::climber_drugs                                                        |                                                   | dplyr                                   |
 | openintro::cpr                                                                  |                                                   | chi-squared                             |
@@ -1224,6 +1281,8 @@ the packages on my computer!
 | openintro::orings                                                               |                                                   | logistic regression                     |
 | openintro::piracy                                                               |                                                   | ordinal logistic regression             |
 | openintro::pm25_2011_durham                                                     |                                                   | pca                                     |
+| openintro::possum                                                               |                                                   | discriminant                            |
+| openintro::possum                                                               |                                                   | MANOVA                                  |
 | openintro::race_justice                                                         |                                                   | summaries                               |
 | openintro::race_justice                                                         |                                                   | graphs                                  |
 | openintro::salinity                                                             |                                                   | anova                                   |
@@ -1242,6 +1301,7 @@ the packages on my computer!
 | openintro::ucla_textbooks_f18                                                   |                                                   | two-sample                              |
 | openintro::ucla_textbooks_f18                                                   |                                                   | anova                                   |
 | pbkrtest::beets                                                                 |                                                   | random effects                          |
+| pracma::titanium                                                                |                                                   | simple regression                       |
 | pscl::bioChemists                                                               |                                                   | multiple regression                     |
 | pscl::bioChemists                                                               |                                                   | poisson regression                      |
 | psych::Harman.Burt (Harman)                                                     |                                                   | factor analysis with correlation matrix |
@@ -1366,6 +1426,7 @@ the packages on my computer!
 | stevedata::mvprod                                                               |                                                   | graphs                                  |
 | stevedata::ukg_eeri                                                             |                                                   | time series                             |
 | strucchange::DJIA                                                               |                                                   | time series                             |
+| strucchange::RealInt                                                            |                                                   | time series                             |
 | survMisc::gastric                                                               |                                                   | survival                                |
 | survey::apiclus1                                                                |                                                   | sampling                                |
 | survey::apiclus1                                                                |                                                   | dplyr                                   |
@@ -1427,6 +1488,8 @@ the packages on my computer!
 | vcd::Trucks                                                                     |                                                   | two-sample                              |
 | vcd::UKSoccer                                                                   |                                                   | simple regression                       |
 | vcd::UKSoccer                                                                   |                                                   | graphs                                  |
+| vcd::VonBort                                                                    |                                                   | time series                             |
+| vcd::VonBort                                                                    |                                                   | poisson                                 |
 | vcdExtra::Abortion                                                              |                                                   | log-linear                              |
 | vcdExtra::Burt                                                                  |                                                   | log-linear                              |
 | vcdExtra::Heart                                                                 |                                                   | log-linear                              |
@@ -1435,3 +1498,5 @@ the packages on my computer!
 | vcdExtra::Toxaemia                                                              |                                                   | log-linear                              |
 | waveslim::doppler                                                               |                                                   | wavelets                                |
 | waveslim::xbox                                                                  |                                                   | wavelets                                |
+| xts::sample_matrix                                                              |                                                   | time series                             |
+| NA                                                                              |                                                   | NA                                      |
