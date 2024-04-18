@@ -6,7 +6,8 @@ library(clipr)
 
 ```{r}
 Sys.setenv(DISPLAY=":0")
-clipr_available()
+av <- clipr_available()
+av
 ```
 
 get all datasets
@@ -37,7 +38,8 @@ get help file
 d2 %>% 
   slice_sample(n = 1) %>% 
   pull(ds) -> d3
-# write_clip(d3)
+print(clipr_available())
+if (av) write_clip(d3)
 d3 %>% 
   str_c("?", .) -> d4
 d3
