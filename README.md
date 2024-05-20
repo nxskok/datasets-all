@@ -1,6 +1,7 @@
 # datasets-all
 
-Last update: 2024-05-04 with 1200 datasets.
+
+Last update: 2024-05-09 with 1207 datasets.
 
 This repo contains suggested statistical techniques for selected
 datasets found in R packages. The `notes` column contains occasional
@@ -234,6 +235,7 @@ the packages on my computer!
 | DanielBiostatistics10th::EXR_C09_S03_07 (data)                                  |                                                    | simple regression                       |
 | DanielBiostatistics10th::LDS_C08_LSADATA (data)                                 | daniel                                             | anova                                   |
 | DanielBiostatistics10th::REV_C09_34 (REV)                                       | danel review ex                                    | simple regression                       |
+| DanielBiostatistics10th::REV_C13_19 (REV)                                       | Daniel                                             | NA                                      |
 | Devore7::ex01.15                                                                | p. 21                                              | two-sample                              |
 | Devore7::ex01.20                                                                | devore p 22                                        | one sample                              |
 | Devore7::ex01.24                                                                | devore p 23                                        | one-sample                              |
@@ -372,6 +374,7 @@ the packages on my computer!
 | HH::animal                                                                      | heiberger                                          | two-way anova                           |
 | HH::blood                                                                       | heiberger                                          | anova                                   |
 | HH::display                                                                     |                                                    | 2-way anova                             |
+| HH::distress                                                                    | HH                                                 | NA                                      |
 | HH::energy                                                                      | heiberger & holland                                | multiple regression                     |
 | HH::energy                                                                      | heiberger & holland                                | regression with categorical             |
 | HH::fat                                                                         | p 236                                              | multiple regression                     |
@@ -912,6 +915,7 @@ the packages on my computer!
 | aplore3::chdage                                                                 |                                                    | logistic regression                     |
 | aplore3::glow500                                                                |                                                    | logistic regression                     |
 | aplore3::glow_bonemed                                                           |                                                    | logistic regression                     |
+| aprean3::dse03a                                                                 | Draper & Smith                                     | NA                                      |
 | aprean3::dse03jj3                                                               | draper ch 3 ex jj3                                 | simple regression                       |
 | aprean3::dse03z                                                                 | ex Z ch 3 D&S p 107                                | simple regression                       |
 | aprean3::dse12b                                                                 | draper-smith ch 12 ex b                            | multiple regression                     |
@@ -1112,6 +1116,7 @@ the packages on my computer!
 | faraway::eggs                                                                   |                                                    | anova                                   |
 | faraway::eggs                                                                   |                                                    | nested anova                            |
 | faraway::esdcomp                                                                |                                                    | poisson regression                      |
+| faraway::exa                                                                    |                                                    | nonlinear regression                    |
 | faraway::eyegrade                                                               |                                                    | chi-squared                             |
 | faraway::eyegrade                                                               |                                                    | graphs                                  |
 | faraway::fortune                                                                |                                                    | ancova                                  |
@@ -1219,6 +1224,7 @@ the packages on my computer!
 | gpk::OralCancer                                                                 |                                                    | log-linear                              |
 | gpk::OralCancer                                                                 |                                                    | logistic regression                     |
 | gpk::birdextinct                                                                |                                                    | regression                              |
+| gpk::fishtoxin                                                                  |                                                    | logistic regression grouped             |
 | gpk::hundredmrun                                                                |                                                    | time series                             |
 | gpk::hundredmrun                                                                |                                                    | autoregression                          |
 | grdata::hydro                                                                   |                                                    | dates                                   |
@@ -1334,6 +1340,7 @@ the packages on my computer!
 | metadat::dat.ishak2007                                                          |                                                    | meta-analysis                           |
 | metadat::dat.linde2015                                                          |                                                    | meta-analysis                           |
 | metadat::dat.linde2016                                                          |                                                    | meta-analysis                           |
+| metadat::dat.molloy2014                                                         |                                                    | meta analysis                           |
 | metadat::dat.woods2010                                                          |                                                    | meta-analysis                           |
 | mice::boys                                                                      |                                                    | dplyr                                   |
 | mice::boys                                                                      |                                                    | graphs                                  |
@@ -1638,6 +1645,7 @@ the packages on my computer!
 | survey::fpc                                                                     |                                                    | sampling                                |
 | survey::nhanes                                                                  |                                                    | sampling                                |
 | survival::aml                                                                   |                                                    | survival                                |
+| survival::bladder (cancer)                                                      |                                                    | survival                                |
 | survival::cgd0                                                                  |                                                    | survival                                |
 | survival::diabetic                                                              |                                                    | survival                                |
 | survival::genfan (reliability)                                                  |                                                    | survival                                |
