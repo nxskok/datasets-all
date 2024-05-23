@@ -1,6 +1,6 @@
 # datasets-all
 
-Last update: 2024-05-20 with 1247 datasets.
+Last update: 2024-05-23 with 1258 datasets.
 
 This repo contains suggested statistical techniques for selected
 datasets found in R packages. The `notes` column contains occasional
@@ -215,6 +215,7 @@ the packages on my computer!
 | DAAG::leafshape                                                                 |                                                    | manova                                  |
 | DAAG::leafshape                                                                 |                                                    | discriminant                            |
 | DAAG::leaftemp.all                                                              |                                                    | multiple regression                     |
+| DAAG::litters                                                                   |                                                    | multiple regression                     |
 | DAAG::medExpenses                                                               |                                                    | simple regression                       |
 | DAAG::mifem                                                                     |                                                    | logistic regression                     |
 | DAAG::mignonette                                                                |                                                    | matched pairs                           |
@@ -398,6 +399,7 @@ the packages on my computer!
 | HH::patient                                                                     | heiberger                                          | anova                                   |
 | HH::pox                                                                         |                                                    | matched pairs                           |
 | HH::salary                                                                      | HH (done before?)                                  | NA                                      |
+| HH::salinity                                                                    | HH                                                 | anova                                   |
 | HH::salk                                                                        | HH                                                 | log-linear                              |
 | HH::salk                                                                        | HH                                                 | Mantel-Haenszel                         |
 | HH::seeding                                                                     | heiberger holland                                  | mood median                             |
@@ -431,6 +433,7 @@ the packages on my computer!
 | HistData::Langren.all                                                           |                                                    | graphs                                  |
 | HistData::Langren.all                                                           |                                                    | one-sample                              |
 | HistData::Langren1644                                                           |                                                    | one-sample                              |
+| HistData::Macdonell                                                             |                                                    | simple regression                       |
 | HistData::MichelsonSets                                                         |                                                    | one sample                              |
 | HistData::Minard.temp                                                           |                                                    | mapping                                 |
 | HistData::Minard.troops                                                         |                                                    | maps                                    |
@@ -450,6 +453,8 @@ the packages on my computer!
 | ISwR::nickel.expand                                                             |                                                    | survival                                |
 | ISwR::secretin                                                                  |                                                    | repeated measures                       |
 | ISwR::tb.dilute                                                                 |                                                    | repeated measures                       |
+| ISwR::vitcap2                                                                   |                                                    | regression with categorical             |
+| ISwR::vitcap2                                                                   |                                                    | multiple regression                     |
 | ISwR::wright                                                                    |                                                    | matched pairs                           |
 | ISwR::wright                                                                    |                                                    | simple regression                       |
 | ISwR::zelazo                                                                    |                                                    | anova                                   |
@@ -458,6 +463,7 @@ the packages on my computer!
 | KMsurv::azt                                                                     |                                                    | survival                                |
 | KMsurv::bfeed                                                                   |                                                    | survival                                |
 | KMsurv::bmt                                                                     |                                                    | survival                                |
+| KMsurv::bnct                                                                    | Klein ex 7.7 p 223                                 | survival                                |
 | KMsurv::btrial                                                                  |                                                    | survival                                |
 | KMsurv::drug6mp                                                                 |                                                    | survival                                |
 | KMsurv::drughiv                                                                 |                                                    | survival                                |
@@ -494,6 +500,8 @@ the packages on my computer!
 | Lock5Data::ExerciseHours                                                        |                                                    | regression                              |
 | Lock5Data::FishGills3                                                           |                                                    | two-sample                              |
 | Lock5Data::FloridaLakes                                                         |                                                    | multiple regression                     |
+| Lock5Data::GolfRound                                                            |                                                    | graphs                                  |
+| Lock5Data::GolfRound                                                            |                                                    | simple regression                       |
 | Lock5Data::HeatCognition                                                        |                                                    | two-sample                              |
 | Lock5Data::HeatCognition                                                        |                                                    | manova                                  |
 | Lock5Data::HeatCognition                                                        |                                                    | discrim                                 |
@@ -623,6 +631,7 @@ the packages on my computer!
 | MLGdata::Abrasion                                                               |                                                    | multiple regression                     |
 | MLGdata::Bioassay                                                               |                                                    | logistic regression                     |
 | MLGdata::Cement                                                                 |                                                    | simple regression                       |
+| MLGdata::Drugs2                                                                 |                                                    | log-linear                              |
 | MLGdata::Esito                                                                  |                                                    | log-linear                              |
 | MLGdata::Heart                                                                  | used                                               | logistic regression (grouped)           |
 | MLGdata::Infant                                                                 |                                                    | log-linear                              |
@@ -1128,6 +1137,7 @@ the packages on my computer!
 | faraway::chmiss                                                                 | faraway p 147                                      | multiple regression                     |
 | faraway::chmiss                                                                 | faraway p 147                                      | missing values                          |
 | faraway::choccake                                                               |                                                    | two-way anova                           |
+| faraway::cns                                                                    |                                                    | multinomial logistic                    |
 | faraway::coagulation                                                            |                                                    | anova                                   |
 | faraway::composite                                                              |                                                    | two way anova                           |
 | faraway::death                                                                  |                                                    | log-linear                              |
@@ -1160,6 +1170,7 @@ the packages on my computer!
 | faraway::nepali                                                                 |                                                    | graphs                                  |
 | faraway::nepali                                                                 |                                                    | dplyr                                   |
 | faraway::nepali                                                                 |                                                    | summaries                               |
+| faraway::oatvar                                                                 |                                                    | randomized block                        |
 | faraway::odor                                                                   |                                                    | 2-way anova                             |
 | faraway::orings                                                                 |                                                    | logistic regression                     |
 | faraway::parstum                                                                |                                                    | chi-square                              |
@@ -1661,6 +1672,7 @@ the packages on my computer!
 | spatstat.data::waka                                                             |                                                    | multivariate                            |
 | spatstat.data::waka                                                             |                                                    | regression                              |
 | spatstat.data::waka                                                             |                                                    | multinomial logistic regression         |
+| spdep::COL.OLD (oldcol)                                                         |                                                    | spatial                                 |
 | spuRs::kew                                                                      |                                                    | tidying                                 |
 | spuRs::kew                                                                      |                                                    | graphs                                  |
 | spuRs::ufc                                                                      |                                                    | simple regression                       |
@@ -1702,6 +1714,7 @@ the packages on my computer!
 | survival::pbc                                                                   |                                                    | survival                                |
 | survival::stanford2 (heart)                                                     |                                                    | survival                                |
 | survival::udca                                                                  |                                                    | survival                                |
+| survival::udca2 (udca)                                                          |                                                    | survival                                |
 | survminer::BMT                                                                  |                                                    | survival                                |
 | systemfit::ppine                                                                |                                                    | multiple regression                     |
 | tidyr::relig_income                                                             |                                                    | chi-squared                             |
