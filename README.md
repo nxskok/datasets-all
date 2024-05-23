@@ -1,11 +1,11 @@
 # datasets-all
 
-Last update: 2024-05-23 with 1258 datasets.
+Last update: 2024-05-23 with 1266 datasets.
 
 This repo contains suggested statistical techniques for selected
 datasets found in R packages. The `notes` column contains occasional
-notes about where in the source text it is used. (This is especially the
-case when the R help file is not informative.)
+notes about where in the source it is used. (This is especially the case
+when the R help file is not informative.)
 
 Download the `.csv` file to sort by other things (such as technique).
 Note that datasets that suggest more than one technique are separated by
@@ -145,6 +145,8 @@ the packages on my computer!
 | BSDA::Governor                                                                  | kitchens ex 5.112                                  | matched pairs                           |
 | BSDA::Gym                                                                       | kitchens ex 2.21, 9.14                             | simple regression                       |
 | BSDA::Gym                                                                       | kitchens ex 2.21, 9.14                             | regression predictions                  |
+| BSDA::Habits                                                                    | kitchens                                           | matched pairs                           |
+| BSDA::Habits                                                                    | kitchens                                           | sign test                               |
 | BSDA::Haptoglo                                                                  |                                                    | one-sample                              |
 | BSDA::Homes                                                                     |                                                    | matched pairs                           |
 | BSDA::Income                                                                    |                                                    | one-sample                              |
@@ -216,6 +218,7 @@ the packages on my computer!
 | DAAG::leafshape                                                                 |                                                    | discriminant                            |
 | DAAG::leaftemp.all                                                              |                                                    | multiple regression                     |
 | DAAG::litters                                                                   |                                                    | multiple regression                     |
+| DAAG::mdbAVtJtoD                                                                |                                                    | time series                             |
 | DAAG::medExpenses                                                               |                                                    | simple regression                       |
 | DAAG::mifem                                                                     |                                                    | logistic regression                     |
 | DAAG::mignonette                                                                |                                                    | matched pairs                           |
@@ -322,6 +325,7 @@ the packages on my computer!
 | Devore7::xmp01.15                                                               | devore p 33                                        | one-sample                              |
 | Devore7::xmp01.17                                                               | p 36                                               | one-sample                              |
 | Devore7::xmp04.28                                                               | p 168                                              | beta distribution                       |
+| Devore7::xmp04.29                                                               | devore ex 4.29                                     | normal quantile plot                    |
 | Devore7::xmp04.31                                                               | p. 177                                             | normal quantile                         |
 | Devore7::xmp04.31                                                               | p. 177                                             | weibull quantile                        |
 | Devore7::xmp07.11                                                               | p. 273                                             | one-sample                              |
@@ -396,6 +400,7 @@ the packages on my computer!
 | HH::htwt                                                                        |                                                    | multiple regression                     |
 | HH::leukemia                                                                    |                                                    | logistic regression                     |
 | HH::notch                                                                       | heiberger p 191                                    | anova                                   |
+| HH::oral                                                                        | HH                                                 | chi-square                              |
 | HH::patient                                                                     | heiberger                                          | anova                                   |
 | HH::pox                                                                         |                                                    | matched pairs                           |
 | HH::salary                                                                      | HH (done before?)                                  | NA                                      |
@@ -483,6 +488,9 @@ the packages on my computer!
 | Lock5Data::Benford                                                              |                                                    | Benford’s law                           |
 | Lock5Data::Benford                                                              |                                                    | chi-square                              |
 | Lock5Data::BikeCommute                                                          |                                                    | two-sample                              |
+| Lock5Data::BodyTemp50                                                           |                                                    | multiple regression                     |
+| Lock5Data::BodyTemp50                                                           |                                                    | regression with categorical             |
+| Lock5Data::BodyTemp50                                                           |                                                    | ancova                                  |
 | Lock5Data::CocaineTreatment                                                     |                                                    | logistic regression                     |
 | Lock5Data::CocaineTreatment                                                     |                                                    | chi-squared                             |
 | Lock5Data::CocaineTreatment                                                     |                                                    | log-linear                              |
@@ -637,6 +645,7 @@ the packages on my computer!
 | MLGdata::Infant                                                                 |                                                    | log-linear                              |
 | MLGdata::Neonati                                                                |                                                    | ancova                                  |
 | MLGdata::Neonati                                                                |                                                    | two-sample                              |
+| MLGdata::Ohio                                                                   |                                                    | logistic regression                     |
 | MLGdata::Testingresso                                                           |                                                    | item analysis                           |
 | MPV::p13.5                                                                      |                                                    | logistic regression                     |
 | MPV::p7.15                                                                      | montgomery 7-15 (7.17)                             | simple regression                       |
@@ -710,6 +719,7 @@ the packages on my computer!
 | SenSrivastava::E2.8                                                             |                                                    | multiple regression                     |
 | SenSrivastava::E3.4                                                             | Sen p 69 (exhibit 3.4, compare exhibit 3.5)        | simple regression                       |
 | SenSrivastava::E3.5                                                             |                                                    | ?                                       |
+| SenSrivastava::E3.6                                                             | (ex 3.11) use y84-y83                              | multiple regression                     |
 | SenSrivastava::E3.7                                                             |                                                    | multiple regression                     |
 | SenSrivastava::E4.1                                                             |                                                    | two-sample                              |
 | SenSrivastava::E4.12                                                            |                                                    | multiple regression                     |
@@ -784,6 +794,7 @@ the packages on my computer!
 | Stat2Data::GlowWorms                                                            | used                                               | simple regression                       |
 | Stat2Data::GrinnellHouses                                                       |                                                    | multiple regression                     |
 | Stat2Data::Gunnels                                                              |                                                    | logistic regression                     |
+| Stat2Data::HearingTest                                                          |                                                    | anova                                   |
 | Stat2Data::HorsePrices                                                          |                                                    | multiple regression                     |
 | Stat2Data::ICU                                                                  |                                                    | logistic regression                     |
 | Stat2Data::ICU                                                                  |                                                    | log-linear                              |
