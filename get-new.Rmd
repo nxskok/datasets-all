@@ -18,6 +18,7 @@ sample a few
 desc %>% 
   select(dataset, technique, note) %>% 
   separate_rows(technique, sep = ",") %>% 
+  filter(str_detect(technique, "ordinal")) %>% # this line to select a technique
   slice_sample(n = 10)
 ```
 
