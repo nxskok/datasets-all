@@ -9,16 +9,35 @@ desc <- read_csv("descriptions.csv")
 
 
 ```{r}
+desc %>% select(dataset, note, technique) -> desc
 desc
 ```
 
-sample a few
+grab the ones that are already in assignments/rdata
+
+```{r}
+list.files(path = "../assignments/rdata/", pattern = "*.[qR]md") %>% 
+  enframe(name = NULL, value = "fname") %>% 
+  separate_wider_delim(fname, delim = "_", 
+                       names = c("technique", "package", "dataset_name"), 
+                       too_few = "align_start") %>%
+  drop_na() %>% 
+  mutate(dataset_name = str_remove(dataset_name, ".[qR]md$")) %>% 
+  mutate(dataset = str_c(package, "::", dataset_name)) %>% 
+  select(technique, dataset)-> rdata_files
+rdata_files
+```
+
+select the ones in desc that are not in rdata_files
 
 ```{r}
 desc %>% 
   select(dataset, technique, note) %>% 
   separate_rows(technique, sep = ",") %>% 
-  filter(str_detect(technique, "categorical")) %>% # this line to select a technique
-  slice_sample(n = 10)
+  anti_join(rdata_files, join_by(technique, dataset)) %>% 
+  # filter(str_detect(technique, "categorical")) %>% # this line to select a technique, or use find_these
+  slice_sample(n = 10) %>% 
+  arrange(technique)
 ```
+
 
