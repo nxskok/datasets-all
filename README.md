@@ -1,6 +1,6 @@
 # datasets-all
 
-Last update: 2024-06-05 with 1326 datasets.
+Last update: 2024-06-07 with 1337 datasets.
 
 This repo contains suggested statistical techniques for selected
 datasets found in R packages. The `notes` column contains occasional
@@ -112,6 +112,7 @@ the packages on my computer!
 | AER::USMacroB                                                                   |                                                         | time series                             |
 | AER::USMacroSW                                                                  |                                                         | time series                             |
 | AER::USProdIndex                                                                |                                                         | time series                             |
+| BHH2::poison.data                                                               |                                                         | two-way anova                           |
 | BHH2::shoes.data                                                                |                                                         | matched pairs                           |
 | BHH2::tomato.data                                                               |                                                         | anova                                   |
 | BHH2::tomato.data                                                               |                                                         | two-way anova                           |
@@ -339,6 +340,7 @@ the packages on my computer!
 | Devore7::xmp01.01                                                               | devore p 4                                              | one-sample                              |
 | Devore7::xmp01.10                                                               | devore p 18, used                                       | one-sample                              |
 | Devore7::xmp01.10                                                               | devore p 18, used                                       | sign test                               |
+| Devore7::xmp01.11                                                               | devore p 20                                             | bar chart                               |
 | Devore7::xmp01.14                                                               | p. 28                                                   | one-sample                              |
 | Devore7::xmp01.15                                                               | devore p 33                                             | one-sample                              |
 | Devore7::xmp01.17                                                               | p 36                                                    | one-sample                              |
@@ -376,6 +378,8 @@ the packages on my computer!
 | Ecdat::SP500                                                                    |                                                         | time series                             |
 | Ecdat::Tbrate                                                                   |                                                         | time series                             |
 | Ecdat::Tbrate                                                                   |                                                         | economics                               |
+| Ecdat::University                                                               |                                                         | multiple regression                     |
+| Ecdat::University                                                               |                                                         | econometrics                            |
 | Ecdat::nonEnglishNames                                                          |                                                         | text analysis                           |
 | EngrExpt::dhaze                                                                 |                                                         | anova                                   |
 | EngrExpt::fbuild                                                                |                                                         | simple regression                       |
@@ -482,6 +486,7 @@ the packages on my computer!
 | ISwR::nickel.expand                                                             |                                                         | survival                                |
 | ISwR::secretin                                                                  |                                                         | repeated measures                       |
 | ISwR::tb.dilute                                                                 |                                                         | repeated measures                       |
+| ISwR::thuesen                                                                   |                                                         | simple regression                       |
 | ISwR::vitcap2                                                                   |                                                         | regression with categorical             |
 | ISwR::vitcap2                                                                   |                                                         | multiple regression                     |
 | ISwR::wright                                                                    |                                                         | matched pairs                           |
@@ -667,6 +672,7 @@ the packages on my computer!
 | MLGdata::Abrasion                                                               |                                                         | multiple regression                     |
 | MLGdata::Bioassay                                                               |                                                         | logistic regression                     |
 | MLGdata::Cement                                                                 |                                                         | simple regression                       |
+| MLGdata::Dogs                                                                   |                                                         | ancova                                  |
 | MLGdata::Drugs2                                                                 |                                                         | log-linear                              |
 | MLGdata::Esito                                                                  |                                                         | log-linear                              |
 | MLGdata::Heart                                                                  | used                                                    | logistic regression (grouped)           |
@@ -678,6 +684,7 @@ the packages on my computer!
 | MLGdata::Testingresso                                                           |                                                         | item analysis                           |
 | MPV::p13.5                                                                      |                                                         | logistic regression                     |
 | MPV::p7.15                                                                      | montgomery 7-15 (7.17)                                  | simple regression                       |
+| MPV::tree.sample                                                                |                                                         | simple regression                       |
 | MVTests::Coated                                                                 | rencher tab 5.3                                         | NA                                      |
 | MethComp::ox                                                                    |                                                         | matched pairs                           |
 | MethComp::ox                                                                    |                                                         | repeated measures                       |
@@ -968,6 +975,7 @@ the packages on my computer!
 | agridat::gomez.wetdry                                                           |                                                         | ancova                                  |
 | agridat::goulden.eggs                                                           |                                                         | graphs                                  |
 | agridat::harville.lamb                                                          |                                                         | two-way anova                           |
+| agridat::hayman.tobacco                                                         |                                                         | factorial design                        |
 | agridat::igue.sugarcane.uniformity                                              |                                                         | two-way anova                           |
 | agridat::kalamkar.potato.uniformity                                             |                                                         | two-way anova                           |
 | agridat::keen.potatodamage                                                      |                                                         | ordinal logistic                        |
@@ -1010,6 +1018,7 @@ the packages on my computer!
 | aprean3::dse15j                                                                 | draper ch 15 ex j                                       | multiple regression                     |
 | aprean3::dse16a                                                                 | ex A ch 16 of Draper & Smith p 385                      | multiple regression                     |
 | aprean3::dse22g                                                                 | draper ch 22 ex g                                       | simple regression (grouped)             |
+| aprean3::dse24l                                                                 | ex L chapter 24 D&S                                     | non-linear regression                   |
 | aprean3::dss2310                                                                | draper sec 23.10                                        | two-way anova                           |
 | aprean3::dst033                                                                 | draper & smith table 3.3 p 95                           | simple regression                       |
 | aprean3::dst134                                                                 | draper-smith tab 13.4                                   | boxcox                                  |
@@ -1447,6 +1456,7 @@ the packages on my computer!
 | mclust::ex4.3 (Baudry_etal_2010_JCGS_examples)                                  |                                                         | k-means clustering                      |
 | mclust::ex4.4.2 (Baudry_etal_2010_JCGS_examples)                                |                                                         | cluster                                 |
 | metadat::dat.crede2010                                                          |                                                         | meta-analysis                           |
+| metadat::dat.dagostino1998                                                      |                                                         | meta-analysis                           |
 | metadat::dat.hasselblad1998                                                     |                                                         | meta-analysis                           |
 | metadat::dat.ishak2007                                                          |                                                         | meta-analysis                           |
 | metadat::dat.linde2015                                                          |                                                         | meta-analysis                           |
@@ -1618,6 +1628,7 @@ the packages on my computer!
 | pscl::bioChemists                                                               |                                                         | poisson regression                      |
 | psych::Harman.Burt (Harman)                                                     |                                                         | factor analysis with correlation matrix |
 | psych::Harman.Holzinger                                                         |                                                         | pca                                     |
+| psych::Reise                                                                    | from correlation matrix                                 | factor analysis                         |
 | psych::Schmid                                                                   |                                                         | factor analysis with correlation matrix |
 | psych::Thurstone.33                                                             |                                                         | factor analysis                         |
 | psych::Thurstone.9                                                              |                                                         | factor analysis                         |
@@ -1729,6 +1740,7 @@ the packages on my computer!
 | spData::e80_queen (elect80)                                                     |                                                         | spatial                                 |
 | spData::e80_queen (elect80)                                                     |                                                         | maps                                    |
 | spData::eire.nb (eire)                                                          |                                                         | multiple regression                     |
+| spData::go_y (getisord)                                                         |                                                         | spatial                                 |
 | spData::incongruent                                                             |                                                         | spatial                                 |
 | spData::nydata                                                                  |                                                         | spatial                                 |
 | spData::properties                                                              |                                                         | spatial                                 |
@@ -1794,6 +1806,7 @@ the packages on my computer!
 | survival::jasa1 (heart)                                                         |                                                         | survival                                |
 | survival::kidney (cancer)                                                       |                                                         | survival                                |
 | survival::lung                                                                  | used in pasias                                          | survival                                |
+| survival::lung (cancer)                                                         |                                                         | survival                                |
 | survival::mgus2 (cancer)                                                        |                                                         | survival                                |
 | survival::myeloma (cancer)                                                      |                                                         | survival                                |
 | survival::pbc                                                                   |                                                         | survival                                |
@@ -1856,6 +1869,5 @@ the packages on my computer!
 | waveslim::unemploy                                                              |                                                         | time series                             |
 | waveslim::xbox                                                                  |                                                         | wavelets                                |
 | xts::sample_matrix                                                              |                                                         | time series                             |
-| NA                                                                              |                                                         | NA                                      |
 | NA                                                                              |                                                         | NA                                      |
 | NA                                                                              |                                                         | NA                                      |
