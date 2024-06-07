@@ -40,4 +40,24 @@ desc %>%
   arrange(technique)
 ```
 
+diff between installed.packages and the ones in description
+
+```{r}
+desc %>% 
+  separate_wider_delim(dataset, names = c("package", "dataset_name"), delim = "::",
+                       too_few = "align_start") %>% 
+  count(package) -> desc_packages
+desc_packages
+```
+
+```{r}
+installed.packages() %>% as_tibble() %>% 
+  select(package = Package) -> installed_packages
+installed_packages
+```
+
+```{r}
+desc_packages %>% anti_join(installed_packages) %>% 
+  slice_sample(n = 10)
+```
 
