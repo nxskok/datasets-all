@@ -10,8 +10,8 @@ desc %>% separate_longer_delim(technique, ",") -> desc
 ```
 
 ```{r}
-desc %>% filter(str_detect(technique, "mood")) %>% 
-  select(-note) %>% 
+desc %>% filter(str_detect(technique, "graphs")) %>% 
+  select(dataset, technique) %>% 
   slice_sample(prop = 1)
 ```
 
