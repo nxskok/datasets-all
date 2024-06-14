@@ -36,8 +36,10 @@ desc %>%
   separate_rows(technique, sep = ",") %>% 
   anti_join(rdata_files, join_by(technique, dataset)) %>% 
   # filter(str_detect(technique, "categorical")) %>% # this line to select a technique, or use find_these
-  slice_sample(n = 10) %>% 
-  arrange(technique)
+  slice_sample(prop = 1) %>% 
+  View()
+# %>% 
+  # arrange(technique)
 ```
 
 diff between installed.packages and the ones in description
