@@ -53,7 +53,7 @@ desc_packages
 ```{r}
 installed.packages() %>% as_tibble() %>% 
   select(package = Package) -> installed_packages
-installed_packages %>% arrange(package)
+installed_packages
 ```
 
 ```{r}
