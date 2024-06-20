@@ -1,0 +1,22 @@
+vincent ariel-bundock datasets
+
+```{r}
+library(tidyverse)
+dat <- read.csv('https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/datasets.csv') 
+dat %>% count(Package) -> vab_packages
+vab_packages
+```
+
+my packages
+
+```{r}
+installed.packages() %>% as_tibble() %>% select(Package) -> kab_packages
+kab_packages
+```
+
+```{r}
+vab_packages %>% 
+  anti_join(kab_packages, join_by(Package)) %>% 
+  pull(Package)
+```
+
