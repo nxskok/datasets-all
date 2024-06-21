@@ -60,6 +60,6 @@ installed_packages
 
 ```{r}
 desc_packages %>% anti_join(installed_packages) %>% 
-  slice_sample(n = 10)
+  slice_sample(n = 20) %>% View("selected datasets")
 ```
 
