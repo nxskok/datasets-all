@@ -20,7 +20,7 @@ list.files(path = "../assignments/rdata/", pattern = "*.[qR]md") %>%
   enframe(name = NULL, value = "fname") %>% 
   separate_wider_delim(fname, delim = "_", 
                        names = c("technique", "package", "dataset_name"), 
-                       too_few = "align_start") %>%
+                       too_few = "align_start", too_many = "debug") %>%
   drop_na() %>% 
   mutate(dataset_name = str_remove(dataset_name, ".[qR]md$")) %>% 
   mutate(dataset = str_c(package, "::", dataset_name)) %>% 
