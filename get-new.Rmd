@@ -1,3 +1,5 @@
+use this to get datasets with no attached problems yet
+
 ```{r}
 library(tidyverse)
 library(datasets.load)
@@ -37,7 +39,7 @@ desc %>%
   anti_join(rdata_files, join_by(technique, dataset)) %>% 
   # filter(str_detect(technique, "categorical")) %>% # this line to select a technique, or use find_these
   slice_sample(prop = 1) %>% 
-  View()
+  View("no-problem datasets")
 # %>% 
   # arrange(technique)
 ```
