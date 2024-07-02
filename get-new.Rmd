@@ -1,5 +1,3 @@
-use this to get datasets with no attached problems yet
-
 ```{r}
 library(tidyverse)
 library(datasets.load)
@@ -39,29 +37,9 @@ desc %>%
   anti_join(rdata_files, join_by(technique, dataset)) %>% 
   # filter(str_detect(technique, "categorical")) %>% # this line to select a technique, or use find_these
   slice_sample(prop = 1) %>% 
-  View("no-problem datasets")
+  # filter(is.na(technique)) %>% 
+  View("datasets")
 # %>% 
   # arrange(technique)
-```
-
-diff between installed.packages and the ones in description
-
-```{r}
-desc %>% 
-  separate_wider_delim(dataset, names = c("package", "dataset_name"), delim = "::",
-                       too_few = "align_start") %>% 
-  count(package) -> desc_packages
-desc_packages
-```
-
-```{r}
-installed.packages() %>% as_tibble() %>% 
-  select(package = Package) -> installed_packages
-installed_packages
-```
-
-```{r}
-desc_packages %>% anti_join(installed_packages) %>% 
-  slice_sample(n = 20) %>% View("selected datasets")
 ```
 
