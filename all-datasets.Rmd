@@ -1,14 +1,9 @@
 ```{r}
 library(tidyverse)
 library(datasets.load)
-library(clipr)
+source("clipboard.R")
 ```
 
-```{r}
-Sys.setenv(DISPLAY=":0")
-av <- clipr_available()
-av
-```
 
 get all datasets
 
@@ -39,7 +34,7 @@ d2 %>%
   slice_sample(n = 1) %>% 
   pull(ds) -> d3
 print(clipr_available())
-if (av) write_clip(d3)
+clipboard(d3)
 d3 %>% 
   str_c("?", .) -> d4
 d3
