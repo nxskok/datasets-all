@@ -33,7 +33,6 @@ get help file
 d2 %>% 
   slice_sample(n = 1) %>% 
   pull(ds) -> d3
-print(clipr_available())
 clipboard(d3)
 d3 %>% 
   str_c("?", .) -> d4
