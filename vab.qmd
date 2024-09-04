@@ -75,3 +75,7 @@ vab_packages %>%
 ```
 
 and now I am complete.
+
+Next, what packages do I have on desktop that are not on 76?
+
+
