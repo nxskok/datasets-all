@@ -86,6 +86,29 @@ d %>% count(Package) -> my_packages
 ```
 
 ```{r}
-write_rds(my_packages, "my_packages_desktop.rds")
+# write_rds(my_packages, "my_packages_desktop.rds")
+```
+
+```{r}
+my_packages_desktop <- read_rds("my_packages_desktop.rds")
+```
+
+what do I have?
+
+```{r}
+my_packages
+my_packages_desktop
+```
+
+packages on desktop that are not on 76
+
+```{r}
+my_packages_desktop %>% 
+  anti_join(my_packages, join_by("Package")) %>% 
+  pull(Package)
+```
+
+```{r}
+library(ACSWR)
 ```
 
