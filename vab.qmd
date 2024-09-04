@@ -78,4 +78,14 @@ and now I am complete.
 
 Next, what packages do I have on desktop that are not on 76?
 
+my datasets (run from all-datasets.Rmd, seems to run View to display)
+
+
+```{r}
+d %>% count(Package) -> my_packages
+```
+
+```{r}
+write_rds(my_packages, "my_packages_desktop.rds")
+```
 
