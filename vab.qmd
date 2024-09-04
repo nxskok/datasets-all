@@ -1,22 +1,75 @@
-vincent ariel-bundock datasets
+---
+title: "vab"
+author: "ken"
+format: html
+---
+
+Vincent Arel-Bundock's list of datasets at <https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/datasets.csv>, classified by me.
+
 
 ```{r}
 library(tidyverse)
-dat <- read.csv('https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/datasets.csv') 
-dat %>% count(Package) -> vab_packages
+library(pingr)
+my_url <- "https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/datasets.csv"
+datasets_all <- read_csv(my_url)
+datasets_all
+```
+
+testing for online using idea at <https://stackoverflow.com/questions/5076593/how-to-determine-if-you-have-an-internet-connection-in-r>
+
+```{r}
+online <- is_online()
+online
+```
+
+if online, re-download (might have been updated); if not (eg, on the bus), read from my store:
+
+```{r}
+if (online) {
+  my_url <- "https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/datasets.csv"
+  datasets_all <- read_csv(my_url)
+  datasets_all
+  write_rds(datasets_all, "datasets_all.rds")
+} else {
+  datasets_all <- read_rds("datasets_all.rds")
+}
+datasets_all
+```
+
+are there any packages here that aren't in my list of datasets?
+
+```{r}
+datasets_all %>% count(Package) -> vab_packages
 vab_packages
 ```
 
-my packages
+my datasets (run from all-datasets.Rmd, seems to run View to display)
 
 ```{r}
-installed.packages() %>% as_tibble() %>% select(Package) -> kab_packages
-kab_packages
+d %>% count(Package) -> my_packages
 ```
+
+I want the packages that VAB has and I don't (first time)
 
 ```{r}
 vab_packages %>% 
-  anti_join(kab_packages, join_by(Package)) %>% 
+  anti_join(my_packages, join_by("Package")) %>% 
   pull(Package)
 ```
 
+```{r}
+library(COUNT)
+```
+
+check (the first time I got 23 packages)
+
+do again
+
+```{r}
+vab_packages %>% 
+  anti_join(my_packages, join_by("Package")) %>% 
+  pull(Package)
+
+```
+
+and now I am complete.

@@ -14,6 +14,7 @@ get all datasets
 
 ```{r}
 d <- datasets()
+d
 ```
 
 get the ones I already have
