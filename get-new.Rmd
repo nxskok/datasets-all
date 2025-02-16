@@ -35,10 +35,11 @@ desc %>%
   select(dataset, technique, note) %>% 
   separate_rows(technique, sep = ",") %>% 
   anti_join(rdata_files, join_by(technique, dataset)) %>% 
-  # filter(str_detect(technique, "categorical")) %>% # this line to select a technique, or use find_these
-  slice_sample(prop = 1) %>% 
+  filter(str_detect(technique, "two-way anova")) %>% # this line to select a technique, or use find_these
+  slice_sample(prop = 1) 
+# %>% 
   # filter(is.na(technique)) %>% 
-  View("datasets")
+  # View("datasets")
 # %>% 
   # arrange(technique)
 ```
