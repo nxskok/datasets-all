@@ -6,8 +6,7 @@ save the ones I have installed
 
 ```{r}
 installed.packages() %>% 
-  as_tibble()
-%>% 
+  as_tibble() %>% 
   write_csv("packages.csv")
 ```
 

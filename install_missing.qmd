@@ -1,0 +1,21 @@
+
+install documents in packages.csv that I don't already have
+
+```{r}
+library(tidyverse)
+installed.packages() %>% as_tibble() %>% select(Package) -> inst
+inst
+```
+
+```{r}
+pack <- read_csv("packages.csv")
+pack
+pack %>% select(essi) -> pack
+pack
+```
+
+```{r}
+pack %>% anti_join(inst, join_by(essi == Package)) %>% pull(essi) -> installables
+installables
+```
+
