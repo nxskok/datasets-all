@@ -9,7 +9,6 @@ inst
 
 ```{r}
 pack <- read_csv("packages.csv")
-pack
 pack %>% select(essi) -> pack
 pack
 ```
