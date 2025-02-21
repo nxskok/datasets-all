@@ -7,15 +7,26 @@ installed.packages() %>% as_tibble() %>% select(Package) -> inst
 inst
 ```
 
+find the packages in descriptions.csv
+
 ```{r}
-pack <- read_csv("packages.csv")
-pack
-pack %>% select(essi) -> pack
-pack
+read_csv("descriptions.csv") %>% 
+  select(dataset) %>% 
+  separate_wider_delim(dataset, delim = "::", 
+                       names = c("Package", "dataset"), 
+                       too_few = "align_start") %>% 
+  count(Package) -> on_this
+on_this
+  
+```
+
+
+```{r}
+on_this %>% anti_join(inst) %>% pull(Package) -> install_these
+install_these
 ```
 
 ```{r}
-pack %>% anti_join(inst, join_by(essi == Package)) %>% pull(essi) -> installables
-installables
+install.packages(install_these)
 ```
 
