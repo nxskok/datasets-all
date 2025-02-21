@@ -1,6 +1,7 @@
 ```{r}
 library(tidyverse)
 library(datasets.load)
+# library(clipr)
 source("clipboard.R")
 ```
 
