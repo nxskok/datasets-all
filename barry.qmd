@@ -1,0 +1,23 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+
+```{r}
+library(tidyverse)
+d <- tibble(value = c(2,4,5,5,5))
+d %>% mutate(value = factor(value, levels = 1:5)) %>% 
+  ggplot(aes(x = value)) + geom_bar() +
+    scale_x_discrete(drop = FALSE)
+
+```
+
+```{r}
+d <- tibble(value = c(2,5,5,5,5))
+d %>% mutate(value = factor(value, levels = 1:5)) %>% 
+  ggplot(aes(x = value)) + geom_bar() +
+  scale_x_discrete(drop = FALSE)
+```
+
